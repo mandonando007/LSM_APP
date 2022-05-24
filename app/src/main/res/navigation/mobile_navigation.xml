@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_perfil">
+
+    <fragment
+        android:id="@+id/navigation_perfil"
+        android:name="com.example.lsm_app.ui.perfil.PerfilFragment"
+        android:label="@string/title_perfil"
+        tools:layout="@layout/fragment_perfil" />
+
+    <fragment
+        android:id="@+id/navigation_señas"
+        android:name="com.example.lsm_app.ui.señas.SeñasFragment"
+        android:label="@string/title_señas"
+        tools:layout="@layout/fragment_senas" />
+
+    <fragment
+        android:id="@+id/navigation_lecciones"
+        android:name="com.example.lsm_app.ui.lecciones.LeccionesFragment"
+        android:label="@string/title_lecciones"
+        tools:layout="@layout/fragment_lecciones" />
+    <fragment
+        android:id="@+id/nav_glosario"
+        android:name="com.example.lsm_app.nav_glosario"
+        android:label="@string/title_glosario"
+        tools:layout="@layout/fragment_nav_glosario" />
+</navigation>

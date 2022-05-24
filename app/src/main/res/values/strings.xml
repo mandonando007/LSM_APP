@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LSM_APP</string>
+    <string name="title_perfil">Perfil</string>
+    <string name="title_señas">Señas</string>
+    <string name="title_lecciones">Lecciones</string>
+    <string name="title_glosario">Glosario</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
