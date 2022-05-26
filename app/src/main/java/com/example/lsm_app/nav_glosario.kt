@@ -12,7 +12,7 @@ class nav_glosario : Fragment() {
 
     var misLetras : TextView? = null
     var miVista : View? = null
-    var carLetra : String? = "Letra"
+    var carLetra : String? = "Letraa"
     var letraSel : String? =  ""
 
 
