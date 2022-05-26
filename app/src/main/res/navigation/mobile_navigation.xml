@@ -27,4 +27,9 @@
         android:name="com.example.lsm_app.nav_glosario"
         android:label="@string/title_glosario"
         tools:layout="@layout/fragment_nav_glosario" />
+    <fragment
+        android:id="@+id/nav_letras"
+        android:name="com.example.lsm_app.nav_letras"
+        android:label="fragment_nav_letras"
+        tools:layout="@layout/fragment_nav_letras" />
 </navigation>
