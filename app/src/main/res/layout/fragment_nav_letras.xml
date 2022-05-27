@@ -4,14 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#40C4FF"
-    android:backgroundTint="#40C4FF"
+    android:background="@color/white"
+    android:backgroundTint="@color/white"
+    android:textAlignment="viewEnd"
     tools:context=".nav_letras">
 
     <ImageView
         android:id="@+id/imgLetra"
-        android:layout_width="148dp"
-        android:layout_height="170dp"
+        android:layout_width="181dp"
+        android:layout_height="194dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -21,20 +23,43 @@
         android:id="@+id/lblLetra"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        android:textColor="#090909"
+        android:elegantTextHeight="false"
+        android:text="Letra"
+        android:textColor="#545151"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="362dp" />
+        app:layout_constraintTop_toTopOf="@+id/guideline2" />
 
     <TextView
         android:id="@+id/lblDescLetr"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/alata"
         android:text="TextView"
-        android:textColor="#090909"
+        android:textColor="#545151"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="498dp" />
+        app:layout_constraintTop_toTopOf="@+id/guideline3"
+        app:layout_constraintVertical_bias="0.081" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="252dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="319dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

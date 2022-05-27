@@ -32,4 +32,9 @@
         android:name="com.example.lsm_app.nav_letras"
         android:label="fragment_nav_letras"
         tools:layout="@layout/fragment_nav_letras" />
+    <fragment
+        android:id="@+id/videosView"
+        android:name="com.example.lsm_app.videosView"
+        android:label="fragment_videos_view"
+        tools:layout="@layout/fragment_videos_view" />
 </navigation>

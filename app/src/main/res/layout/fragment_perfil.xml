@@ -90,7 +90,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:text="Cerrar Sesion"
+                    android:text="Cerrar Sesión"
                     android:textAlignment="center"
                     android:textColor="#f44236"
                     android:textSize="16dp"
@@ -184,7 +184,7 @@
     </androidx.gridlayout.widget.GridLayout>
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imgFotoPerfil"
         android:layout_width="140dp"
         android:layout_height="130dp"
         android:layout_above="@+id/idGrid"
@@ -198,18 +198,18 @@
         android:src="@drawable/a" />
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="213dp"
-        android:layout_height="26dp"
+        android:id="@+id/txtUser"
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
         android:layout_above="@+id/idGrid"
-        android:layout_alignTop="@+id/imageView"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="103dp"
-        android:layout_marginTop="177dp"
-        android:layout_marginEnd="95dp"
-        android:layout_marginBottom="18dp"
-        android:text="arturobahena17@hotmail.com" />
+        android:layout_marginStart="52dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="21dp"
+        android:fontFamily="@font/alata"
+        android:text="arturobahena17@hotmail.com"
+        android:textAlignment="center" />
 
     <Space
         android:layout_width="wrap_content"

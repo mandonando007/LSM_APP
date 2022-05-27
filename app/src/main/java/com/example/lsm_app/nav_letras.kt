@@ -27,6 +27,7 @@ class nav_letras : Fragment(R.layout.fragment_nav_letras) {
     ): View? {
         // Inflate the layout for this fragment
         val view =  inflater.inflate(R.layout.fragment_nav_letras, container, false)
+        getActivity()?.actionBar?.title = "Letras"
 
         miVista = view
         miTexto1 = miVista?.findViewById(R.id.lblLetra)

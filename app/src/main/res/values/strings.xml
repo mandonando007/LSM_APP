@@ -4,6 +4,37 @@
     <string name="title_señas">Señas</string>
     <string name="title_lecciones">Lecciones</string>
     <string name="title_glosario">Glosario</string>
+    <string name="ltrA">A</string>
+    <string name="ltrB">B</string>
+    <string name="ltrC">C</string>
+    <string name="ltrD">D</string>
+    <string name="ltrE">E</string>
+    <string name="ltrF">F</string>
+    <string name="ltrG">G</string>
+    <string name="ltrH">H</string>
+    <string name="ltrI">I</string>
+    <string name="ltrJ">J</string>
+    <string name="ltrK">K</string>
+    <string name="ltrL">L</string>
+    <string name="ltrLL">LL</string>
+    <string name="ltrM">M</string>
+    <string name="ltrN">N</string>
+    <string name="ltrÑ">Ñ</string>
+    <string name="ltrO">O</string>
+    <string name="ltrP">P</string>
+    <string name="ltrQ">Q</string>
+    <string name="ltrR">R</string>
+    <string name="ltrRR">RR</string>
+    <string name="ltrS">S</string>
+    <string name="ltrT">T</string>
+    <string name="ltrU">U</string>
+    <string name="ltrV">V</string>
+    <string name="ltrW">W</string>
+    <string name="ltrX">X</string>
+    <string name="ltrY">Y</string>
+    <string name="ltrZ">Z</string>
+
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

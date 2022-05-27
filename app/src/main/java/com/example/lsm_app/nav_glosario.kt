@@ -11,7 +11,7 @@ import android.widget.Toast
 
 
 class nav_glosario : Fragment() {
-    var frag = Senas()
+    var frag = nav_letras()
     var misLetras : TextView? = null
     var miVista : View? = null
     var carLetra : String? = "Letraa"
@@ -32,8 +32,6 @@ class nav_glosario : Fragment() {
         btn = view?.findViewById(R.id.btnA)
 
 
-
-
         return view
 
     }
@@ -42,66 +40,12 @@ class nav_glosario : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         btn?.setOnClickListener {
-            Toast.makeText(context,"Hola Si funciona el boton",Toast.LENGTH_SHORT ).show()
-            var fr = getFragmentManager()?.beginTransaction()
-            fr?.replace(R.id.nav_host_fragment_activity_main, frag)
-            fr?.addToBackStack(null)
-            fr?.commit()
+            letraSel = "A"
+            setCurrentFragment(letraSel!!)
         }
 
-       // this.btn?.setOnClickListener(){
-         //  letraSel = "A"
+            } // De la funcion onViewCreated
 
-//            setCurrentFragment(letraSel!!)
-
-//        } //Del listener botón A
-
-
-        //btnB.setOnClickListener(){
-          //  letraSel = "B"
-
-            //Le pasamos los datos al fragmento
-            //val bundle = Bundle()
-            ///bundle.putString("carLetra", letraSel )
-            //var frag = nav_letras()
-
-            ///frag.arguments = bundle
-
-            //Cuando el usuario de click en este botón, este fragmento debe reemplazarse con el nuevo
-            //fragmento, que es el de la ubicación del Plantel
-
-            //var fr = getFragmentManager()?.beginTransaction()
-
-//            fr?.replace(R.id.container, frag)
-
-  //          fr?.addToBackStack(null)
-
-    //     fr?.commit()
-
-
-        } //Del listener botón B
-
-      //  btnC.setOnClickListener {
-        //    letraSel = "C"
-
-            //Le pasamos los datos al fragmento
-          //  val bundle = Bundle()
-            //bundle.putString("carLetra", letraSel )
-            //var frag = nav_letras()
-
-            //frag.arguments = bundle
-
-            //Cuando el usuario de click en este botón, este fragmento debe reemplazarse con el nuevo
-            //fragmento, que es el de la ubicación del Plantel
-
-//            var fr = getFragmentManager()?.beginTransaction()
-
-  //          fr?.replace(R.id.container, frag)
-
-    //        fr?.addToBackStack(null)
-
-        //    fr?.commit()
-      //  }
 
     //}//-------------------------------------- Termina el OnViewCreated
     private fun setCurrentFragment(ltrSelec : String  ){
@@ -113,13 +57,9 @@ class nav_glosario : Fragment() {
 
         frag.arguments = bundle
 
-
         var fr = getFragmentManager()?.beginTransaction()
-
-        fr?.replace(R.id.container, frag)
-
+        fr?.replace(R.id.nav_host_fragment_activity_main, frag)
         fr?.addToBackStack(null)
-
         fr?.commit()
     }
 }
