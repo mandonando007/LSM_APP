@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:backgroundTint="#F9F9F9"
     tools:context=".ui.perfil.PerfilFragment">
 
     <androidx.gridlayout.widget.GridLayout
@@ -84,6 +85,7 @@
                     android:layout_height="68dp"
                     android:layout_gravity="center_horizontal"
                     android:src="@drawable/cerrar_sesion"></ImageView>
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -123,6 +125,7 @@
                     android:layout_height="68dp"
                     android:layout_gravity="center_horizontal"
                     android:src="@drawable/eliminar"></ImageView>
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -162,6 +165,7 @@
                     android:layout_height="68dp"
                     android:layout_gravity="center_horizontal"
                     android:src="@drawable/informacion"></ImageView>
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
