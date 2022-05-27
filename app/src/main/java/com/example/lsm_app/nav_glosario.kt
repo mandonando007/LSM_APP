@@ -36,60 +36,61 @@ class nav_glosario : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        btnA.setOnClickListener(){
-            letraSel = "A"
+     //   btnA.setOnClickListener(){
+           // letraSel = "A"
 
-            setCurrentFragment(letraSel!!)
+         //   setCurrentFragment(letraSel!!)
 
-        } //Del listener botón A
+       // } //Del listener botón A
 
 
-        btnB.setOnClickListener(){
-            letraSel = "B"
+        //btnB.setOnClickListener(){
+          //  letraSel = "B"
 
             //Le pasamos los datos al fragmento
-            val bundle = Bundle()
-            bundle.putString("carLetra", letraSel )
-            var frag = nav_letras()
+            //val bundle = Bundle()
+            ///bundle.putString("carLetra", letraSel )
+            //var frag = nav_letras()
 
-            frag.arguments = bundle
+            ///frag.arguments = bundle
 
             //Cuando el usuario de click en este botón, este fragmento debe reemplazarse con el nuevo
             //fragmento, que es el de la ubicación del Plantel
 
-            var fr = getFragmentManager()?.beginTransaction()
+            //var fr = getFragmentManager()?.beginTransaction()
 
-            fr?.replace(R.id.container, frag)
+//            fr?.replace(R.id.container, frag)
 
-            fr?.addToBackStack(null)
+  //          fr?.addToBackStack(null)
 
-            fr?.commit()
+    //     fr?.commit()
+
 
         } //Del listener botón B
 
-        btnC.setOnClickListener {
-            letraSel = "C"
+      //  btnC.setOnClickListener {
+        //    letraSel = "C"
 
             //Le pasamos los datos al fragmento
-            val bundle = Bundle()
-            bundle.putString("carLetra", letraSel )
-            var frag = nav_letras()
+          //  val bundle = Bundle()
+            //bundle.putString("carLetra", letraSel )
+            //var frag = nav_letras()
 
-            frag.arguments = bundle
+            //frag.arguments = bundle
 
             //Cuando el usuario de click en este botón, este fragmento debe reemplazarse con el nuevo
             //fragmento, que es el de la ubicación del Plantel
 
-            var fr = getFragmentManager()?.beginTransaction()
+//            var fr = getFragmentManager()?.beginTransaction()
 
-            fr?.replace(R.id.container, frag)
+  //          fr?.replace(R.id.container, frag)
 
-            fr?.addToBackStack(null)
+    //        fr?.addToBackStack(null)
 
-            fr?.commit()
-        }
+        //    fr?.commit()
+      //  }
 
-    }//-------------------------------------- Termina el OnViewCreated
+    //}//-------------------------------------- Termina el OnViewCreated
     private fun setCurrentFragment(ltrSelec : String  ){
 
         //Le pasamos los datos al fragmento
