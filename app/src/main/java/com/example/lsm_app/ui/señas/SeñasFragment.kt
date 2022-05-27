@@ -4,39 +4,50 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.fragment.app.Fragment
+import android.content.Context
+import android.content.Intent
+import android.widget.EditText
+import android.widget.Spinner
+import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
+import com.example.lsm_app.R
+import androidx.cardview.widget.CardView
+import com.example.lsm_app.Senas
 import com.example.lsm_app.databinding.FragmentSenasBinding
 
-class SeñasFragment : Fragment() {
-
-    private var _binding: FragmentSenasBinding? = null
-
-    // This property is only valid between onCreateView and
-    // onDestroyView.
-    private val binding get() = _binding!!
-
+class SeñasFragment : Fragment(R.layout.fragment_senas) {
+    var imagen: ImageView? = null
+    var miview: View? = null
+    var btn: CardView? = null
     override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
+        inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val señasViewModel =
-            ViewModelProvider(this).get(SeñasViewModel::class.java)
+         val vista = inflater.inflate(R.layout.fragment_senas, container, false)
+        miview = vista
+        imagen = miview?.findViewById(R.id.imgFrutas)
+     //   imagen?.setImageResource(R.drawable.cerrar_sesion)
 
-        _binding = FragmentSenasBinding.inflate(inflater, container, false)
-        val root: View = binding.root
+        miview = vista
+        btn = miview?.findViewById(R.id.cardfrutas)
+        btn?.setOnClickListener{
 
-       // val textView: TextView = binding.textDashboard
-        señasViewModel.text.observe(viewLifecycleOwner) {
-            //textView.text = it
         }
-        return root
+        return vista
     }
 
-    override fun onDestroyView() {
-        super.onDestroyView()
-        _binding = null
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+
+
+
+
+
     }
+
+
 }
