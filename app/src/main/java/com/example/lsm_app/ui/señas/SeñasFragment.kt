@@ -28,9 +28,9 @@ class SeñasFragment : Fragment() {
         _binding = FragmentSenasBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textDashboard
+       // val textView: TextView = binding.textDashboard
         señasViewModel.text.observe(viewLifecycleOwner) {
-            textView.text = it
+            //textView.text = it
         }
         return root
     }
