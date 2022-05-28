@@ -11,12 +11,11 @@ import android.widget.Toast
 
 
 class nav_glosario : Fragment() {
-    var frag = nav_letras()
-    var misLetras : TextView? = null
     var miVista : View? = null
-    var carLetra : String? = "Letraa"
-    var letraSel : String? =  ""
-     var btn: Button? = null
+    private var letraSel : String? =  ""
+    var btn: Button? = null
+
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -27,10 +26,7 @@ class nav_glosario : Fragment() {
         val view = inflater.inflate(R.layout.fragment_nav_glosario, container, false)
 
         miVista = view
-
-        misLetras = miVista?.findViewById(R.id.lblLetras)
         btn = view?.findViewById(R.id.btnA)
-
 
         return view
 
@@ -42,12 +38,12 @@ class nav_glosario : Fragment() {
         btn?.setOnClickListener {
             letraSel = "A"
             setCurrentFragment(letraSel!!)
-        }
-
-            } // De la funcion onViewCreated
+        } // Del boton A
 
 
-    //}//-------------------------------------- Termina el OnViewCreated
+    }
+
+
     private fun setCurrentFragment(ltrSelec : String  ){
 
         //Le pasamos los datos al fragmento
@@ -62,4 +58,5 @@ class nav_glosario : Fragment() {
         fr?.addToBackStack(null)
         fr?.commit()
     }
+
 }

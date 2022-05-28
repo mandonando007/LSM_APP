@@ -27,7 +27,6 @@ class nav_letras : Fragment(R.layout.fragment_nav_letras) {
     ): View? {
         // Inflate the layout for this fragment
         val view =  inflater.inflate(R.layout.fragment_nav_letras, container, false)
-        getActivity()?.actionBar?.title = "Letras"
 
         miVista = view
         miTexto1 = miVista?.findViewById(R.id.lblLetra)
@@ -214,13 +213,14 @@ class nav_letras : Fragment(R.layout.fragment_nav_letras) {
         super.onViewCreated(view, savedInstanceState)
 
 
-
     }//-------------------------------------- Termina el OnViewCreated
     override fun onAttach(context: Context) {
         super.onAttach(context)
         if(arguments != null){
             Letra = arguments?.getString("carLetra")
         }
-
+        var fr = nav_letras().getFragmentManager()?.beginTransaction()
+        fr?.addToBackStack(null)
+        fr?.commit()
     }
 } //Del fragment

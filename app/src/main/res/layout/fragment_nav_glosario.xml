@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:background="#FFFFFF"
     android:backgroundTint="#FFFEFE"
-    tools:context=".nav_glosario">
+    tools:context=".nav_glosario"
+    tools:menu="@menu/bottom_nav_menu">
 
     <ScrollView
         android:id="@+id/contenedorLetras"
@@ -14,7 +15,7 @@
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="7dp"
+        android:layout_marginBottom="55dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
