@@ -75,6 +75,12 @@ class SeñasFragment : Fragment(R.layout.fragment_senas) {
         btnVerbos?.setOnClickListener {
             setCurrentFragment(Senas())
         }
+        btnAnimales?.setOnClickListener {
+            setCurrentFragment(Senas())
+        }
+        btnMeses?.setOnClickListener {
+            setCurrentFragment(Senas())
+        }
 
 
 
