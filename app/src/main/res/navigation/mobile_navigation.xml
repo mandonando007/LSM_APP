@@ -18,10 +18,10 @@
         tools:layout="@layout/fragment_senas" />
 
     <fragment
-        android:id="@+id/navigation_lecciones"
-        android:name="com.example.lsm_app.ui.lecciones.LeccionesFragment"
-        android:label="@string/title_lecciones"
-        tools:layout="@layout/fragment_lecciones" />
+        android:id="@+id/navigation_videos"
+        android:name="com.example.lsm_app.ui.videos.VideosFragment"
+        android:label="@string/title_videos"
+        tools:layout="@layout/fragment_videos" />
     <fragment
         android:id="@+id/nav_glosario"
         android:name="com.example.lsm_app.nav_glosario"

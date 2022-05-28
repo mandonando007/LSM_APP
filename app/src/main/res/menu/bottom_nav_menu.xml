@@ -12,9 +12,9 @@
         android:title="@string/title_señas" />
 
     <item
-        android:id="@+id/navigation_lecciones"
-        android:icon="@drawable/libro_alt"
-        android:title="@string/title_lecciones" />
+        android:id="@+id/navigation_videos"
+        android:icon="@drawable/ic_video"
+        android:title="@string/title_videos" />
     <item
         android:id="@+id/nav_glosario"
         android:icon="@drawable/buscar_alt"

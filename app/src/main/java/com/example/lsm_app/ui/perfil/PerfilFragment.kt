@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import com.example.lsm_app.R
 import com.example.lsm_app.databinding.FragmentPerfilBinding
 
 class PerfilFragment : Fragment() {
@@ -22,17 +23,9 @@ class PerfilFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val perfilViewModel =
-            ViewModelProvider(this).get(PerfilViewModel::class.java)
+        val vista = inflater.inflate(R.layout.fragment_perfil, container, false)
 
-        _binding = FragmentPerfilBinding.inflate(inflater, container, false)
-        val root: View = binding.root
-
-        //val textView: TextView = binding.textHome
-        perfilViewModel.text.observe(viewLifecycleOwner) {
-           // textView.text = it
-        }
-        return root
+        return vista
     }
 
     override fun onDestroyView() {

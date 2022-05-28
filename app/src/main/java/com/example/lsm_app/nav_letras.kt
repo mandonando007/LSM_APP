@@ -213,6 +213,7 @@ class nav_letras : Fragment(R.layout.fragment_nav_letras) {
         super.onViewCreated(view, savedInstanceState)
 
 
+
     }//-------------------------------------- Termina el OnViewCreated
     override fun onAttach(context: Context) {
         super.onAttach(context)

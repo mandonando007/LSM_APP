@@ -20,7 +20,7 @@
         app:rowCount="3">
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/cardDatos"
+            android:id="@+id/cardColores"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginLeft="16dp"

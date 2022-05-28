@@ -1,9 +1,10 @@
-package com.example.lsm_app.ui.perfil
+package com.example.lsm_app.ui.videos
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class PerfilViewModel : ViewModel() {
+class VideosViewModel : ViewModel() {
+
 
 }

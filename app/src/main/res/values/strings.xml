@@ -2,8 +2,10 @@
     <string name="app_name">Enseñame</string>
     <string name="title_perfil">Perfil</string>
     <string name="title_señas">Señas</string>
-    <string name="title_lecciones">Lecciones</string>
+    <string name="title_videos">Videos</string>
     <string name="title_glosario">Glosario</string>
+
+    //Letras
     <string name="ltrA">A</string>
     <string name="ltrB">B</string>
     <string name="ltrC">C</string>
@@ -33,6 +35,22 @@
     <string name="ltrX">X</string>
     <string name="ltrY">Y</string>
     <string name="ltrZ">Z</string>
+
+    //Videos
+    <string name="Verbos">Verbos</string>
+    <string name="Preguntas">Preguntas</string>
+    <string name="Saludos">Saludos</string>
+    <string name="Tiempo">Tiempo</string>
+    <string name="Escuela">Escuela</string>
+    <string name="Familia">Familia y Parentesco</string>
+    <string name="Dias">Días de la Semana</string>
+    <string name="Alfabeto">Alfabeto</string>
+    <string name="Colores">Colores</string>
+    <string name="Estaciones">Estaciones del Año</string>
+    <string name="Numeros">Números</string>
+    <string name="Meses">Meses del Año</string>
+
+
 
 
     <!-- TODO: Remove or change this placeholder text -->

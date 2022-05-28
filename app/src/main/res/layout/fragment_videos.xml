@@ -33,6 +33,130 @@
                 app:rowCount="6">
 
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/cardSaludos"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#F8F6F6"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="6dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imgSaludos"
+                            android:layout_width="68dp"
+                            android:layout_height="68dp"
+                            android:layout_gravity="center_horizontal"
+                            app:srcCompat="@drawable/fresa"></ImageView>
+
+                        <TextView
+                            android:id="@+id/txtSaludos"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="@string/Saludos"
+                            android:textAlignment="center"
+                            android:textColor="#ffcc00"
+                            android:textSize="16dp"
+                            android:textStyle="bold"></TextView>
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardEstaciones"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#F8F6F6"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="6dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="68dp"
+                            android:layout_height="68dp"
+                            android:layout_gravity="center_horizontal"
+                            app:srcCompat="@drawable/cerrar_sesion"></ImageView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="@string/Estaciones"
+                            android:textAlignment="center"
+                            android:textColor="#ffcc00"
+                            android:textSize="16dp"
+                            android:textStyle="bold"></TextView>
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardColores"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#F8F6F6"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="6dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imgColores"
+                            android:layout_width="68dp"
+                            android:layout_height="68dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/coco"></ImageView>
+
+                        <TextView
+                            android:id="@+id/txtColores"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="@string/Colores"
+                            android:textAlignment="center"
+                            android:textColor="#ffcc00"
+                            android:textSize="16dp"
+                            android:textStyle="bold"></TextView>
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
                     android:id="@+id/cardVerbos"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
@@ -57,13 +181,15 @@
                             android:layout_width="68dp"
                             android:layout_height="68dp"
                             android:layout_gravity="center_horizontal"
-                            android:src="@drawable/frutas"></ImageView>
+                            android:src="@drawable/frutas"
+                            app:srcCompat="@drawable/lista_de_verificacion"></ImageView>
 
                         <TextView
+                            android:id="@+id/txtVerbos"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="Frutas"
+                            android:text="@string/Verbos"
                             android:textAlignment="center"
                             android:textColor="#ffcc00"
                             android:textSize="16dp"
@@ -95,16 +221,18 @@
                         android:orientation="vertical">
 
                         <ImageView
+                            android:id="@+id/imgPreguntas"
                             android:layout_width="68dp"
                             android:layout_height="68dp"
                             android:layout_gravity="center_horizontal"
                             android:src="@drawable/verduras"></ImageView>
 
                         <TextView
+                            android:id="@+id/txtPreguntas"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="Verduras"
+                            android:text="@string/Preguntas"
                             android:textAlignment="center"
                             android:textColor="#ffcc00"
                             android:textSize="16dp"
@@ -137,16 +265,18 @@
                         android:orientation="vertical">
 
                         <ImageView
+                            android:id="@+id/imgTiempo"
                             android:layout_width="68dp"
                             android:layout_height="68dp"
                             android:layout_gravity="center_horizontal"
                             android:src="@drawable/cesta_de_la_compra"></ImageView>
 
                         <TextView
+                            android:id="@+id/txtTiempo"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="Alimentos"
+                            android:text="@string/Tiempo"
                             android:textAlignment="center"
                             android:textColor="#ffcc00"
                             android:textSize="16dp"
@@ -178,16 +308,18 @@
                         android:orientation="vertical">
 
                         <ImageView
+                            android:id="@+id/imgEscuela"
                             android:layout_width="68dp"
                             android:layout_height="68dp"
                             android:layout_gravity="center_horizontal"
                             android:src="@drawable/lapices_de_colores"></ImageView>
 
                         <TextView
+                            android:id="@+id/txtEscuela"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="Colores"
+                            android:text="@string/Escuela"
                             android:textAlignment="center"
                             android:textColor="#f44236"
                             android:textSize="16dp"
@@ -219,16 +351,18 @@
                         android:orientation="vertical">
 
                         <ImageView
+                            android:id="@+id/imgFamilia"
                             android:layout_width="68dp"
                             android:layout_height="68dp"
                             android:layout_gravity="center_horizontal"
                             android:src="@drawable/dias_festivos"></ImageView>
 
                         <TextView
+                            android:id="@+id/txtFamilia"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="Días"
+                            android:text="@string/Familia"
                             android:textAlignment="center"
                             android:textColor="#f44236"
                             android:textSize="16dp"
@@ -260,16 +394,19 @@
                         android:orientation="vertical">
 
                         <ImageView
+                            android:id="@+id/imgDias"
                             android:layout_width="68dp"
                             android:layout_height="68dp"
                             android:layout_gravity="center_horizontal"
-                            android:src="@drawable/tortuga"></ImageView>
+                            android:src="@drawable/tortuga"
+                            app:srcCompat="@drawable/dias_festivos"></ImageView>
 
                         <TextView
+                            android:id="@+id/txtDias"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="Animales"
+                            android:text="@string/Dias"
                             android:textAlignment="center"
                             android:textColor="#ff9700"
                             android:textSize="16dp"
@@ -301,16 +438,18 @@
                         android:orientation="vertical">
 
                         <ImageView
+                            android:id="@+id/imgNumeros"
                             android:layout_width="68dp"
                             android:layout_height="68dp"
                             android:layout_gravity="center_horizontal"
                             android:src="@drawable/numeros"></ImageView>
 
                         <TextView
+                            android:id="@+id/txtNumeros"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="Números"
+                            android:text="@string/Numeros"
                             android:textAlignment="center"
                             android:textColor="#00C853"
                             android:textSize="16dp"
@@ -342,16 +481,18 @@
                         android:orientation="vertical">
 
                         <ImageView
+                            android:id="@+id/imgMeses"
                             android:layout_width="68dp"
                             android:layout_height="68dp"
                             android:layout_gravity="center_horizontal"
                             android:src="@drawable/junio"></ImageView>
 
                         <TextView
+                            android:id="@+id/txtMeses"
                             android:layout_width="180dp"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="Meses"
+                            android:text="@string/Meses"
                             android:textAlignment="center"
                             android:textColor="#26ca69"
                             android:textSize="16dp"
@@ -377,23 +518,24 @@
                     app:layout_rowWeight="1">
 
                     <LinearLayout
-                        android:id="@+id/verbos"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal|center_vertical"
                         android:orientation="vertical">
 
                         <ImageView
+                            android:id="@+id/imgAlfabeto"
                             android:layout_width="68dp"
                             android:layout_height="68dp"
                             android:layout_gravity="center_horizontal"
                             android:src="@drawable/lista_de_verificacion"></ImageView>
 
                         <TextView
+                            android:id="@+id/txtAlfabeto"
                             android:layout_width="180dp"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="Verbos"
+                            android:text="@string/Alfabeto"
                             android:textAlignment="center"
                             android:textColor="#26ca69"
                             android:textSize="16dp"

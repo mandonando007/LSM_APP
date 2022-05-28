@@ -5,19 +5,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
-import android.widget.TextView
 import androidx.fragment.app.Fragment
-import android.content.Context
-import android.content.Intent
-import android.widget.EditText
-import android.widget.Spinner
-import android.widget.Toast
-import androidx.lifecycle.ViewModelProvider
 import com.example.lsm_app.R
 import androidx.cardview.widget.CardView
 import com.example.lsm_app.Senas
-import com.example.lsm_app.databinding.FragmentSenasBinding
-import com.example.lsm_app.nav_letras
 
 class SeñasFragment : Fragment(R.layout.fragment_senas) {
     var imagen: ImageView? = null
@@ -39,15 +30,15 @@ class SeñasFragment : Fragment(R.layout.fragment_senas) {
          val vista = inflater.inflate(R.layout.fragment_senas, container, false)
         miview = vista
 
-        btnFrutas = miview?.findViewById(R.id.cardfrutas)
-        btnVerduras = miview?.findViewById(R.id.verduras)
-        btnAlimentos = miview?.findViewById(R.id.alimentos)
-        btnColores = miview?.findViewById(R.id.colores)
-        btnDias = miview?.findViewById(R.id.cardDias)
-        btnAnimales = miview?.findViewById(R.id.animales)
-        btnNumeros = miview?.findViewById(R.id.numeros)
-        btnMeses = miview?.findViewById(R.id.meses)
-        btnVerbos = miview?.findViewById(R.id.Verbos)
+        btnFrutas = miview?.findViewById(R.id.cardVerbos)
+        btnVerduras = miview?.findViewById(R.id.cardPreguntas)
+        btnAlimentos = miview?.findViewById(R.id.cardTiempo)
+        btnColores = miview?.findViewById(R.id.cardEscuela)
+        btnDias = miview?.findViewById(R.id.cardFamilia)
+        btnAnimales = miview?.findViewById(R.id.cardDias)
+        btnNumeros = miview?.findViewById(R.id.cardNumeros)
+        btnMeses = miview?.findViewById(R.id.cardMeses)
+        btnVerbos = miview?.findViewById(R.id.cardAlfabeto)
 
         return vista
     }
