@@ -58,7 +58,7 @@
                             android:layout_width="68dp"
                             android:layout_height="68dp"
                             android:layout_gravity="center_horizontal"
-                            android:src="@drawable/frutas"></ImageView>
+                            android:src="@drawable/coco"></ImageView>
 
                         <TextView
                             android:layout_width="match_parent"
@@ -99,13 +99,13 @@
                             android:layout_width="68dp"
                             android:layout_height="68dp"
                             android:layout_gravity="center_horizontal"
-                            android:src="@drawable/verduras"></ImageView>
+                            android:src="@drawable/kiwi"></ImageView>
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="CAÑA"
+                            android:text="KIWI"
                             android:textAlignment="center"
                             android:textColor="#FFFFFF"
                             android:textSize="14dp"
@@ -142,7 +142,7 @@
                             android:layout_width="68dp"
                             android:layout_height="68dp"
                             android:layout_gravity="center_horizontal"
-                            android:src="@drawable/cesta_de_la_compra"></ImageView>
+                            android:src="@drawable/melocoton"></ImageView>
 
                         <TextView
                             android:layout_width="match_parent"
@@ -183,7 +183,7 @@
                             android:layout_width="68dp"
                             android:layout_height="68dp"
                             android:layout_gravity="center_horizontal"
-                            android:src="@drawable/lapices_de_colores"></ImageView>
+                            android:src="@drawable/fresa"></ImageView>
 
                         <TextView
                             android:layout_width="match_parent"
@@ -224,7 +224,7 @@
                             android:layout_width="68dp"
                             android:layout_height="68dp"
                             android:layout_gravity="center_horizontal"
-                            android:src="@drawable/dias_festivos"></ImageView>
+                            android:src="@drawable/guayaba"></ImageView>
 
                         <TextView
                             android:layout_width="match_parent"
@@ -265,7 +265,7 @@
                             android:layout_width="68dp"
                             android:layout_height="68dp"
                             android:layout_gravity="center_horizontal"
-                            android:src="@drawable/tortuga"></ImageView>
+                            android:src="@drawable/limon"></ImageView>
 
                         <TextView
                             android:layout_width="match_parent"
@@ -306,7 +306,7 @@
                             android:layout_width="68dp"
                             android:layout_height="68dp"
                             android:layout_gravity="center_horizontal"
-                            android:src="@drawable/numeros"></ImageView>
+                            android:src="@drawable/mandarin"></ImageView>
 
                         <TextView
                             android:layout_width="match_parent"
@@ -347,7 +347,7 @@
                             android:layout_width="68dp"
                             android:layout_height="68dp"
                             android:layout_gravity="center_horizontal"
-                            android:src="@drawable/junio"></ImageView>
+                            android:src="@drawable/mango"></ImageView>
 
                         <TextView
                             android:layout_width="180dp"
@@ -388,7 +388,7 @@
                             android:layout_width="68dp"
                             android:layout_height="68dp"
                             android:layout_gravity="center_horizontal"
-                            android:src="@drawable/lista_de_verificacion"></ImageView>
+                            android:src="@drawable/manzana"></ImageView>
 
                         <TextView
                             android:layout_width="180dp"
@@ -429,7 +429,7 @@
                             android:layout_width="68dp"
                             android:layout_height="68dp"
                             android:layout_gravity="center_horizontal"
-                            android:src="@drawable/numeros"></ImageView>
+                            android:src="@drawable/melon"></ImageView>
 
                         <TextView
                             android:layout_width="match_parent"
@@ -470,7 +470,7 @@
                             android:layout_width="68dp"
                             android:layout_height="68dp"
                             android:layout_gravity="center_horizontal"
-                            android:src="@drawable/numeros"></ImageView>
+                            android:src="@drawable/naranja"></ImageView>
 
                         <TextView
                             android:layout_width="match_parent"
@@ -512,7 +512,7 @@
                             android:layout_width="68dp"
                             android:layout_height="68dp"
                             android:layout_gravity="center_horizontal"
-                            android:src="@drawable/numeros"></ImageView>
+                            android:src="@drawable/pina"></ImageView>
 
                         <TextView
                             android:layout_width="match_parent"
@@ -553,7 +553,7 @@
                             android:layout_width="68dp"
                             android:layout_height="68dp"
                             android:layout_gravity="center_horizontal"
-                            android:src="@drawable/numeros"></ImageView>
+                            android:src="@drawable/papaya"></ImageView>
 
                         <TextView
                             android:layout_width="match_parent"
@@ -594,7 +594,7 @@
                             android:layout_width="68dp"
                             android:layout_height="68dp"
                             android:layout_gravity="center_horizontal"
-                            android:src="@drawable/numeros"></ImageView>
+                            android:src="@drawable/pera"></ImageView>
 
                         <TextView
                             android:layout_width="match_parent"
@@ -636,7 +636,7 @@
                             android:layout_width="68dp"
                             android:layout_height="72dp"
                             android:layout_gravity="center_horizontal"
-                            android:src="@drawable/numeros"></ImageView>
+                            android:src="@drawable/platano"></ImageView>
 
                         <TextView
                             android:layout_width="match_parent"
@@ -677,7 +677,7 @@
                             android:layout_width="68dp"
                             android:layout_height="68dp"
                             android:layout_gravity="center_horizontal"
-                            android:src="@drawable/numeros"></ImageView>
+                            android:src="@drawable/sandia"></ImageView>
 
                         <TextView
                             android:layout_width="match_parent"
@@ -718,7 +718,7 @@
                             android:layout_width="68dp"
                             android:layout_height="68dp"
                             android:layout_gravity="center_horizontal"
-                            android:src="@drawable/numeros"></ImageView>
+                            android:src="@drawable/uvas"></ImageView>
 
                         <TextView
                             android:layout_width="match_parent"
@@ -759,13 +759,13 @@
                             android:layout_width="68dp"
                             android:layout_height="68dp"
                             android:layout_gravity="center_horizontal"
-                            android:src="@drawable/numeros"></ImageView>
+                            android:src="@drawable/pitaya"></ImageView>
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="TORONJA"
+                            android:text="PITAYA"
                             android:textAlignment="center"
                             android:textColor="#FFFFFF"
                             android:textSize="14dp"
@@ -802,13 +802,13 @@
                             android:layout_width="68dp"
                             android:layout_height="68dp"
                             android:layout_gravity="center_horizontal"
-                            android:src="@drawable/frutas"></ImageView>
+                            android:src="@drawable/mora"></ImageView>
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="GRANADA"
+                            android:text="MORA"
                             android:textAlignment="center"
                             android:textColor="#FFFFFF"
                             android:textSize="14dp"
@@ -844,13 +844,13 @@
                             android:layout_width="68dp"
                             android:layout_height="68dp"
                             android:layout_gravity="center_horizontal"
-                            android:src="@drawable/frutas"></ImageView>
+                            android:src="@drawable/cereza"></ImageView>
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="TORONJA"
+                            android:text="CEREZA"
                             android:textAlignment="center"
                             android:textColor="#FFFFFF"
                             android:textSize="14dp"
