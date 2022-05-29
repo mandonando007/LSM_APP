@@ -32,13 +32,13 @@
                 app:rowCount="6">
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/amarillo"
+                    android:id="@+id/arroz"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
                     android:layout_marginRight="16dp"
                     android:layout_marginBottom="10dp"
-                    android:backgroundTint="#FFEB3B"
+                    android:backgroundTint="#FB764B"
                     app:cardBackgroundColor="#E65E33"
                     app:cardCornerRadius="8dp"
                     app:cardElevation="6dp"
@@ -50,15 +50,21 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal|center_vertical"
-                        android:backgroundTint="#FFC107"
+                        android:backgroundTint="#DD5C34"
                         android:orientation="vertical">
 
+                        <ImageView
+                            android:id="@+id/imgFr"
+                            android:layout_width="68dp"
+                            android:layout_height="68dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/bol_de_arroz"></ImageView>
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="AMARILLO"
+                            android:text="ARROZ"
                             android:textAlignment="center"
                             android:textColor="#FFFFFF"
                             android:textSize="14dp"
@@ -70,13 +76,13 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/sopa"
+                    android:id="@+id/cereal"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
                     android:layout_marginRight="16dp"
                     android:layout_marginBottom="10dp"
-                    android:backgroundTint="#FF9800"
+                    android:backgroundTint="#54E65A"
                     app:cardCornerRadius="8dp"
                     app:cardElevation="6dp"
                     app:layout_columnWeight="1"
@@ -89,12 +95,17 @@
                         android:layout_gravity="center_horizontal|center_vertical"
                         android:orientation="vertical">
 
+                        <ImageView
+                            android:layout_width="68dp"
+                            android:layout_height="68dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/cereales"></ImageView>
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="ANARANJADO"
+                            android:text="CEREAL"
                             android:textAlignment="center"
                             android:textColor="#FFFFFF"
                             android:textSize="14dp"
@@ -107,13 +118,13 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/miercoles"
+                    android:id="@+id/ensalada"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
                     android:layout_marginRight="16dp"
                     android:layout_marginBottom="10dp"
-                    android:backgroundTint="#3F51B5"
+                    android:backgroundTint="#9C27B0"
                     app:cardCornerRadius="8dp"
                     app:cardElevation="6dp"
                     app:layout_columnWeight="1"
@@ -127,12 +138,17 @@
                         android:backgroundTint="#9C27B0"
                         android:orientation="vertical">
 
+                        <ImageView
+                            android:layout_width="68dp"
+                            android:layout_height="68dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/ensalada"></ImageView>
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="AZUL"
+                            android:text="ENSALADA"
                             android:textAlignment="center"
                             android:textColor="#FFFFFF"
                             android:textSize="14dp"
@@ -145,13 +161,13 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/jueves"
+                    android:id="@+id/hamburgesa"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
                     android:layout_marginRight="16dp"
                     android:layout_marginBottom="10dp"
-                    android:backgroundTint="#95462D"
+                    android:backgroundTint="#EC4C82"
                     app:cardCornerRadius="8dp"
                     app:cardElevation="6dp"
                     app:layout_columnWeight="1"
@@ -163,11 +179,17 @@
                         android:layout_gravity="center_horizontal|center_vertical"
                         android:orientation="vertical">
 
+                        <ImageView
+                            android:layout_width="68dp"
+                            android:layout_height="68dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/hambuergesa"></ImageView>
+
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="CAFE"
+                            android:text="HAMBURGESA"
                             android:textAlignment="center"
                             android:textColor="#FFFFFF"
                             android:textSize="14dp"
@@ -180,13 +202,13 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/viernes"
+                    android:id="@+id/helado"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
                     android:layout_marginRight="16dp"
                     android:layout_marginBottom="10dp"
-                    android:backgroundTint="#988F8F"
+                    android:backgroundTint="#EA5B5B"
                     app:cardCornerRadius="8dp"
                     app:cardElevation="6dp"
                     app:layout_columnWeight="1"
@@ -198,11 +220,17 @@
                         android:layout_gravity="center_horizontal|center_vertical"
                         android:orientation="vertical">
 
+                        <ImageView
+                            android:layout_width="68dp"
+                            android:layout_height="68dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/helado"></ImageView>
+
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="GRIS"
+                            android:text="HELADO"
                             android:textAlignment="center"
                             android:textColor="#FFFFFF"
                             android:textSize="14dp"
@@ -214,7 +242,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/sabado"
+                    android:id="@+id/huevo"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -233,12 +261,17 @@
                         android:layout_gravity="center_horizontal|center_vertical"
                         android:orientation="vertical">
 
+                        <ImageView
+                            android:layout_width="68dp"
+                            android:layout_height="68dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/huevo_frito"></ImageView>
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="MORADO"
+                            android:text="HUEVO"
                             android:textAlignment="center"
                             android:textColor="#FFFFFF"
                             android:textSize="14dp"
@@ -250,13 +283,13 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/negro"
+                    android:id="@+id/jugo"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
                     android:layout_marginRight="16dp"
                     android:layout_marginBottom="10dp"
-                    android:backgroundTint="#0B0B0B"
+                    android:backgroundTint="#2D4CF6"
                     android:foreground="?selectableItemBackground"
                     app:cardCornerRadius="8dp"
                     app:cardElevation="6dp"
@@ -269,12 +302,17 @@
                         android:layout_gravity="center_horizontal|center_vertical"
                         android:orientation="vertical">
 
+                        <ImageView
+                            android:layout_width="68dp"
+                            android:layout_height="68dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/jugo_de_banano"></ImageView>
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="NEGRO"
+                            android:text="JUGO"
                             android:textAlignment="center"
                             android:textColor="#FFFFFF"
                             android:textSize="14dp"
@@ -286,13 +324,13 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/verde"
+                    android:id="@+id/leche"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
                     android:layout_marginRight="16dp"
                     android:layout_marginBottom="10dp"
-                    android:backgroundTint="#29AA25"
+                    android:backgroundTint="#F47951"
                     android:foreground="?selectableItemBackground"
                     app:cardCornerRadius="8dp"
                     app:cardElevation="6dp"
@@ -304,12 +342,18 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal|center_vertical"
                         android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="68dp"
+                            android:layout_height="68dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/leche"></ImageView>
 
                         <TextView
                             android:layout_width="180dp"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="VERDE"
+                            android:text="LECHE"
                             android:textAlignment="center"
                             android:textColor="#FFFFFF"
                             android:textSize="14dp"
@@ -321,13 +365,13 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/domingo"
+                    android:id="@+id/pan"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
                     android:layout_marginRight="16dp"
                     android:layout_marginBottom="10dp"
-                    android:backgroundTint="#F896F6"
+                    android:backgroundTint="#EA87E8"
                     android:foreground="?selectableItemBackground"
                     app:cardCornerRadius="8dp"
                     app:cardElevation="6dp"
@@ -339,12 +383,18 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal|center_vertical"
                         android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="68dp"
+                            android:layout_height="68dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/pan_de_molde"></ImageView>
 
                         <TextView
                             android:layout_width="171dp"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="ROSA"
+                            android:text="PAN"
                             android:textAlignment="center"
                             android:textColor="#FFFFFF"
                             android:textSize="14dp"
@@ -356,13 +406,13 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/rojo"
+                    android:id="@+id/papasFritas"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
                     android:layout_marginRight="16dp"
                     android:layout_marginBottom="10dp"
-                    android:backgroundTint="#ED1838"
+                    android:backgroundTint="#77EC7B"
                     android:foreground="?selectableItemBackground"
                     app:cardCornerRadius="8dp"
                     app:cardElevation="6dp"
@@ -375,12 +425,17 @@
                         android:layout_gravity="center_horizontal|center_vertical"
                         android:orientation="vertical">
 
+                        <ImageView
+                            android:layout_width="68dp"
+                            android:layout_height="68dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/papas_fritas"></ImageView>
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="ROJO"
+                            android:text="PAPAS FRITAS"
                             android:textAlignment="center"
                             android:textColor="#FFFFFF"
                             android:textSize="14dp"
@@ -392,13 +447,13 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/violeta"
+                    android:id="@+id/sopa"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
                     android:layout_marginRight="16dp"
                     android:layout_marginBottom="10dp"
-                    android:backgroundTint="#5B379A"
+                    android:backgroundTint="#8C50F6"
                     android:foreground="?selectableItemBackground"
                     app:cardCornerRadius="8dp"
                     app:cardElevation="6dp"
@@ -411,11 +466,17 @@
                         android:layout_gravity="center_horizontal|center_vertical"
                         android:orientation="vertical">
 
+                        <ImageView
+                            android:layout_width="68dp"
+                            android:layout_height="68dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/sopa"></ImageView>
+
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="VIOLETA"
+                            android:text="SOPA"
                             android:textAlignment="center"
                             android:textColor="#FFFFFF"
                             android:textSize="14dp"
@@ -428,13 +489,13 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cielo"
+                    android:id="@+id/cafe"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
                     android:layout_marginRight="16dp"
                     android:layout_marginBottom="10dp"
-                    android:backgroundTint="#46B9ED"
+                    android:backgroundTint="#EC7550"
                     android:foreground="?selectableItemBackground"
                     app:cardCornerRadius="8dp"
                     app:cardElevation="6dp"
@@ -447,12 +508,17 @@
                         android:layout_gravity="center_horizontal|center_vertical"
                         android:orientation="vertical">
 
+                        <ImageView
+                            android:layout_width="68dp"
+                            android:layout_height="68dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/taza"></ImageView>
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="AZUL CIELO"
+                            android:text="CAFE"
                             android:textAlignment="center"
                             android:textColor="#FFFFFF"
                             android:textSize="14dp"
@@ -464,13 +530,13 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/dorado"
+                    android:id="@+id/pollo"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
                     android:layout_marginRight="16dp"
                     android:layout_marginBottom="10dp"
-                    android:backgroundTint="#DD8C14"
+                    android:backgroundTint="#E86CFD"
                     android:foreground="?selectableItemBackground"
                     app:cardCornerRadius="8dp"
                     app:cardElevation="6dp"
@@ -483,12 +549,17 @@
                         android:layout_gravity="center_horizontal|center_vertical"
                         android:orientation="vertical">
 
+                        <ImageView
+                            android:layout_width="68dp"
+                            android:layout_height="68dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/pierna_de_pollo"></ImageView>
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="DORADO"
+                            android:text="POLLO"
                             android:textAlignment="center"
                             android:textColor="#FFFFFF"
                             android:textSize="14dp"
@@ -500,13 +571,13 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/blanco"
+                    android:id="@+id/spaguetti"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
                     android:layout_marginRight="16dp"
                     android:layout_marginBottom="10dp"
-                    android:backgroundTint="#EAEBEC"
+                    android:backgroundTint="#2881ED"
                     android:foreground="?selectableItemBackground"
                     app:cardCornerRadius="8dp"
                     app:cardElevation="6dp"
@@ -519,15 +590,19 @@
                         android:layout_gravity="center_horizontal|center_vertical"
                         android:orientation="vertical">
 
-
+                        <ImageView
+                            android:layout_width="68dp"
+                            android:layout_height="68dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/spaguetti"></ImageView>
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="BLANCO"
+                            android:text="SPAGUETTI"
                             android:textAlignment="center"
-                            android:textColor="#000000"
+                            android:textColor="#FFFFFF"
                             android:textSize="14dp"
 
                             android:textStyle="bold"></TextView>
@@ -537,6 +612,212 @@
 
                 </androidx.cardview.widget.CardView>
 
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/taco"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#33F43B"
+                    android:foreground="?selectableItemBackground"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="6dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="68dp"
+                            android:layout_height="72dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/taco"></ImageView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="TACO"
+                            android:textAlignment="center"
+                            android:textColor="#FFFFFF"
+                            android:textSize="14dp"
+                            android:textStyle="bold"></TextView>
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/tortilla"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#B6436A"
+                    android:foreground="?selectableItemBackground"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="6dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="68dp"
+                            android:layout_height="68dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/tortillas"></ImageView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="TORTILLA"
+                            android:textAlignment="center"
+                            android:textColor="#FFFFFF"
+                            android:textSize="14dp"
+                            android:textStyle="bold"></TextView>
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/carne"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#337CFB"
+                    android:foreground="?selectableItemBackground"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="6dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="68dp"
+                            android:layout_height="68dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/carne"></ImageView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="CARNE"
+                            android:textAlignment="center"
+                            android:textColor="#FFFFFF"
+                            android:textSize="14dp"
+                            android:textStyle="bold"></TextView>
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/pizza"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#E670FA"
+                    android:foreground="?selectableItemBackground"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="6dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="68dp"
+                            android:layout_height="68dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/pizza"></ImageView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="PIZZA"
+                            android:textAlignment="center"
+                            android:textColor="#FFFFFF"
+                            android:textSize="14dp"
+                            android:textStyle="bold"></TextView>
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/refresco"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#4FEA55"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="6dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imgFrut"
+                            android:layout_width="68dp"
+                            android:layout_height="68dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/refresco"></ImageView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="REFRESCO"
+                            android:textAlignment="center"
+                            android:textColor="#FFFFFF"
+                            android:textSize="14dp"
+                            android:textStyle="bold"></TextView>
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
 
             </androidx.gridlayout.widget.GridLayout>
         </LinearLayout>

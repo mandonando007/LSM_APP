@@ -32,7 +32,7 @@
                 app:rowCount="6">
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/coco"
+                    android:id="@+id/arroz"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -76,7 +76,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/kiwi"
+                    android:id="@+id/cereal"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -118,7 +118,7 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/durazno"
+                    android:id="@+id/ensalada"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -161,7 +161,7 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/fresa"
+                    android:id="@+id/hamburgesa"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -202,7 +202,7 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/guayaba"
+                    android:id="@+id/helado"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -242,7 +242,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/limon"
+                    android:id="@+id/huevo"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -283,7 +283,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/mandarina"
+                    android:id="@+id/jugo"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -324,7 +324,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/mango"
+                    android:id="@+id/leche"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -365,7 +365,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/manzana"
+                    android:id="@+id/pan"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -406,7 +406,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/melon"
+                    android:id="@+id/papasFritas"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -447,7 +447,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/martes"
+                    android:id="@+id/sopa"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -489,7 +489,7 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/piña"
+                    android:id="@+id/cafe"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -530,7 +530,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/papaya"
+                    android:id="@+id/pollo"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -571,7 +571,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/pera"
+                    android:id="@+id/spaguetti"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -613,7 +613,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/platano"
+                    android:id="@+id/taco"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -654,7 +654,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/sandia"
+                    android:id="@+id/tortilla"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -695,7 +695,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/uva"
+                    android:id="@+id/carne"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -736,7 +736,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/pitaya"
+                    android:id="@+id/pizza"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -778,7 +778,7 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/mora"
+                    android:id="@+id/refresco"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -820,7 +820,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cereza"
+                    android:id="@+id/torta"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"

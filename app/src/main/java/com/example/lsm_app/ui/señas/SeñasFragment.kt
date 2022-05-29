@@ -9,6 +9,7 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.cardview.widget.CardView
 import com.example.lsm_app.*
+import com.example.lsm_app.ui.Alimentos
 import com.example.lsm_app.ui.Animales
 
 class SeñasFragment : Fragment(R.layout.fragment_senas) {
@@ -47,31 +48,31 @@ class SeñasFragment : Fragment(R.layout.fragment_senas) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         btnFrutas?.setOnClickListener{
-            setCurrentFragment(Senas(),"Bienvenido a las Frutas")
+            setCurrentFragment(Senas(),"Frutas")
         }
         btnVerduras?.setOnClickListener{
-            setCurrentFragment(verduras(),"Bienvenido a las Verduras")
+            setCurrentFragment(verduras(),"Verduras")
         }
         btnAlimentos?.setOnClickListener{
-            setCurrentFragment(Animales(), "Bienvenido a los Alimentos")
+            setCurrentFragment(Alimentos(), "Alimentos")
         }
         btnColores?.setOnClickListener{
-            setCurrentFragment(Colores(), "Bienvenido a los Colores")
+            setCurrentFragment(Colores(), "Colores")
         }
         btnDias?.setOnClickListener{
-            setCurrentFragment(Dias(), "Bienvenido a los Dias")
+            setCurrentFragment(Dias(), "Dias")
         }
         btnNumeros?.setOnClickListener{
-            setCurrentFragment(Numeros(),"Bienvenido a los Numeros")
+            setCurrentFragment(Numeros(),"Numeros")
         }
         btnVerbos?.setOnClickListener {
-            setCurrentFragment(Animales(), "Bienvenido a los Verbos")
+            setCurrentFragment(Animales(), "Verbos")
         }
         btnAnimales?.setOnClickListener {
-           setCurrentFragment(Animales(), "Bienvenido a los Animales")
+           setCurrentFragment(Animales(), "Animales")
         }
         btnMeses?.setOnClickListener {
-            setCurrentFragment(Animales(), "Bienvenido a los Meses")
+            setCurrentFragment(Meses(), "Meses")
         }
     }
 

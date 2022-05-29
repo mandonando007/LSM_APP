@@ -37,7 +37,7 @@ class Dias : Fragment(R.layout.dias) {
         miview = vista
 
         btnLunes = miview?.findViewById(R.id.lune)
-        btnMartes = miview?.findViewById(R.id.martes)
+        btnMartes = miview?.findViewById(R.id.sopa)
         btnMiercoles = miview?.findViewById(R.id.miercoles)
         btnJueves = miview?.findViewById(R.id.jueves)
         btnViernes = miview?.findViewById(R.id.viernes)
