@@ -1,4 +1,4 @@
-package com.example.lsm_app
+package com.example.lsm_app.ui
 
 import android.content.Context
 import android.os.Bundle
@@ -7,8 +7,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.cardview.widget.CardView
+import com.example.lsm_app.R
+import com.example.lsm_app.nav_letras
 
-class Senas : Fragment(R.layout.senas) {
+class Animales : Fragment(R.layout.animales) {
 
     private var letraSel : String? =  ""
 
@@ -151,6 +153,5 @@ class Senas : Fragment(R.layout.senas) {
         fr?.addToBackStack(null)
         fr?.commit()
     }
-
 
 }

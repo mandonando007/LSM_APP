@@ -72,6 +72,9 @@ class SeñasFragment : Fragment(R.layout.fragment_senas) {
         btnMeses?.setOnClickListener {
             setCurrentFragment(Senas())
         }
+    }
+
+    private fun cambiarIcono(){
 
 
 
