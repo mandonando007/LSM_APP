@@ -377,7 +377,7 @@
                             android:fontFamily="@font/alata"
                             android:text="@string/Familia"
                             android:textAlignment="center"
-                            android:textColor="#338A8E"
+                            android:textColor="#39999D"
                             android:textSize="16dp"
                             android:textStyle="bold"></TextView>
 
