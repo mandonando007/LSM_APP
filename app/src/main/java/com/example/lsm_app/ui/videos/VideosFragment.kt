@@ -36,7 +36,7 @@ class VideosFragment : Fragment(R.layout.fragment_videos) {
         super.onViewCreated(view, savedInstanceState)
 
         btnSaludos?.setOnClickListener{
-            URL = "https://www.appsloveworld.com/wp-content/uploads/2018/10/640.mp4"
+            URL = "https://drive.google.com/file/d/1oqdMWr4pK-1ZWjHrJz7xWItJQ5Hi7qiC/view?usp=sharing"
             val toast = Toast.makeText(this.context ,"Funciona el boton", Toast.LENGTH_SHORT).show()
             setCurrentFragment(URL)
         }
