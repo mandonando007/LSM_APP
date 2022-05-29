@@ -14,14 +14,16 @@ class Numeros : Fragment(R.layout.numeros) {
     private var letraSel : String? =  ""
 
     var miview: View? = null
-    var btnLunes: CardView? = null
-    var btnMartes: CardView? = null
-    var btnMiercoles: CardView? = null
-    var btnJueves: CardView? = null
-    var btnViernes: CardView? = null
-    var btnSabado: CardView? = null
-    var btnDomingo: CardView? = null
-
+    var btnCero: CardView? = null
+    var btnUno: CardView? = null
+    var btnDos: CardView? = null
+    var btnTres: CardView? = null
+    var btnCuatro: CardView? = null
+    var btnCinco: CardView? = null
+    var btnSeis: CardView? = null
+    var btnSiete: CardView? = null
+    var btnOcho: CardView? = null
+    var btnNueve: CardView? = null
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -36,14 +38,16 @@ class Numeros : Fragment(R.layout.numeros) {
         val vista = inflater.inflate(R.layout.numeros, container, false)
         miview = vista
 
-        btnLunes = miview?.findViewById(R.id.lune)
-        btnMartes = miview?.findViewById(R.id.martes)
-        btnMiercoles = miview?.findViewById(R.id.miercoles)
-        btnJueves = miview?.findViewById(R.id.jueves)
-        btnViernes = miview?.findViewById(R.id.viernes)
-        btnSabado = miview?.findViewById(R.id.sabado)
-        btnDomingo = miview?.findViewById(R.id.domingo)
-
+        btnCero = miview?.findViewById(R.id.cero)
+        btnUno = miview?.findViewById(R.id.uno)
+        btnDos = miview?.findViewById(R.id.dos)
+        btnTres = miview?.findViewById(R.id.tres)
+        btnCuatro = miview?.findViewById(R.id.cuatro)
+        btnCinco = miview?.findViewById(R.id.cinco)
+        btnSeis = miview?.findViewById(R.id.seis)
+        btnSiete = miview?.findViewById(R.id.siete)
+        btnOcho = miview?.findViewById(R.id.ocho)
+        btnNueve = miview?.findViewById(R.id.nueve)
 
         return  vista
     }
@@ -52,25 +56,31 @@ class Numeros : Fragment(R.layout.numeros) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         letraSel = "Coco"
-        btnLunes?.setOnClickListener {
+        btnCero?.setOnClickListener {
             setCurrentFragment(letraSel!!)
         }
-        btnMartes?.setOnClickListener {
+        btnUno?.setOnClickListener {
             setCurrentFragment(letraSel!!)
         }
-        btnMiercoles?.setOnClickListener {
+        btnDos?.setOnClickListener {
             setCurrentFragment(letraSel!!)
         }
-        btnJueves?.setOnClickListener {
+        btnTres?.setOnClickListener {
             setCurrentFragment(letraSel!!)
         }
-        btnViernes?.setOnClickListener {
+        btnCuatro?.setOnClickListener {
             setCurrentFragment(letraSel!!)
         }
-        btnSabado?.setOnClickListener {
+        btnCinco?.setOnClickListener {
             setCurrentFragment(letraSel!!)
         }
-        btnDomingo?.setOnClickListener {
+        btnSeis?.setOnClickListener {
+            setCurrentFragment(letraSel!!)
+        }
+        btnOcho?.setOnClickListener {
+            setCurrentFragment(letraSel!!)
+        }
+        btnNueve?.setOnClickListener {
             setCurrentFragment(letraSel!!)
         }
 

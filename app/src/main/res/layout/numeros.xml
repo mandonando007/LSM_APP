@@ -32,7 +32,122 @@
                 app:rowCount="6">
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/lune"
+                    android:id="@+id/cero"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#009688"
+                    app:cardBackgroundColor="#E65E33"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="6dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:backgroundTint="#FFC107"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="0"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="24sp"
+                            android:textStyle="bold"></TextView>
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/uno"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#FF9800"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="6dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="1"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="24sp"
+                            android:textStyle="bold"></TextView>
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/dos"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#F13B79"
+                    app:cardBackgroundColor="#E65E33"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="6dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:backgroundTint="#FFC107"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="2"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="24sp"
+                            android:textStyle="bold"></TextView>
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/tres"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -58,10 +173,10 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="LUNES"
+                            android:text="3"
                             android:textAlignment="center"
-                            android:textColor="#FFFFFF"
-                            android:textSize="14dp"
+                            android:textColor="#000000"
+                            android:textSize="24sp"
                             android:textStyle="bold"></TextView>
 
 
@@ -69,14 +184,16 @@
 
                 </androidx.cardview.widget.CardView>
 
+
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/martes"
+                    android:id="@+id/cuatro"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
                     android:layout_marginRight="16dp"
                     android:layout_marginBottom="10dp"
-                    android:backgroundTint="#FF9800"
+                    android:backgroundTint="#3FEF46"
+                    app:cardBackgroundColor="#E65E33"
                     app:cardCornerRadius="8dp"
                     app:cardElevation="6dp"
                     app:layout_columnWeight="1"
@@ -87,6 +204,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal|center_vertical"
+                        android:backgroundTint="#FFC107"
                         android:orientation="vertical">
 
 
@@ -94,10 +212,10 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="MARTES"
+                            android:text="4"
                             android:textAlignment="center"
-                            android:textColor="#FFFFFF"
-                            android:textSize="14dp"
+                            android:textColor="#000000"
+                            android:textSize="24sp"
                             android:textStyle="bold"></TextView>
 
 
@@ -107,7 +225,7 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/miercoles"
+                    android:id="@+id/cinco"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -132,10 +250,10 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="MIERCOLES"
+                            android:text="5"
                             android:textAlignment="center"
-                            android:textColor="#FFFFFF"
-                            android:textSize="14dp"
+                            android:textColor="#000000"
+                            android:textSize="24sp"
                             android:textStyle="bold"></TextView>
 
 
@@ -145,7 +263,7 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/jueves"
+                    android:id="@+id/seis"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -167,10 +285,10 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="JUEVES"
+                            android:text="6"
                             android:textAlignment="center"
-                            android:textColor="#FFFFFF"
-                            android:textSize="14dp"
+                            android:textColor="#000000"
+                            android:textSize="24sp"
                             android:textStyle="bold"></TextView>
 
 
@@ -180,7 +298,7 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/viernes"
+                    android:id="@+id/siete"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -202,10 +320,10 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="VIERNES"
+                            android:text="7"
                             android:textAlignment="center"
-                            android:textColor="#FFFFFF"
-                            android:textSize="14dp"
+                            android:textColor="#000000"
+                            android:textSize="24sp"
                             android:textStyle="bold"></TextView>
 
 
@@ -214,7 +332,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/sabado"
+                    android:id="@+id/ocho"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -238,10 +356,10 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="SABADO"
+                            android:text="8"
                             android:textAlignment="center"
-                            android:textColor="#FFFFFF"
-                            android:textSize="14dp"
+                            android:textColor="#000000"
+                            android:textSize="24sp"
                             android:textStyle="bold"></TextView>
 
 
@@ -250,7 +368,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/domingo"
+                    android:id="@+id/nueve"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -273,10 +391,10 @@
                             android:layout_width="171dp"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="DOMINGO"
+                            android:text="9"
                             android:textAlignment="center"
-                            android:textColor="#FFFFFF"
-                            android:textSize="14dp"
+                            android:textColor="#000000"
+                            android:textSize="24sp"
                             android:textStyle="bold"></TextView>
 
 

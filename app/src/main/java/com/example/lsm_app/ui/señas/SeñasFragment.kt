@@ -62,7 +62,7 @@ class SeñasFragment : Fragment(R.layout.fragment_senas) {
             setCurrentFragment(Dias(), "Bienvenido a los Dias")
         }
         btnNumeros?.setOnClickListener{
-            setCurrentFragment(Animales(),"Bienvenido a los Numeros")
+            setCurrentFragment(Numeros(),"Bienvenido a los Numeros")
         }
         btnVerbos?.setOnClickListener {
             setCurrentFragment(Animales(), "Bienvenido a los Verbos")
