@@ -5,10 +5,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
+import android.widget.Toast
 import androidx.fragment.app.Fragment
-import com.example.lsm_app.R
 import androidx.cardview.widget.CardView
-import com.example.lsm_app.Senas
+import com.example.lsm_app.*
+import com.example.lsm_app.ui.Animales
 
 class SeñasFragment : Fragment(R.layout.fragment_senas) {
     var imagen: ImageView? = null
@@ -30,15 +31,15 @@ class SeñasFragment : Fragment(R.layout.fragment_senas) {
          val vista = inflater.inflate(R.layout.fragment_senas, container, false)
         miview = vista
 
-        btnFrutas = miview?.findViewById(R.id.cardVerbos)
-        btnVerduras = miview?.findViewById(R.id.cardPreguntas)
-        btnAlimentos = miview?.findViewById(R.id.cardTiempo)
-        btnColores = miview?.findViewById(R.id.cardEscuela)
-        btnDias = miview?.findViewById(R.id.cardFamilia)
-        btnAnimales = miview?.findViewById(R.id.cardDias)
+        btnFrutas = miview?.findViewById(R.id.cardFrutas)
+        btnVerduras = miview?.findViewById(R.id.cardVerduras)
+        btnAlimentos = miview?.findViewById(R.id.cardAlimentos)
+        btnColores = miview?.findViewById(R.id.cardColores)
+        btnDias = miview?.findViewById(R.id.cardDias)
+        btnAnimales = miview?.findViewById(R.id.cardAnimales)
         btnNumeros = miview?.findViewById(R.id.cardNumeros)
         btnMeses = miview?.findViewById(R.id.cardMeses)
-        btnVerbos = miview?.findViewById(R.id.cardAlfabeto)
+        btnVerbos = miview?.findViewById(R.id.cardVerbos)
 
         return vista
     }
@@ -46,43 +47,42 @@ class SeñasFragment : Fragment(R.layout.fragment_senas) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         btnFrutas?.setOnClickListener{
-            setCurrentFragment(Senas())
+            setCurrentFragment(Senas(),"Bienvenido a las Frutas")
         }
         btnVerduras?.setOnClickListener{
-            setCurrentFragment(Senas())
+            setCurrentFragment(verduras(),"Bienvenido a las Verduras")
         }
         btnAlimentos?.setOnClickListener{
-            setCurrentFragment(Senas())
+            setCurrentFragment(Animales(), "Bienvenido a los Alimentos")
         }
         btnColores?.setOnClickListener{
-            setCurrentFragment(Senas())
+            setCurrentFragment(Colores(), "Bienvenido a los Colores")
         }
         btnDias?.setOnClickListener{
-            setCurrentFragment(Senas())
+            setCurrentFragment(Dias(), "Bienvenido a los Dias")
         }
         btnNumeros?.setOnClickListener{
-            setCurrentFragment(Senas())
+            setCurrentFragment(Animales(),"Bienvenido a los Numeros")
         }
         btnVerbos?.setOnClickListener {
-            setCurrentFragment(Senas())
+            setCurrentFragment(Animales(), "Bienvenido a los Verbos")
         }
         btnAnimales?.setOnClickListener {
-            setCurrentFragment(Senas())
+           setCurrentFragment(Animales(), "Bienvenido a los Animales")
         }
         btnMeses?.setOnClickListener {
-            setCurrentFragment(Senas())
+            setCurrentFragment(Animales(), "Bienvenido a los Meses")
         }
     }
 
     private fun cambiarIcono(){
 
-
-
     }
 
-    private fun setCurrentFragment(fragment: Fragment ){
+    private fun setCurrentFragment(fragment: Fragment, nombre: String){
         var fr = getFragmentManager()?.beginTransaction()
         fr?.replace(R.id.nav_host_fragment_activity_main, fragment)
+        Toast.makeText(context,nombre, Toast.LENGTH_SHORT).show()
         fr?.addToBackStack(null)
         fr?.commit()
     }

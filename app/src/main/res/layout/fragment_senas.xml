@@ -33,7 +33,7 @@
                 app:rowCount="6">
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cardVerbos"
+                    android:id="@+id/cardFrutas"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -75,7 +75,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cardPreguntas"
+                    android:id="@+id/cardVerduras"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -117,7 +117,7 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cardTiempo"
+                    android:id="@+id/cardAlimentos"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -159,7 +159,7 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cardEscuela"
+                    android:id="@+id/cardColores"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -200,7 +200,7 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cardFamilia"
+                    android:id="@+id/cardDias"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -240,7 +240,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cardDias"
+                    android:id="@+id/cardAnimales"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -363,7 +363,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cardAlfabeto"
+                    android:id="@+id/cardVerbos"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"

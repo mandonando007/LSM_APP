@@ -56,7 +56,7 @@ class Senas : Fragment(R.layout.senas) {
         btnMango = miview?.findViewById(R.id.mango)
         btnManzana = miview?.findViewById(R.id.manzana)
         btnmelon = miview?.findViewById(R.id.melon)
-        btnNaranja = miview?.findViewById(R.id.naranja)
+        btnNaranja = miview?.findViewById(R.id.martes)
         btnPiña = miview?.findViewById(R.id.piña)
         btnPapaya = miview?.findViewById(R.id.papaya)
         btnPera = miview?.findViewById(R.id.pera)

@@ -10,7 +10,6 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.fragment.app.Fragment
-import com.example.lsm_app.databinding.FragmentFrutasBinding
 import com.google.android.gms.tasks.OnFailureListener
 import com.google.android.gms.tasks.OnSuccessListener
 import com.google.firebase.storage.FileDownloadTask
@@ -21,20 +20,14 @@ import java.io.IOException
 
 class FrutasFragment : Fragment() {
 
-   lateinit var binding: FragmentFrutasBinding
-
-
     var miVista : View? = null
     var miTexto1 : TextView? = null
     var miTexto2 : TextView? = null
     var imgLetra : ImageView? = null
     var Letra : String? = "Letra"
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
-
     }
 
     override fun onCreateView(

@@ -45,7 +45,7 @@ class Animales : Fragment(R.layout.animales) {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val vista = inflater.inflate(R.layout.senas, container, false)
+        val vista = inflater.inflate(R.layout.animales, container, false)
         miview = vista
 
         btnCoco = miview?.findViewById(R.id.coco)
@@ -58,7 +58,7 @@ class Animales : Fragment(R.layout.animales) {
         btnMango = miview?.findViewById(R.id.mango)
         btnManzana = miview?.findViewById(R.id.manzana)
         btnmelon = miview?.findViewById(R.id.melon)
-        btnNaranja = miview?.findViewById(R.id.naranja)
+        btnNaranja = miview?.findViewById(R.id.martes)
         btnPiña = miview?.findViewById(R.id.piña)
         btnPapaya = miview?.findViewById(R.id.papaya)
         btnPera = miview?.findViewById(R.id.pera)
