@@ -56,7 +56,7 @@
                             android:layout_width="68dp"
                             android:layout_height="68dp"
                             android:layout_gravity="center_horizontal"
-                            app:srcCompat="@drawable/fresa"></ImageView>
+                            tools:srcCompat="@drawable/saludos"></ImageView>
 
                         <TextView
                             android:id="@+id/txtSaludos"
@@ -97,7 +97,7 @@
                             android:layout_width="68dp"
                             android:layout_height="68dp"
                             android:layout_gravity="center_horizontal"
-                            app:srcCompat="@drawable/cerrar_sesion"></ImageView>
+                            tools:srcCompat="@drawable/estaciones"></ImageView>
 
                         <TextView
                             android:layout_width="match_parent"
@@ -138,7 +138,7 @@
                             android:layout_width="68dp"
                             android:layout_height="68dp"
                             android:layout_gravity="center_horizontal"
-                            android:src="@drawable/coco"></ImageView>
+                            app:srcCompat="@drawable/colores"></ImageView>
 
                         <TextView
                             android:id="@+id/txtColores"
@@ -181,7 +181,6 @@
                             android:layout_width="68dp"
                             android:layout_height="68dp"
                             android:layout_gravity="center_horizontal"
-                            android:src="@drawable/frutas"
                             app:srcCompat="@drawable/lista_de_verificacion"></ImageView>
 
                         <TextView
@@ -225,7 +224,7 @@
                             android:layout_width="68dp"
                             android:layout_height="68dp"
                             android:layout_gravity="center_horizontal"
-                            android:src="@drawable/verduras"></ImageView>
+                            app:srcCompat="@drawable/pregunta"></ImageView>
 
                         <TextView
                             android:id="@+id/txtPreguntas"
@@ -269,7 +268,7 @@
                             android:layout_width="68dp"
                             android:layout_height="68dp"
                             android:layout_gravity="center_horizontal"
-                            android:src="@drawable/cesta_de_la_compra"></ImageView>
+                            app:srcCompat="@drawable/tiempo"></ImageView>
 
                         <TextView
                             android:id="@+id/txtTiempo"
@@ -312,7 +311,7 @@
                             android:layout_width="68dp"
                             android:layout_height="68dp"
                             android:layout_gravity="center_horizontal"
-                            android:src="@drawable/lapices_de_colores"></ImageView>
+                            app:srcCompat="@drawable/colegio"></ImageView>
 
                         <TextView
                             android:id="@+id/txtEscuela"
@@ -355,7 +354,7 @@
                             android:layout_width="68dp"
                             android:layout_height="68dp"
                             android:layout_gravity="center_horizontal"
-                            android:src="@drawable/dias_festivos"></ImageView>
+                            app:srcCompat="@drawable/familia"></ImageView>
 
                         <TextView
                             android:id="@+id/txtFamilia"
@@ -398,7 +397,6 @@
                             android:layout_width="68dp"
                             android:layout_height="68dp"
                             android:layout_gravity="center_horizontal"
-                            android:src="@drawable/tortuga"
                             app:srcCompat="@drawable/dias_festivos"></ImageView>
 
                         <TextView
@@ -528,7 +526,7 @@
                             android:layout_width="68dp"
                             android:layout_height="68dp"
                             android:layout_gravity="center_horizontal"
-                            android:src="@drawable/lista_de_verificacion"></ImageView>
+                            app:srcCompat="@drawable/alfabeto"></ImageView>
 
                         <TextView
                             android:id="@+id/txtAlfabeto"
