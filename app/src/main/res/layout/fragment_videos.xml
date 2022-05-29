@@ -5,6 +5,8 @@
     android:id="@+id/dias"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F9F9F9"
+    android:backgroundTint="#F4EFEF"
     tools:context="ui.señas.SeñasFragment">
 
     <ScrollView
@@ -17,7 +19,9 @@
         android:layout_marginStart="0dp"
         android:layout_marginTop="0dp"
         android:layout_marginEnd="0dp"
-        android:layout_marginBottom="55dp">
+        android:layout_marginBottom="55dp"
+        android:background="@color/white"
+        android:backgroundTint="#F4EFEF">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -67,7 +71,7 @@
                             android:fontFamily="@font/alata"
                             android:text="@string/Saludos"
                             android:textAlignment="center"
-                            android:textColor="#ffcc00"
+                            android:textColor="#FF6E40"
                             android:textSize="16dp"
                             android:textStyle="bold"></TextView>
 
@@ -109,7 +113,7 @@
                             android:fontFamily="@font/alata"
                             android:text="@string/Estaciones"
                             android:textAlignment="center"
-                            android:textColor="#ffcc00"
+                            android:textColor="#D50000"
                             android:textSize="16dp"
                             android:textStyle="bold"></TextView>
 
@@ -152,7 +156,7 @@
                             android:fontFamily="@font/alata"
                             android:text="@string/Colores"
                             android:textAlignment="center"
-                            android:textColor="#ffcc00"
+                            android:textColor="#FFAB00"
                             android:textSize="16dp"
                             android:textStyle="bold"></TextView>
 
@@ -196,7 +200,7 @@
                             android:fontFamily="@font/alata"
                             android:text="@string/Verbos"
                             android:textAlignment="center"
-                            android:textColor="#ffcc00"
+                            android:textColor="#C51162"
                             android:textSize="16dp"
                             android:textStyle="bold"></TextView>
 
@@ -240,7 +244,7 @@
                             android:fontFamily="@font/alata"
                             android:text="@string/Preguntas"
                             android:textAlignment="center"
-                            android:textColor="#ffcc00"
+                            android:textColor="#AA00FF"
                             android:textSize="16dp"
                             android:textStyle="bold"></TextView>
 
@@ -373,7 +377,7 @@
                             android:fontFamily="@font/alata"
                             android:text="@string/Familia"
                             android:textAlignment="center"
-                            android:textColor="#f44236"
+                            android:textColor="#338A8E"
                             android:textSize="16dp"
                             android:textStyle="bold"></TextView>
 
@@ -461,7 +465,7 @@
                             android:fontFamily="@font/alata"
                             android:text="@string/Numeros"
                             android:textAlignment="center"
-                            android:textColor="#00C853"
+                            android:textColor="#00BFA5"
                             android:textSize="16dp"
                             android:textStyle="bold"></TextView>
 
@@ -505,7 +509,7 @@
                             android:fontFamily="@font/alata"
                             android:text="@string/Meses"
                             android:textAlignment="center"
-                            android:textColor="#26ca69"
+                            android:textColor="#00C853"
                             android:textSize="16dp"
                             android:textStyle="bold"></TextView>
 
@@ -549,7 +553,7 @@
                             android:fontFamily="@font/alata"
                             android:text="@string/Alfabeto"
                             android:textAlignment="center"
-                            android:textColor="#26ca69"
+                            android:textColor="#2962FF"
                             android:textSize="16dp"
                             android:textStyle="bold"></TextView>
 
