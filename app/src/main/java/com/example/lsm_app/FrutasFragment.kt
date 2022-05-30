@@ -128,6 +128,36 @@ class FrutasFragment : Fragment() {
             }
 
 
+
+            "LUNES" -> {
+                miTexto1?.text = "LUNES"
+                imgLetra?.setImageResource(R.drawable.se_apera)
+            }
+            "MARTES" -> {
+                miTexto1?.text ="MARTES"
+                imgLetra?.setImageResource(R.drawable.se_aplatano)
+            }
+            "MIERCOLES"-> {
+                miTexto1?.text = "MIERCOLES"
+                imgLetra?.setImageResource(R.drawable.se_asandia)
+            }
+            "JUEVES" -> {
+                miTexto1?.text ="JUEVES"
+                imgLetra?.setImageResource(R.drawable.se_auva)
+            }
+            "VIERNES"-> {
+                miTexto1?.text = "VIERNES"
+                imgLetra?.setImageResource(R.drawable.se_alima)
+            }
+            "SABADO" -> {
+                miTexto1?.text ="SABADO"
+                imgLetra?.setImageResource(R.drawable.se_atoronja)
+            }
+            "DOMINGO"-> {
+                miTexto1?.text = "DOMINGO"
+                imgLetra?.setImageResource(R.drawable.se_acereza)
+            }
+
             else -> {}
 
     }

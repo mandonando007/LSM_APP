@@ -53,25 +53,25 @@ class Dias : Fragment(R.layout.dias) {
         super.onViewCreated(view, savedInstanceState)
         letraSel = "Coco"
         btnLunes?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            setCurrentFragment("LUNES"!!)
         }
         btnMartes?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            setCurrentFragment("MARTES"!!)
         }
         btnMiercoles?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            setCurrentFragment("MIERCOLES"!!)
         }
         btnJueves?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            setCurrentFragment("JUEVES"!!)
         }
         btnViernes?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            setCurrentFragment("VIERNES"!!)
         }
         btnSabado?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            setCurrentFragment("SABADO"!!)
         }
         btnDomingo?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            setCurrentFragment("DOMINGO"!!)
         }
 
     }
