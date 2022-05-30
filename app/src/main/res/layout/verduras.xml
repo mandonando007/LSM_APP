@@ -36,7 +36,7 @@
                 app:rowCount="6">
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/aceituna"
+                    android:id="@+id/cardAceituna"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -80,7 +80,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/ajo"
+                    android:id="@+id/cardAjo"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -122,7 +122,7 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/calabaza"
+                    android:id="@+id/cardCalabaza"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -165,7 +165,7 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/camote"
+                    android:id="@+id/cardCamote"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -206,7 +206,7 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cebolla"
+                    android:id="@+id/cardCebolla"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -246,7 +246,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/champiñon"
+                    android:id="@+id/cardChampiñon"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -287,7 +287,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/chayote"
+                    android:id="@+id/cardChayote"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -328,48 +328,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/chicharos"
-                    android:layout_width="0dp"
-                    android:layout_height="0dp"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginRight="16dp"
-                    android:layout_marginBottom="10dp"
-                    android:backgroundTint="#F47951"
-                    android:foreground="?selectableItemBackground"
-                    app:cardCornerRadius="8dp"
-                    app:cardElevation="6dp"
-                    app:layout_columnWeight="1"
-                    app:layout_rowWeight="1">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal|center_vertical"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="68dp"
-                            android:layout_height="68dp"
-                            android:layout_gravity="center_horizontal"
-                            android:src="@drawable/chicharos"></ImageView>
-
-                        <TextView
-                            android:layout_width="180dp"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center_horizontal"
-                            android:text="CHICAROS"
-                            android:textAlignment="center"
-                            android:textColor="#FFFFFF"
-                            android:textSize="14dp"
-                            android:textStyle="bold"></TextView>
-
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:id="@+id/chile"
+                    android:id="@+id/cardChile"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -410,7 +369,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/espinacas"
+                    android:id="@+id/cardEspinacas"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -450,91 +409,9 @@
 
                 </androidx.cardview.widget.CardView>
 
-                <androidx.cardview.widget.CardView
-                    android:id="@+id/lechuga"
-                    android:layout_width="0dp"
-                    android:layout_height="0dp"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginRight="16dp"
-                    android:layout_marginBottom="10dp"
-                    android:backgroundTint="#8C50F6"
-                    android:foreground="?selectableItemBackground"
-                    app:cardCornerRadius="8dp"
-                    app:cardElevation="6dp"
-                    app:layout_columnWeight="1"
-                    app:layout_rowWeight="1">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal|center_vertical"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="68dp"
-                            android:layout_height="68dp"
-                            android:layout_gravity="center_horizontal"
-                            android:src="@drawable/lechuga"></ImageView>
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center_horizontal"
-                            android:text="LECHUGA"
-                            android:textAlignment="center"
-                            android:textColor="#FFFFFF"
-                            android:textSize="14dp"
-                            android:textStyle="bold"></TextView>
-
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/maiz"
-                    android:layout_width="0dp"
-                    android:layout_height="0dp"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginRight="16dp"
-                    android:layout_marginBottom="10dp"
-                    android:backgroundTint="#EC7550"
-                    android:foreground="?selectableItemBackground"
-                    app:cardCornerRadius="8dp"
-                    app:cardElevation="6dp"
-                    app:layout_columnWeight="1"
-                    app:layout_rowWeight="1">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal|center_vertical"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="68dp"
-                            android:layout_height="68dp"
-                            android:layout_gravity="center_horizontal"
-                            android:src="@drawable/maiz"></ImageView>
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center_horizontal"
-                            android:text="MAIZ"
-                            android:textAlignment="center"
-                            android:textColor="#FFFFFF"
-                            android:textSize="14dp"
-                            android:textStyle="bold"></TextView>
-
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:id="@+id/nopal"
+                    android:id="@+id/cardNopal"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -575,7 +452,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/papas"
+                    android:id="@+id/cardPapa"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -604,7 +481,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="PAPAS"
+                            android:text="PAPA"
                             android:textAlignment="center"
                             android:textColor="#FFFFFF"
                             android:textSize="14dp"
@@ -617,7 +494,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/pepino"
+                    android:id="@+id/cardPepino"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -657,50 +534,9 @@
 
                 </androidx.cardview.widget.CardView>
 
-                <androidx.cardview.widget.CardView
-                    android:id="@+id/tomate"
-                    android:layout_width="0dp"
-                    android:layout_height="0dp"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginRight="16dp"
-                    android:layout_marginBottom="10dp"
-                    android:backgroundTint="#F1AC47"
-                    android:foreground="?selectableItemBackground"
-                    app:cardCornerRadius="8dp"
-                    app:cardElevation="6dp"
-                    app:layout_columnWeight="1"
-                    app:layout_rowWeight="1">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal|center_vertical"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="68dp"
-                            android:layout_height="68dp"
-                            android:layout_gravity="center_horizontal"
-                            android:src="@drawable/tomate"></ImageView>
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center_horizontal"
-                            android:text="TOMATE"
-                            android:textAlignment="center"
-                            android:textColor="#FFFFFF"
-                            android:textSize="14dp"
-                            android:textStyle="bold"></TextView>
-
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/zanahoria"
+                    android:id="@+id/cardZanahoria"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -730,6 +566,48 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
                             android:text="ZANAHORIA"
+                            android:textAlignment="center"
+                            android:textColor="#FFFFFF"
+                            android:textSize="14dp"
+                            android:textStyle="bold"></TextView>
+
+
+                    </LinearLayout>
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardElote"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#EC4C82"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="6dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="68dp"
+                            android:layout_height="68dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/maiz"></ImageView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="ELOTE"
                             android:textAlignment="center"
                             android:textColor="#FFFFFF"
                             android:textSize="14dp"

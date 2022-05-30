@@ -11,25 +11,23 @@ import androidx.cardview.widget.CardView
 
 class verduras : Fragment(R.layout.verduras) {
 
-    private var letraSel : String? =  ""
+    private var verduraSel : String? =  ""
 
     var miview: View? = null
-    var btnAceitun: CardView? = null
+    var btnAceituna: CardView? = null
     var btnAjo: CardView? = null
     var btnCalabaza: CardView? = null
     var btnCamote: CardView? = null
     var btnCebolla: CardView? = null
     var btnChampiñon: CardView? = null
     var btnChayote: CardView? = null
-    var btnChicharo: CardView? = null
     var btnChile: CardView? = null
     var btnEspinacas: CardView? = null
-    var btnLechuga: CardView? = null
+    var btnPepino: CardView? = null
     var btnMaiz: CardView? = null
     var btnNopal: CardView? = null
     var btnPapa: CardView? = null
     var btnZanahoria: CardView? = null
-    var btnTomate: CardView? = null
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -44,22 +42,20 @@ class verduras : Fragment(R.layout.verduras) {
         val vista = inflater.inflate(R.layout.verduras, container, false)
         miview = vista
 
-        btnAceitun = miview?.findViewById(R.id.aceituna)
-        btnAjo = miview?.findViewById(R.id.ajo)
-        btnCalabaza = miview?.findViewById(R.id.calabaza)
-        btnCamote = miview?.findViewById(R.id.camote)
-        btnCebolla = miview?.findViewById(R.id.cebolla)
-        btnChampiñon = miview?.findViewById(R.id.champiñon)
-        btnChayote = miview?.findViewById(R.id.chayote)
-        btnChicharo = miview?.findViewById(R.id.chicharos)
-        btnPapa = miview?.findViewById(R.id.papas)
-        btnZanahoria = miview?.findViewById(R.id.zanahoria)
-        btnChile = miview?.findViewById(R.id.chile)
-        btnEspinacas = miview?.findViewById(R.id.espinacas)
-        btnLechuga = miview?.findViewById(R.id.lechuga)
-        btnMaiz = miview?.findViewById(R.id.maiz)
-        btnNopal = miview?.findViewById(R.id.nopal)
-        btnTomate = miview?.findViewById(R.id.tomate)
+        btnAceituna = miview?.findViewById(R.id.cardAceituna)
+        btnAjo = miview?.findViewById(R.id.cardAjo)
+        btnCalabaza = miview?.findViewById(R.id.cardCalabaza)
+        btnCamote = miview?.findViewById(R.id.cardCamote)
+        btnCebolla = miview?.findViewById(R.id.cardCebolla)
+        btnChampiñon = miview?.findViewById(R.id.cardChampiñon)
+        btnChayote = miview?.findViewById(R.id.cardChayote)
+        btnPapa = miview?.findViewById(R.id.cardPapa)
+        btnZanahoria = miview?.findViewById(R.id.cardZanahoria)
+        btnChile = miview?.findViewById(R.id.cardChile)
+        btnEspinacas = miview?.findViewById(R.id.cardEspinacas)
+        btnPepino = miview?.findViewById(R.id.cardPepino)
+        btnMaiz = miview?.findViewById(R.id.cardElote)
+        btnNopal = miview?.findViewById(R.id.cardNopal)
 
         return  vista
     }
@@ -67,52 +63,62 @@ class verduras : Fragment(R.layout.verduras) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        letraSel = "Coco"
-        btnAceitun?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+
+        btnAceituna?.setOnClickListener {
+            verduraSel = "aceituna"
+            setCurrentFragment(verduraSel!!)
         }
         btnAjo?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            verduraSel = "ajo"
+            setCurrentFragment(verduraSel!!)
         }
         btnCalabaza?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            verduraSel = "calabaza"
+            setCurrentFragment(verduraSel!!)
         }
         btnCamote?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            verduraSel = "camote"
+            setCurrentFragment(verduraSel!!)
         }
         btnCebolla?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            verduraSel = "cebolla"
+            setCurrentFragment(verduraSel!!)
         }
         btnChampiñon?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            verduraSel = "champinon"
+            setCurrentFragment(verduraSel!!)
         }
         btnChayote?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            verduraSel = "chayote"
+            setCurrentFragment(verduraSel!!)
         }
-        btnChicharo?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+        btnPepino?.setOnClickListener {
+            verduraSel = "pepino"
+            setCurrentFragment(verduraSel!!)
         }
         btnPapa?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            verduraSel = "papa"
+            setCurrentFragment(verduraSel!!)
         }
         btnZanahoria?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            verduraSel = "zanahoria"
+            setCurrentFragment(verduraSel!!)
         }
-
         btnChile?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            verduraSel = "chile"
+            setCurrentFragment(verduraSel!!)
         }
         btnEspinacas?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
-        }
-        btnLechuga?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            verduraSel = "espinacas"
+            setCurrentFragment(verduraSel!!)
         }
         btnMaiz?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            verduraSel = "maiz"
+            setCurrentFragment(verduraSel!!)
         }
         btnNopal?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            verduraSel = "nopal"
+            setCurrentFragment(verduraSel!!)
         }
 
 

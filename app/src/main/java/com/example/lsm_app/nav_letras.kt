@@ -35,6 +35,7 @@ class nav_letras : Fragment(R.layout.fragment_nav_letras) {
 
 
         when(Letra) {
+            //Letras----------------------------------------------------------
             "A" -> {
                 miTexto1?.text = "A"
                 miTexto2?.text = "Con la mano cerrada, se muestran las uñas y se estira el dedo pulgar hacia un lado. La palma mira al frente."
@@ -204,6 +205,7 @@ class nav_letras : Fragment(R.layout.fragment_nav_letras) {
                 miTexto2?.text = "Con la mano cerrada, el dedo índice estirado y la palma al frente, se dibuja una letra Z en el aire.."
                 imgLetra?.setImageResource(R.drawable.z)
             }
+            //Meses------------------------------------------------------------
             "Enero" -> {
                 miTexto1?.text = "Enero"
                 miTexto2?.text = ""
@@ -264,6 +266,7 @@ class nav_letras : Fragment(R.layout.fragment_nav_letras) {
                 miTexto2?.text = ""
                 imgLetra?.setImageResource(R.drawable.diciembre)
             }
+            //Animales------------------------------------------------------
             "abeja" -> {
                 miTexto1?.text = "Abeja"
                 miTexto2?.text = ""
@@ -333,6 +336,77 @@ class nav_letras : Fragment(R.layout.fragment_nav_letras) {
                 miTexto1?.text = "Delfin"
                 miTexto2?.text = ""
                 imgLetra?.setImageResource(R.drawable.delfinsen)
+            }
+            //Verduras------------------------------------------------------
+            "aceituna" -> {
+                miTexto1?.text = "Aceituna"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.aceitunasen)
+            }
+            "ajo" -> {
+                miTexto1?.text = "Ajo"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.ajosen)
+            }
+            "calabaza" -> {
+                miTexto1?.text = "Calabaza"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.calabacitasen)
+            }
+            "camote" -> {
+                miTexto1?.text = "Camote"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.camotesen)
+            }
+            "cebolla" -> {
+                miTexto1?.text = "Cebolla"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.cebollasen)
+            }
+            "champinon" -> {
+                miTexto1?.text = "Champiñon"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.campinonsen)
+            }
+            "chayote" -> {
+                miTexto1?.text = "Chayote"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.chayotesen)
+            }
+            "pepino" -> {
+                miTexto1?.text = "Pepino"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.pepinosen)
+            }
+            "papa" -> {
+                miTexto1?.text = "Papa"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.papassen)
+            }
+            "zanahoria" -> {
+                miTexto1?.text = "Zanahoria"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.zanahoriasen)
+            }
+            "chile" -> {
+                miTexto1?.text = "Chile"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.delfinsen)
+            }
+            "espinacas" -> {
+                miTexto1?.text = "Espinacas"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.espinacassen)
+            }
+            "maiz" -> {
+                miTexto1?.text = "Maiz"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.elotesen)
+            }
+            "nopal" -> {
+                miTexto1?.text = "Nopal"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.nopalsen)
             }
             else -> {}
         }//Del when
