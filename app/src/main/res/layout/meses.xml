@@ -32,7 +32,7 @@
                 app:rowCount="6">
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/enero"
+                    android:id="@+id/conocer"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -70,7 +70,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/febrero"
+                    android:id="@+id/entender"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -107,7 +107,7 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/marzo"
+                    android:id="@+id/gustar"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -145,7 +145,7 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/abril"
+                    android:id="@+id/haber"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -180,7 +180,7 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/mayo"
+                    android:id="@+id/querer"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -214,7 +214,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/junio"
+                    android:id="@+id/poder"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -250,7 +250,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/julio"
+                    android:id="@+id/abrir"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -286,7 +286,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/agosto"
+                    android:id="@+id/aceptar"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -323,7 +323,7 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/septiembre"
+                    android:id="@+id/aburrir"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -359,7 +359,7 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/octubre"
+                    android:id="@+id/agradecer"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -397,7 +397,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/noviembre"
+                    android:id="@+id/ahogar"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -433,7 +433,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/diciembre"
+                    android:id="@+id/aguantar"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
