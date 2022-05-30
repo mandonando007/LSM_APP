@@ -74,64 +74,64 @@ class Senas : Fragment(R.layout.senas) {
         super.onViewCreated(view, savedInstanceState)
         letraSel = "Coco"
         btnCoco?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            setCurrentFragment("COCO"!!)
         }
         btnKiwi?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            setCurrentFragment("MAMEY"!!)
         }
         btnDurazno?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            setCurrentFragment("DURAZNO"!!)
         }
         btnFresa?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            setCurrentFragment("FRESA"!!)
         }
         btnGuayaba?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            setCurrentFragment("CAÑA"!!)
         }
         btnLimon?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            setCurrentFragment("LIMON"!!)
         }
         btnMandarina?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            setCurrentFragment("MANDARINA"!!)
         }
         btnMango?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            setCurrentFragment("MANGO"!!)
         }
         btnManzana?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            setCurrentFragment("MANZANA"!!)
         }
         btnmelon?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            setCurrentFragment("MELON"!!)
         }
         btnNaranja?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            setCurrentFragment("NARANJA"!!)
         }
         btnPiña?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            setCurrentFragment("PIÑA"!!)
         }
         btnPapaya?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            setCurrentFragment("PAPAYA"!!)
         }
         btnPera?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            setCurrentFragment("PERA"!!)
         }
         btnPlatano?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            setCurrentFragment("PLATANO"!!)
         }
         btnSandia?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            setCurrentFragment("SANDIA"!!)
         }
         btnUva?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            setCurrentFragment("UVA"!!)
         }
         btnPitaya?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            setCurrentFragment("LIMA"!!)
         }
         btnMora?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            setCurrentFragment("TORONJA"!!)
         }
         btnCereza?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            setCurrentFragment("CEREZA"!!)
         }
 
 
@@ -144,7 +144,7 @@ class Senas : Fragment(R.layout.senas) {
     private fun setCurrentFragment(ltrSelec : String  ){
         val bundle = Bundle()
         bundle.putString("carLetra", ltrSelec )
-        var frag = nav_letras()
+        var frag = FrutasFragment()
         frag.arguments = bundle
         var fr = getFragmentManager()?.beginTransaction()
         fr?.replace(R.id.nav_host_fragment_activity_main, frag)

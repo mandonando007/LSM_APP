@@ -47,15 +47,86 @@ class FrutasFragment : Fragment() {
 
         when(Letra) {
             "COCO" -> {
-                miTexto1?.text = "A"
-                miTexto2?.text = "Con la mano cerrada, se muestran las uñas y se estira el dedo pulgar hacia un lado. La palma mira al frente."
-                imgLetra?.setImageResource(R.drawable.coco)
+                miTexto1?.text = "COCO"
+                imgLetra?.setImageResource(R.drawable.se_acoco)
             }
-            "C" -> {
-                miTexto1?.text = "A"
-                miTexto2?.text = "Con la mano cerrada, se muestran las uñas y se estira el dedo pulgar hacia un lado. La palma mira al frente."
-                imgLetra?.setImageResource(R.drawable.coco)
+            "MAMEY" -> {
+                miTexto1?.text = "MAMEY"
+                imgLetra?.setImageResource(R.drawable.se_amamey)
             }
+            "DURAZNO" -> {
+                miTexto1?.text = "DURAZNO"
+                imgLetra?.setImageResource(R.drawable.se_adurazno)
+            }
+            "FRESA" -> {
+                miTexto1?.text = "FRESA"
+                imgLetra?.setImageResource(R.drawable.se_afresa)
+            }
+            "CAÑA" -> {
+                miTexto1?.text = "CAÑA"
+                imgLetra?.setImageResource(R.drawable.se_aca_a)
+            }
+            "LIMON"-> {
+                miTexto1?.text = "LIMON"
+                imgLetra?.setImageResource(R.drawable.se_alim_n)
+            }
+            "MANDARINA" -> {
+                miTexto1?.text ="MANDARINA"
+                imgLetra?.setImageResource(R.drawable.se_amandarina)
+            }
+            "MANGO" -> {
+                miTexto1?.text = "MANGO"
+                imgLetra?.setImageResource(R.drawable.se_amango)
+            }
+            "MANZANA" -> {
+                miTexto1?.text = "MANZANA"
+                imgLetra?.setImageResource(R.drawable.se_amanzana)
+            }
+            "MELON" -> {
+                miTexto1?.text ="MELON"
+                imgLetra?.setImageResource(R.drawable.se_amelon)
+            }
+            "NARANJA" -> {
+                miTexto1?.text = "NARANJA"
+                imgLetra?.setImageResource(R.drawable.se_anaranja)
+            }
+            "PIÑA" -> {
+                miTexto1?.text = "PIÑA"
+                imgLetra?.setImageResource(R.drawable.se_api_a)
+            }
+            "PAPAYA" -> {
+                miTexto1?.text = "PAPAYA"
+                imgLetra?.setImageResource(R.drawable.se_apapaya)
+            }
+            "PERA" -> {
+                miTexto1?.text = "PERA"
+                imgLetra?.setImageResource(R.drawable.se_apera)
+            }
+            "PLATANO" -> {
+                miTexto1?.text = "PLATANO"
+                imgLetra?.setImageResource(R.drawable.se_aplatano)
+            }
+            "SANDIA"-> {
+                miTexto1?.text = "SANDIA"
+                imgLetra?.setImageResource(R.drawable.se_asandia)
+            }
+            "UVA" -> {
+                miTexto1?.text = "UVA"
+                imgLetra?.setImageResource(R.drawable.se_auva)
+            }
+            "TORONJA"-> {
+                miTexto1?.text = "TORONJA"
+                imgLetra?.setImageResource(R.drawable.se_alima)
+            }
+            "LIMA"-> {
+                miTexto1?.text = "LIMA"
+                imgLetra?.setImageResource(R.drawable.se_atoronja)
+            }
+            "CEREZA"-> {
+                miTexto1?.text = "CEREZA"
+                imgLetra?.setImageResource(R.drawable.se_acereza)
+            }
+
 
             else -> {}
 
@@ -66,6 +137,13 @@ class FrutasFragment : Fragment() {
 
     override fun onAttach(context: Context) {
         super.onAttach(context)
+        super.onAttach(context)
+        if(arguments != null){
+            Letra = arguments?.getString("carLetra")
+        }
+        var fr = FrutasFragment().getFragmentManager()?.beginTransaction()
+        fr?.addToBackStack(null)
+        fr?.commit()
     }
 
     private fun obtenerImagen(nomImg: String){
