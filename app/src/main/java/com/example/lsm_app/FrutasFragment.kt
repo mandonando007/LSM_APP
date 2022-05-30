@@ -37,7 +37,7 @@ class FrutasFragment : Fragment() {
 
         val view =  inflater.inflate(R.layout.fragment_frutas, container, false)
 
-               miVista = view
+        miVista = view
         miTexto1 = miVista?.findViewById(R.id.lblLetra)
         miTexto2 = miVista?.findViewById(R.id.lblDescLetr)
 

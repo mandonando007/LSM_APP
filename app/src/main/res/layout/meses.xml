@@ -32,7 +32,7 @@
                 app:rowCount="6">
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/conocer"
+                    android:id="@+id/cardEnero"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -58,10 +58,11 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
+                            android:fontFamily="@font/alata"
                             android:text="ENERO"
                             android:textAlignment="center"
                             android:textColor="#FFFFFF"
-                            android:textSize="14dp"
+                            android:textSize="16sp"
                             android:textStyle="bold"></TextView>
 
 
@@ -70,7 +71,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/entender"
+                    android:id="@+id/cardFebrero"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -94,10 +95,11 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
+                            android:fontFamily="@font/alata"
                             android:text="FEBRERO"
                             android:textAlignment="center"
                             android:textColor="#FFFFFF"
-                            android:textSize="14dp"
+                            android:textSize="16sp"
                             android:textStyle="bold"></TextView>
 
 
@@ -107,7 +109,7 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/gustar"
+                    android:id="@+id/cardMarzo"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -132,10 +134,11 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
+                            android:fontFamily="@font/alata"
                             android:text="MARZO"
                             android:textAlignment="center"
                             android:textColor="#FFFFFF"
-                            android:textSize="14dp"
+                            android:textSize="16sp"
                             android:textStyle="bold"></TextView>
 
 
@@ -145,7 +148,7 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/haber"
+                    android:id="@+id/cardAbril"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -167,10 +170,11 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
+                            android:fontFamily="@font/alata"
                             android:text="ABRIL"
                             android:textAlignment="center"
                             android:textColor="#FFFFFF"
-                            android:textSize="14dp"
+                            android:textSize="16sp"
                             android:textStyle="bold"></TextView>
 
 
@@ -180,7 +184,7 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/querer"
+                    android:id="@+id/cardMayo"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -202,10 +206,11 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
+                            android:fontFamily="@font/alata"
                             android:text="MAYO"
                             android:textAlignment="center"
                             android:textColor="#FFFFFF"
-                            android:textSize="14dp"
+                            android:textSize="16sp"
                             android:textStyle="bold"></TextView>
 
 
@@ -214,7 +219,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/poder"
+                    android:id="@+id/cardJunio"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -238,10 +243,11 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
+                            android:fontFamily="@font/alata"
                             android:text="JUNIO"
                             android:textAlignment="center"
                             android:textColor="#FFFFFF"
-                            android:textSize="14dp"
+                            android:textSize="16sp"
                             android:textStyle="bold"></TextView>
 
 
@@ -250,7 +256,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/abrir"
+                    android:id="@+id/cardJulio"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -274,10 +280,11 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
+                            android:fontFamily="@font/alata"
                             android:text="JULIO"
                             android:textAlignment="center"
                             android:textColor="#FFFFFF"
-                            android:textSize="14dp"
+                            android:textSize="16sp"
                             android:textStyle="bold"></TextView>
 
 
@@ -286,7 +293,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/aceptar"
+                    android:id="@+id/cardAgosto"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -310,10 +317,11 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
+                            android:fontFamily="@font/alata"
                             android:text="AGOSTO"
                             android:textAlignment="center"
                             android:textColor="#FFFFFF"
-                            android:textSize="14dp"
+                            android:textSize="16sp"
                             android:textStyle="bold"></TextView>
 
 
@@ -323,7 +331,7 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/aburrir"
+                    android:id="@+id/cardSeptiembre"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -346,10 +354,11 @@
                             android:layout_width="171dp"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
+                            android:fontFamily="@font/alata"
                             android:text="SEPTIEMBRE"
                             android:textAlignment="center"
                             android:textColor="#FFFFFF"
-                            android:textSize="14dp"
+                            android:textSize="16sp"
                             android:textStyle="bold"></TextView>
 
 
@@ -359,7 +368,7 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/agradecer"
+                    android:id="@+id/cardOctubre"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -385,10 +394,11 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
+                            android:fontFamily="@font/alata"
                             android:text="OCTUBRE"
                             android:textAlignment="center"
                             android:textColor="#FFFFFF"
-                            android:textSize="14dp"
+                            android:textSize="16sp"
                             android:textStyle="bold"></TextView>
 
 
@@ -397,7 +407,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/ahogar"
+                    android:id="@+id/cardNoviembre"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -421,10 +431,11 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
+                            android:fontFamily="@font/alata"
                             android:text="NOVIEMBRE"
                             android:textAlignment="center"
                             android:textColor="#FFFFFF"
-                            android:textSize="14dp"
+                            android:textSize="16sp"
                             android:textStyle="bold"></TextView>
 
 
@@ -433,7 +444,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/aguantar"
+                    android:id="@+id/cardDiciembre"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -457,10 +468,11 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
+                            android:fontFamily="@font/alata"
                             android:text="DICIEMBRE"
                             android:textAlignment="center"
                             android:textColor="#FFFFFF"
-                            android:textSize="14dp"
+                            android:textSize="16sp"
                             android:textStyle="bold"></TextView>
 
 

@@ -41,17 +41,17 @@ class Meses : Fragment(R.layout.meses) {
         val vista = inflater.inflate(R.layout.meses, container, false)
         miview = vista
 
-        btnEnero = miview?.findViewById(R.id.conocer)
-        btnFebrero = miview?.findViewById(R.id.entender)
-        btnMarzo = miview?.findViewById(R.id.gustar)
-        btnAbril= miview?.findViewById(R.id.haber)
-        btnMayo = miview?.findViewById(R.id.querer)
-        btnJunio = miview?.findViewById(R.id.poder)
-        btnJulio = miview?.findViewById(R.id.abrir)
-        btnAgosto= miview?.findViewById(R.id.aceptar)
-        btnSeptiembre = miview?.findViewById(R.id.aburrir)
-        btnOctubre = miview?.findViewById(R.id.agradecer)
-        btnNoviembre = miview?.findViewById(R.id.ahogar)
+        btnEnero = miview?.findViewById(R.id.cardEnero)
+        btnFebrero = miview?.findViewById(R.id.cardFebrero)
+        btnMarzo = miview?.findViewById(R.id.cardMarzo)
+        btnAbril= miview?.findViewById(R.id.cardAbril)
+        btnMayo = miview?.findViewById(R.id.cardMayo)
+        btnJunio = miview?.findViewById(R.id.cardJunio)
+        btnJulio = miview?.findViewById(R.id.cardJulio)
+        btnAgosto= miview?.findViewById(R.id.cardAgosto)
+        btnSeptiembre = miview?.findViewById(R.id.cardSeptiembre)
+        btnOctubre = miview?.findViewById(R.id.cardOctubre)
+        btnNoviembre = miview?.findViewById(R.id.cardNoviembre)
         btnDiciembre = miview?.findViewById(R.id.amar)
 
 
