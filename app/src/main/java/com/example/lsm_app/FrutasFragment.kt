@@ -46,11 +46,17 @@ class FrutasFragment : Fragment() {
 
 
         when(Letra) {
-            "Coco" -> {
+            "COCO" -> {
                 miTexto1?.text = "A"
                 miTexto2?.text = "Con la mano cerrada, se muestran las uñas y se estira el dedo pulgar hacia un lado. La palma mira al frente."
                 imgLetra?.setImageResource(R.drawable.coco)
             }
+            "C" -> {
+                miTexto1?.text = "A"
+                miTexto2?.text = "Con la mano cerrada, se muestran las uñas y se estira el dedo pulgar hacia un lado. La palma mira al frente."
+                imgLetra?.setImageResource(R.drawable.coco)
+            }
+
             else -> {}
 
     }
