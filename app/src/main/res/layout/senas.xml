@@ -103,13 +103,13 @@
                             android:layout_width="68dp"
                             android:layout_height="68dp"
                             android:layout_gravity="center_horizontal"
-                            android:src="@drawable/kiwi"></ImageView>
+                            android:src="@drawable/mamey"></ImageView>
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="KIWI"
+                            android:text="MAMEY"
                             android:textAlignment="center"
                             android:textColor="#FFFFFF"
                             android:textSize="14dp"
@@ -228,13 +228,13 @@
                             android:layout_width="68dp"
                             android:layout_height="68dp"
                             android:layout_gravity="center_horizontal"
-                            android:src="@drawable/guayaba"></ImageView>
+                            android:src="@drawable/cana_de_azucar"></ImageView>
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="GUAYABA"
+                            android:text="CAÑA"
                             android:textAlignment="center"
                             android:textColor="#FFFFFF"
                             android:textSize="14dp"
@@ -763,13 +763,13 @@
                             android:layout_width="68dp"
                             android:layout_height="68dp"
                             android:layout_gravity="center_horizontal"
-                            android:src="@drawable/pitaya"></ImageView>
+                            android:src="@drawable/lima"></ImageView>
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="PITAYA"
+                            android:text="LIMA"
                             android:textAlignment="center"
                             android:textColor="#FFFFFF"
                             android:textSize="14dp"
@@ -806,13 +806,13 @@
                             android:layout_width="68dp"
                             android:layout_height="68dp"
                             android:layout_gravity="center_horizontal"
-                            android:src="@drawable/mora"></ImageView>
+                            android:src="@drawable/toronja"></ImageView>
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="MORA"
+                            android:text="TORONJA"
                             android:textAlignment="center"
                             android:textColor="#FFFFFF"
                             android:textSize="14dp"
