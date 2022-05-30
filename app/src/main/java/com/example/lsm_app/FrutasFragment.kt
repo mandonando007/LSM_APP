@@ -9,6 +9,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import com.google.android.gms.tasks.OnFailureListener
 import com.google.android.gms.tasks.OnSuccessListener
@@ -26,9 +27,6 @@ class FrutasFragment : Fragment() {
     var imgLetra : ImageView? = null
     var Letra : String? = "Letra"
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -131,31 +129,31 @@ class FrutasFragment : Fragment() {
 
             "LUNES" -> {
                 miTexto1?.text = "LUNES"
-                imgLetra?.setImageResource(R.drawable.se_apera)
+                imgLetra?.setImageResource(R.drawable.se_lunes)
             }
             "MARTES" -> {
                 miTexto1?.text ="MARTES"
-                imgLetra?.setImageResource(R.drawable.se_aplatano)
+                imgLetra?.setImageResource(R.drawable.se_martes)
             }
             "MIERCOLES"-> {
                 miTexto1?.text = "MIERCOLES"
-                imgLetra?.setImageResource(R.drawable.se_asandia)
+                imgLetra?.setImageResource(R.drawable.se_miercoles)
             }
             "JUEVES" -> {
                 miTexto1?.text ="JUEVES"
-                imgLetra?.setImageResource(R.drawable.se_auva)
+                imgLetra?.setImageResource(R.drawable.se_jueves)
             }
             "VIERNES"-> {
                 miTexto1?.text = "VIERNES"
-                imgLetra?.setImageResource(R.drawable.se_alima)
+                imgLetra?.setImageResource(R.drawable.viernes)
             }
             "SABADO" -> {
                 miTexto1?.text ="SABADO"
-                imgLetra?.setImageResource(R.drawable.se_atoronja)
+                imgLetra?.setImageResource(R.drawable.se__sabado)
             }
             "DOMINGO"-> {
                 miTexto1?.text = "DOMINGO"
-                imgLetra?.setImageResource(R.drawable.se_acereza)
+                imgLetra?.setImageResource(R.drawable.se_domindo)
             }
 
             else -> {}
@@ -165,15 +163,22 @@ class FrutasFragment : Fragment() {
 
   }
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        Toast.makeText(context , "+++++++++ Fragmento Frutas ++++++++", Toast.LENGTH_SHORT).show()
+    }
+
+
     override fun onAttach(context: Context) {
-        super.onAttach(context)
-        super.onAttach(context)
+       super.onAttach(context)
         if(arguments != null){
             Letra = arguments?.getString("carLetra")
         }
-        var fr = FrutasFragment().getFragmentManager()?.beginTransaction()
-        fr?.addToBackStack(null)
-        fr?.commit()
+       // var fr = FrutasFragment().getFragmentManager()?.beginTransaction()
+        //fr?.addToBackStack(null)
+        //fr?.commit()
+
     }
 
     private fun obtenerImagen(nomImg: String){

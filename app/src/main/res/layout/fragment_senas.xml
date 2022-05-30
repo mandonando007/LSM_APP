@@ -349,7 +349,7 @@
                             android:layout_width="68dp"
                             android:layout_height="68dp"
                             android:layout_gravity="center_horizontal"
-                            android:src="@drawable/junio"></ImageView>
+                            android:src="@drawable/mesess"></ImageView>
 
                         <TextView
                             android:layout_width="180dp"

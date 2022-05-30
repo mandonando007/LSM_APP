@@ -83,12 +83,14 @@ class Dias : Fragment(R.layout.dias) {
     private fun setCurrentFragment(ltrSelec : String  ){
         val bundle = Bundle()
         bundle.putString("carLetra", ltrSelec )
-        var frag = nav_letras()
+        var frag = FrutasFragment()
         frag.arguments = bundle
         var fr = getFragmentManager()?.beginTransaction()
         fr?.replace(R.id.nav_host_fragment_activity_main, frag)
         fr?.addToBackStack(null)
+
         fr?.commit()
+
     }
 
 

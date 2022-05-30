@@ -8,7 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.cardview.widget.CardView
 
-class Senas : Fragment(R.layout.senas) {
+class Senas : Fragment() {
 
     private var letraSel : String? =  ""
 
@@ -34,10 +34,6 @@ class Senas : Fragment(R.layout.senas) {
     var btnPera: CardView? = null
     var btnPlatano: CardView? = null
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-
-    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -137,9 +133,6 @@ class Senas : Fragment(R.layout.senas) {
 
     }
 
-    override fun onAttach(context: Context) {
-        super.onAttach(context)
-    }
 
     private fun setCurrentFragment(ltrSelec : String  ){
         val bundle = Bundle()
@@ -151,6 +144,4 @@ class Senas : Fragment(R.layout.senas) {
         fr?.addToBackStack(null)
         fr?.commit()
     }
-
-
 }
