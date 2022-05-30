@@ -37,7 +37,7 @@
                 app:rowCount="6">
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/abeja"
+                    android:id="@+id/cardAbeja"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -81,7 +81,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/buho"
+                    android:id="@+id/cardBuho"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -123,7 +123,7 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/caballo"
+                    android:id="@+id/cardCaballo"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -166,7 +166,7 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/conejo"
+                    android:id="@+id/cardConejo"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -207,7 +207,7 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/elefante"
+                    android:id="@+id/cardElefante"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -247,48 +247,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/gato"
-                    android:layout_width="0dp"
-                    android:layout_height="0dp"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginRight="16dp"
-                    android:layout_marginBottom="10dp"
-                    android:backgroundTint="#673AB7"
-                    android:foreground="?selectableItemBackground"
-                    app:cardCornerRadius="8dp"
-                    app:cardElevation="6dp"
-                    app:layout_columnWeight="1"
-                    app:layout_rowWeight="1">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal|center_vertical"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="68dp"
-                            android:layout_height="68dp"
-                            android:layout_gravity="center_horizontal"
-                            android:src="@drawable/gato"></ImageView>
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center_horizontal"
-                            android:text="GATO"
-                            android:textAlignment="center"
-                            android:textColor="#FFFFFF"
-                            android:textSize="14dp"
-                            android:textStyle="bold"></TextView>
-
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:id="@+id/leon"
+                    android:id="@+id/cardLeon"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -329,7 +288,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/mono"
+                    android:id="@+id/cardMono"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -370,7 +329,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/pato"
+                    android:id="@+id/cardPato"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -411,48 +370,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/perro"
-                    android:layout_width="0dp"
-                    android:layout_height="0dp"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginRight="16dp"
-                    android:layout_marginBottom="10dp"
-                    android:backgroundTint="#77EC7B"
-                    android:foreground="?selectableItemBackground"
-                    app:cardCornerRadius="8dp"
-                    app:cardElevation="6dp"
-                    app:layout_columnWeight="1"
-                    app:layout_rowWeight="1">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal|center_vertical"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="68dp"
-                            android:layout_height="68dp"
-                            android:layout_gravity="center_horizontal"
-                            android:src="@drawable/perro"></ImageView>
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center_horizontal"
-                            android:text="PERRO"
-                            android:textAlignment="center"
-                            android:textColor="#FFFFFF"
-                            android:textSize="14dp"
-                            android:textStyle="bold"></TextView>
-
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:id="@+id/pollo"
+                    android:id="@+id/cardPollo"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -494,131 +412,7 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/raton"
-                    android:layout_width="0dp"
-                    android:layout_height="0dp"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginRight="16dp"
-                    android:layout_marginBottom="10dp"
-                    android:backgroundTint="#EC7550"
-                    android:foreground="?selectableItemBackground"
-                    app:cardCornerRadius="8dp"
-                    app:cardElevation="6dp"
-                    app:layout_columnWeight="1"
-                    app:layout_rowWeight="1">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal|center_vertical"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="68dp"
-                            android:layout_height="68dp"
-                            android:layout_gravity="center_horizontal"
-                            android:src="@drawable/raton"></ImageView>
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center_horizontal"
-                            android:text="RATON"
-                            android:textAlignment="center"
-                            android:textColor="#FFFFFF"
-                            android:textSize="14dp"
-                            android:textStyle="bold"></TextView>
-
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:id="@+id/tortuga"
-                    android:layout_width="0dp"
-                    android:layout_height="0dp"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginRight="16dp"
-                    android:layout_marginBottom="10dp"
-                    android:backgroundTint="#E86CFD"
-                    android:foreground="?selectableItemBackground"
-                    app:cardCornerRadius="8dp"
-                    app:cardElevation="6dp"
-                    app:layout_columnWeight="1"
-                    app:layout_rowWeight="1">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal|center_vertical"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="68dp"
-                            android:layout_height="68dp"
-                            android:layout_gravity="center_horizontal"
-                            android:src="@drawable/tortuga"></ImageView>
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center_horizontal"
-                            android:text="TORTUGA"
-                            android:textAlignment="center"
-                            android:textColor="#FFFFFF"
-                            android:textSize="14dp"
-                            android:textStyle="bold"></TextView>
-
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:id="@+id/serpiente"
-                    android:layout_width="0dp"
-                    android:layout_height="0dp"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginRight="16dp"
-                    android:layout_marginBottom="10dp"
-                    android:backgroundTint="#2881ED"
-                    android:foreground="?selectableItemBackground"
-                    app:cardCornerRadius="8dp"
-                    app:cardElevation="6dp"
-                    app:layout_columnWeight="1"
-                    app:layout_rowWeight="1">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal|center_vertical"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="68dp"
-                            android:layout_height="68dp"
-                            android:layout_gravity="center_horizontal"
-                            android:src="@drawable/serpiente"></ImageView>
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center_horizontal"
-                            android:text="SERPIENTE"
-                            android:textAlignment="center"
-                            android:textColor="#FFFFFF"
-                            android:textSize="14dp"
-
-                            android:textStyle="bold"></TextView>
-
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:id="@+id/ballena"
+                    android:id="@+id/cardBallena"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -659,48 +453,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/vaca"
-                    android:layout_width="0dp"
-                    android:layout_height="0dp"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginRight="16dp"
-                    android:layout_marginBottom="10dp"
-                    android:backgroundTint="#F1AC47"
-                    android:foreground="?selectableItemBackground"
-                    app:cardCornerRadius="8dp"
-                    app:cardElevation="6dp"
-                    app:layout_columnWeight="1"
-                    app:layout_rowWeight="1">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal|center_vertical"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="68dp"
-                            android:layout_height="68dp"
-                            android:layout_gravity="center_horizontal"
-                            android:src="@drawable/vaca"></ImageView>
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center_horizontal"
-                            android:text="VACA"
-                            android:textAlignment="center"
-                            android:textColor="#FFFFFF"
-                            android:textSize="14dp"
-                            android:textStyle="bold"></TextView>
-
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:id="@+id/ardilla"
+                    android:id="@+id/cardArdilla"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -741,7 +494,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/oso"
+                    android:id="@+id/cardOso"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -783,7 +536,7 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/pajaro"
+                    android:id="@+id/cardPajaro"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -825,7 +578,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/delfin"
+                    android:id="@+id/cardDelfin"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"

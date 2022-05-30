@@ -54,7 +54,7 @@ class Colores : Fragment(R.layout.colores) {
         btnRojo = miview?.findViewById(R.id.papasFritas)
         btnVioleta = miview?.findViewById(R.id.sopa)
         btnAzulC = miview?.findViewById(R.id.cafe)
-        btnDorado = miview?.findViewById(R.id.pollo)
+        btnDorado = miview?.findViewById(R.id.cardPollo)
         btnBlanco= miview?.findViewById(R.id.spaguetti)
 
         return  vista

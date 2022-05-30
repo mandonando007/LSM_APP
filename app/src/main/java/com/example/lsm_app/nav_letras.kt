@@ -204,6 +204,136 @@ class nav_letras : Fragment(R.layout.fragment_nav_letras) {
                 miTexto2?.text = "Con la mano cerrada, el dedo índice estirado y la palma al frente, se dibuja una letra Z en el aire.."
                 imgLetra?.setImageResource(R.drawable.z)
             }
+            "Enero" -> {
+                miTexto1?.text = "Enero"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.enero)
+            }
+            "Febrero" -> {
+                miTexto1?.text = "Febrero"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.febrero)
+            }
+            "Marzo" -> {
+                miTexto1?.text = "Marzo"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.marzo)
+            }
+            "Abril" -> {
+                miTexto1?.text = "Abril"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.abril)
+            }
+            "Mayo" -> {
+                miTexto1?.text = "Mayo"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.mayo)
+            }
+            "Junio" -> {
+                miTexto1?.text = "Junio"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.junio)
+            }
+            "Julio" -> {
+                miTexto1?.text = "Julio"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.julio)
+            }
+            "Agosto" -> {
+                miTexto1?.text = "Agosto"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.agosto)
+            }
+            "Septiembre" -> {
+                miTexto1?.text = "Septiembre"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.septiembre)
+            }
+            "Octubre" -> {
+                miTexto1?.text = "Octubre"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.octubre)
+            }
+            "Noviembre" -> {
+                miTexto1?.text = "Noviembre"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.noviembre)
+            }
+            "Diciembre" -> {
+                miTexto1?.text = "Diciembre"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.diciembre)
+            }
+            "abeja" -> {
+                miTexto1?.text = "Abeja"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.abejasen)
+            }
+            "buho" -> {
+                miTexto1?.text = "Buho"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.buhosen)
+            }
+            "caballo" -> {
+                miTexto1?.text = "Caballo"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.caballosen)
+            }
+            "conejo" -> {
+                miTexto1?.text = "Conejo"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.conejosen)
+            }
+            "elefante" -> {
+                miTexto1?.text = "Elefante"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.elefantesen)
+            }
+            "leon" -> {
+                miTexto1?.text = "Leon"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.leonsen)
+            }
+            "mono" -> {
+                miTexto1?.text = "Mono"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.monosen)
+            }
+            "pato" -> {
+                miTexto1?.text = "Pato"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.patosen)
+            }
+            "pollo" -> {
+                miTexto1?.text = "Pollo"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.pollosen)
+            }
+            "ballena" -> {
+                miTexto1?.text = "Ballena"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.ballenasen)
+            }
+            "ardilla" -> {
+                miTexto1?.text = "Ardilla"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.ardillasen)
+            }
+            "oso" -> {
+                miTexto1?.text = "Oso"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.ososen)
+            }
+            "pajaro" -> {
+                miTexto1?.text = "Pajaro"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.pajarosen)
+            }
+            "delfin" -> {
+                miTexto1?.text = "Delfin"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.delfinsen)
+            }
             else -> {}
         }//Del when
         return view

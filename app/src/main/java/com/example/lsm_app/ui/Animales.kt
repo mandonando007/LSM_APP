@@ -12,29 +12,24 @@ import com.example.lsm_app.nav_letras
 
 class Animales : Fragment(R.layout.animales) {
 
-    private var letraSel : String? =  ""
+    private var animal : String? =  ""
+
 
     var miview: View? = null
-    var btnCoco: CardView? = null
-    var btnKiwi: CardView? = null
-    var btnDurazno: CardView? = null
-    var btnFresa: CardView? = null
-    var btnGuayaba: CardView? = null
-    var btnLimon: CardView? = null
-    var btnMandarina: CardView? = null
-    var btnMango: CardView? = null
-    var btnSandia: CardView? = null
-    var btnUva: CardView? = null
-    var btnPitaya: CardView? = null
-    var btnMora: CardView? = null
-    var btnCereza: CardView? = null
-    var btnManzana: CardView? = null
-    var btnmelon: CardView? = null
-    var btnNaranja: CardView? = null
-    var btnPiña: CardView? = null
-    var btnPapaya: CardView? = null
-    var btnPera: CardView? = null
-    var btnPlatano: CardView? = null
+    var btnAbeja: CardView? = null
+    var btnBuho: CardView? = null
+    var btnCaballo: CardView? = null
+    var btnConejo: CardView? = null
+    var btnElefante: CardView? = null
+    var btnLeon: CardView? = null
+    var btnMono: CardView? = null
+    var btnPato: CardView? = null
+    var btnPollo: CardView? = null
+    var btnBallena: CardView? = null
+    var btnArdilla: CardView? = null
+    var btnOso: CardView? = null
+    var btnPajaro: CardView? = null
+    var btnDelfin: CardView? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -47,96 +42,86 @@ class Animales : Fragment(R.layout.animales) {
     ): View? {
         val vista = inflater.inflate(R.layout.animales, container, false)
         miview = vista
+        btnAbeja = miview?.findViewById(R.id.cardAbeja)
+        btnBuho = miview?.findViewById(R.id.cardBuho)
+        btnCaballo = miview?.findViewById(R.id.cardCaballo)
+        btnConejo = miview?.findViewById(R.id.cardConejo)
+        btnElefante = miview?.findViewById(R.id.cardElefante)
+        btnLeon = miview?.findViewById(R.id.cardLeon)
+        btnMono = miview?.findViewById(R.id.cardMono)
+        btnPato = miview?.findViewById(R.id.cardPato)
+        btnPollo = miview?.findViewById(R.id.cardPollo)
+        btnBallena = miview?.findViewById(R.id.cardBallena)
+        btnArdilla = miview?.findViewById(R.id.cardArdilla)
+        btnOso = miview?.findViewById(R.id.cardOso)
+        btnPajaro = miview?.findViewById(R.id.cardPajaro)
+        btnDelfin = miview?.findViewById(R.id.cardDelfin)
 
-        btnCoco = miview?.findViewById(R.id.arroz)
-        btnKiwi = miview?.findViewById(R.id.cereal)
-        btnDurazno = miview?.findViewById(R.id.ensalada)
-        btnFresa = miview?.findViewById(R.id.hamburgesa)
-        btnGuayaba = miview?.findViewById(R.id.helado)
-        btnLimon = miview?.findViewById(R.id.huevo)
-        btnMandarina = miview?.findViewById(R.id.jugo)
-        btnMango = miview?.findViewById(R.id.leche)
-        btnManzana = miview?.findViewById(R.id.pan)
-        btnmelon = miview?.findViewById(R.id.papasFritas)
-        btnNaranja = miview?.findViewById(R.id.sopa)
-        btnPiña = miview?.findViewById(R.id.cafe)
-        btnPapaya = miview?.findViewById(R.id.pollo)
-        btnPera = miview?.findViewById(R.id.spaguetti)
-        btnPlatano = miview?.findViewById(R.id.taco)
-        btnSandia = miview?.findViewById(R.id.tortilla)
-        btnUva = miview?.findViewById(R.id.carne)
-        btnPitaya = miview?.findViewById(R.id.pizza)
-        btnMora = miview?.findViewById(R.id.refresco)
-        btnCereza = miview?.findViewById(R.id.torta)
+
+
         return  vista
     }
 
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        letraSel = "Coco"
-        btnCoco?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
-        }
-        btnKiwi?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
-        }
-        btnDurazno?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
-        }
-        btnFresa?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
-        }
-        btnGuayaba?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
-        }
-        btnLimon?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
-        }
-        btnMandarina?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
-        }
-        btnMango?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
-        }
-        btnManzana?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
-        }
-        btnmelon?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
-        }
-        btnNaranja?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
-        }
-        btnPiña?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
-        }
-        btnPapaya?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
-        }
-        btnPera?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
-        }
-        btnPlatano?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
-        }
-        btnSandia?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
-        }
-        btnUva?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
-        }
-        btnPitaya?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
-        }
-        btnMora?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
-        }
-        btnCereza?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
-        }
 
-
+        btnAbeja?.setOnClickListener {
+            animal = "abeja"
+            setCurrentFragment(animal!!)
+        }
+        btnBuho?.setOnClickListener {
+            animal = "buho"
+            setCurrentFragment(animal!!)
+        }
+        btnCaballo?.setOnClickListener {
+            animal = "caballo"
+            setCurrentFragment(animal!!)
+        }
+        btnConejo?.setOnClickListener {
+            animal = "conejo"
+            setCurrentFragment(animal!!)
+        }
+        btnElefante?.setOnClickListener {
+            animal = "elefante"
+            setCurrentFragment(animal!!)
+        }
+        btnLeon?.setOnClickListener {
+            animal = "leon"
+            setCurrentFragment(animal!!)
+        }
+        btnMono?.setOnClickListener {
+            animal = "mono"
+            setCurrentFragment(animal!!)
+        }
+        btnPato?.setOnClickListener {
+            animal = "pato"
+            setCurrentFragment(animal!!)
+        }
+        btnPollo?.setOnClickListener {
+            animal = "pollo"
+            setCurrentFragment(animal!!)
+        }
+        btnBallena?.setOnClickListener {
+            animal = "ballena"
+            setCurrentFragment(animal!!)
+        }
+        btnArdilla?.setOnClickListener {
+            animal = "ardilla"
+            setCurrentFragment(animal!!)
+        }
+        btnOso?.setOnClickListener {
+            animal = "oso"
+            setCurrentFragment(animal!!)
+        }
+        btnPajaro?.setOnClickListener {
+            animal = "pajaro"
+            setCurrentFragment(animal!!)
+        }
+        btnDelfin?.setOnClickListener {
+            animal = "delfin"
+            setCurrentFragment(animal!!)
+        }
     }
 
     override fun onAttach(context: Context) {

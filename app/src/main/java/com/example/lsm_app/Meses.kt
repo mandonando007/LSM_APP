@@ -52,7 +52,7 @@ class Meses : Fragment(R.layout.meses) {
         btnSeptiembre = miview?.findViewById(R.id.cardSeptiembre)
         btnOctubre = miview?.findViewById(R.id.cardOctubre)
         btnNoviembre = miview?.findViewById(R.id.cardNoviembre)
-        btnDiciembre = miview?.findViewById(R.id.amar)
+        btnDiciembre = miview?.findViewById(R.id.cardDiciembre)
 
 
         return  vista
@@ -61,42 +61,54 @@ class Meses : Fragment(R.layout.meses) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        letraSel = "Coco"
+
         btnEnero?.setOnClickListener {
+            letraSel = "Enero"
             setCurrentFragment(letraSel!!)
         }
         btnFebrero?.setOnClickListener {
+            letraSel = "Febrero"
             setCurrentFragment(letraSel!!)
         }
         btnMarzo?.setOnClickListener {
+            letraSel = "Marzo"
             setCurrentFragment(letraSel!!)
         }
         btnAbril?.setOnClickListener {
+            letraSel = "Abril"
             setCurrentFragment(letraSel!!)
         }
         btnMayo?.setOnClickListener {
+            letraSel = "Mayo"
             setCurrentFragment(letraSel!!)
         }
         btnJunio?.setOnClickListener {
+            letraSel = "Junio"
             setCurrentFragment(letraSel!!)
         }
         btnJulio?.setOnClickListener {
+            letraSel = "Julio"
             setCurrentFragment(letraSel!!)
         }
         btnAgosto?.setOnClickListener {
-        setCurrentFragment(letraSel!!)
+            letraSel = "Agosto"
+            setCurrentFragment(letraSel!!)
         }
         btnSeptiembre?.setOnClickListener {
+            letraSel = "Septiembre"
             setCurrentFragment(letraSel!!)
         }
 
         btnOctubre?.setOnClickListener {
+            letraSel = "Octubre"
             setCurrentFragment(letraSel!!)
         }
         btnNoviembre?.setOnClickListener {
+            letraSel = "Noviembre"
             setCurrentFragment(letraSel!!)
         }
         btnDiciembre?.setOnClickListener {
+            letraSel = "Diciembre"
             setCurrentFragment(letraSel!!)
         }
     }

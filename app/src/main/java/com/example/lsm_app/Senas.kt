@@ -1,6 +1,5 @@
 package com.example.lsm_app
 
-import android.content.Context
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -54,7 +53,7 @@ class Senas : Fragment() {
         btnmelon = miview?.findViewById(R.id.papasFritas)
         btnNaranja = miview?.findViewById(R.id.sopa)
         btnPiña = miview?.findViewById(R.id.cafe)
-        btnPapaya = miview?.findViewById(R.id.pollo)
+        btnPapaya = miview?.findViewById(R.id.cardPollo)
         btnPera = miview?.findViewById(R.id.spaguetti)
         btnPlatano = miview?.findViewById(R.id.taco)
         btnSandia = miview?.findViewById(R.id.tortilla)

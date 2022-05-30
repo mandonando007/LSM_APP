@@ -125,8 +125,6 @@ class FrutasFragment : Fragment() {
                 imgLetra?.setImageResource(R.drawable.se_acereza)
             }
 
-
-
             "LUNES" -> {
                 miTexto1?.text = "LUNES"
                 imgLetra?.setImageResource(R.drawable.se_lunes)
