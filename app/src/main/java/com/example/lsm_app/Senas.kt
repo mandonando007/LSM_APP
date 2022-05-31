@@ -51,7 +51,7 @@ class Senas : Fragment() {
         btnMango = miview?.findViewById(R.id.cardLeche)
         btnManzana = miview?.findViewById(R.id.cardPan)
         btnmelon = miview?.findViewById(R.id.cardPastel)
-        btnNaranja = miview?.findViewById(R.id.cardSopa)
+        btnNaranja = miview?.findViewById(R.id.cardNaranja)
         btnPiña = miview?.findViewById(R.id.cardCafe)
         btnPapaya = miview?.findViewById(R.id.cardPollo)
         btnPera = miview?.findViewById(R.id.cardSpaguetti)

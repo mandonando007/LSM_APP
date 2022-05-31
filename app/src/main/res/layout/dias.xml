@@ -73,7 +73,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cardSopa"
+                    android:id="@+id/cardNaranja"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -110,7 +110,7 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/miercoles"
+                    android:id="@+id/cardAzul"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -148,7 +148,7 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/jueves"
+                    android:id="@+id/cardCafee"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -183,7 +183,7 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/viernes"
+                    android:id="@+id/cardGris"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -217,7 +217,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/sabado"
+                    android:id="@+id/cardMorado"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -253,7 +253,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/domingo"
+                    android:id="@+id/cardRosa"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"

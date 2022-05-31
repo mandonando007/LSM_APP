@@ -15,7 +15,7 @@ class Colores : Fragment(R.layout.colores) {
 
     var miview: View? = null
     var btnAmarillo: CardView? = null
-    var btnNaranj: CardView? = null
+    var btnNaranja: CardView? = null
     var btnAzul: CardView? = null
     var btnCafe: CardView? = null
     var btnGris: CardView? = null
@@ -25,7 +25,7 @@ class Colores : Fragment(R.layout.colores) {
     var btnRosa: CardView? = null
     var btnRojo: CardView? = null
     var btnVioleta: CardView? = null
-    var btnAzulC: CardView? = null
+    var btnPlateado: CardView? = null
     var btnDorado: CardView? = null
     var btnBlanco: CardView? = null
 
@@ -42,20 +42,20 @@ class Colores : Fragment(R.layout.colores) {
         val vista = inflater.inflate(R.layout.colores, container, false)
         miview = vista
 
-        btnAmarillo = miview?.findViewById(R.id.cardArroz)
-        btnNaranj = miview?.findViewById(R.id.cardAgua)
-        btnAzul = miview?.findViewById(R.id.cardEnsalada)
-        btnCafe = miview?.findViewById(R.id.cardHamburgesa)
-        btnGris = miview?.findViewById(R.id.cardPostre)
-        btnMorado = miview?.findViewById(R.id.cardHuevo)
-        btnNegro = miview?.findViewById(R.id.cardChocolate)
-        btnVerde = miview?.findViewById(R.id.cardLeche)
-        btnRosa = miview?.findViewById(R.id.cardPan)
-        btnRojo = miview?.findViewById(R.id.cardPastel)
-        btnVioleta = miview?.findViewById(R.id.cardSopa)
-        btnAzulC = miview?.findViewById(R.id.cardCafe)
-        btnDorado = miview?.findViewById(R.id.cardPollo)
-        btnBlanco= miview?.findViewById(R.id.cardSpaguetti)
+        btnAmarillo = miview?.findViewById(R.id.cardAmarillo)
+        btnNaranja = miview?.findViewById(R.id.cardNaranja)
+        btnAzul = miview?.findViewById(R.id.cardAzul)
+        btnCafe = miview?.findViewById(R.id.cardCafe)
+        btnGris = miview?.findViewById(R.id.cardGris)
+        btnMorado = miview?.findViewById(R.id.cardMorado)
+        btnNegro = miview?.findViewById(R.id.cardNegro)
+        btnVerde = miview?.findViewById(R.id.cardVerde)
+        btnRosa = miview?.findViewById(R.id.cardRosa)
+        btnRojo = miview?.findViewById(R.id.cardRojo)
+        btnVioleta = miview?.findViewById(R.id.cardVioleta)
+        btnPlateado = miview?.findViewById(R.id.cardPlateado)
+        btnDorado = miview?.findViewById(R.id.cardDorado)
+        btnBlanco= miview?.findViewById(R.id.cardBlanco)
 
         return  vista
     }
@@ -67,7 +67,7 @@ class Colores : Fragment(R.layout.colores) {
         btnAmarillo?.setOnClickListener {
             setCurrentFragment(letraSel!!)
         }
-        btnNaranj?.setOnClickListener {
+        btnNaranja?.setOnClickListener {
             setCurrentFragment(letraSel!!)
         }
         btnAzul?.setOnClickListener {
@@ -97,7 +97,7 @@ class Colores : Fragment(R.layout.colores) {
         btnVioleta?.setOnClickListener {
             setCurrentFragment(letraSel!!)
         }
-        btnAzulC?.setOnClickListener {
+        btnPlateado?.setOnClickListener {
             setCurrentFragment(letraSel!!)
         }
         btnMorado?.setOnClickListener {

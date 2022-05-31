@@ -62,7 +62,7 @@ class Alimentos : Fragment(R.layout.alimentos) {
         btnleche = miview?.findViewById(R.id.cardLeche)
         btnPan = miview?.findViewById(R.id.cardPan)
         btnPastel = miview?.findViewById(R.id.cardPastel)
-        btnSopa = miview?.findViewById(R.id.cardSopa)
+        btnSopa = miview?.findViewById(R.id.cardNaranja)
         btnCafe = miview?.findViewById(R.id.cardCafe)
         btnPollo = miview?.findViewById(R.id.cardPollo)
         btnSpaguetti = miview?.findViewById(R.id.cardSpaguetti)
