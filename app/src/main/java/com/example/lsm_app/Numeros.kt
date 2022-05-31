@@ -11,10 +11,9 @@ import androidx.cardview.widget.CardView
 
 class Numeros : Fragment(R.layout.numeros) {
 
-    private var letraSel : String? =  ""
+    private var numSel : String? =  ""
 
     var miview: View? = null
-    var btnCero: CardView? = null
     var btnUno: CardView? = null
     var btnDos: CardView? = null
     var btnTres: CardView? = null
@@ -24,6 +23,17 @@ class Numeros : Fragment(R.layout.numeros) {
     var btnSiete: CardView? = null
     var btnOcho: CardView? = null
     var btnNueve: CardView? = null
+    var btnDiez: CardView? = null
+    var btnOnce: CardView? = null
+    var btnDoce: CardView? = null
+    var btnTrece: CardView? = null
+    var btnCatorce: CardView? = null
+    var btnQuince: CardView? = null
+    var btnDieciseis: CardView? = null
+    var btnDiecisiete: CardView? = null
+    var btnDieciocho: CardView? = null
+    var btnDiecinueve: CardView? = null
+    var btnVeinte: CardView? = null
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -38,16 +48,27 @@ class Numeros : Fragment(R.layout.numeros) {
         val vista = inflater.inflate(R.layout.numeros, container, false)
         miview = vista
 
-        btnCero = miview?.findViewById(R.id.cero)
-        btnUno = miview?.findViewById(R.id.uno)
-        btnDos = miview?.findViewById(R.id.dos)
-        btnTres = miview?.findViewById(R.id.tres)
-        btnCuatro = miview?.findViewById(R.id.cuatro)
-        btnCinco = miview?.findViewById(R.id.cinco)
-        btnSeis = miview?.findViewById(R.id.seis)
-        btnSiete = miview?.findViewById(R.id.siete)
-        btnOcho = miview?.findViewById(R.id.ocho)
-        btnNueve = miview?.findViewById(R.id.nueve)
+        btnUno = miview?.findViewById(R.id.cardUno)
+        btnDos = miview?.findViewById(R.id.cardDos)
+        btnTres = miview?.findViewById(R.id.cardTres)
+        btnCuatro = miview?.findViewById(R.id.cardCuatro)
+        btnCinco = miview?.findViewById(R.id.cardCinco)
+        btnSeis = miview?.findViewById(R.id.cardSeis)
+        btnSiete = miview?.findViewById(R.id.cardSiete)
+        btnOcho = miview?.findViewById(R.id.cardOcho)
+        btnNueve = miview?.findViewById(R.id.cardNueve)
+        btnDiez = miview?.findViewById(R.id.cardDiez)
+        btnOnce = miview?.findViewById(R.id.cardOnce)
+        btnDoce = miview?.findViewById(R.id.cardDoce)
+        btnTrece = miview?.findViewById(R.id.cardTrece)
+        btnCatorce = miview?.findViewById(R.id.cardCatorce)
+        btnQuince = miview?.findViewById(R.id.cardQuince)
+        btnDieciseis = miview?.findViewById(R.id.cardDieciseis)
+        btnDiecisiete = miview?.findViewById(R.id.cardDiecisiete)
+        btnDieciocho = miview?.findViewById(R.id.cardDieciocho)
+        btnDiecinueve = miview?.findViewById(R.id.cardDiecinueve)
+        btnVeinte = miview?.findViewById(R.id.cardVeinte)
+
 
         return  vista
     }
@@ -55,33 +76,87 @@ class Numeros : Fragment(R.layout.numeros) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        letraSel = "Coco"
-        btnCero?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
-        }
+
+
         btnUno?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            numSel = "1"
+            setCurrentFragment(numSel!!)
         }
         btnDos?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            numSel = "2"
+            setCurrentFragment(numSel!!)
         }
         btnTres?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            numSel = "3"
+            setCurrentFragment(numSel!!)
         }
         btnCuatro?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            numSel = "4"
+            setCurrentFragment(numSel!!)
         }
         btnCinco?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            numSel = "5"
+            setCurrentFragment(numSel!!)
         }
         btnSeis?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            numSel = "6"
+            setCurrentFragment(numSel!!)
+        }
+        btnSiete?.setOnClickListener {
+            numSel = "7"
+            setCurrentFragment(numSel!!)
         }
         btnOcho?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            numSel = "8"
+            setCurrentFragment(numSel!!)
         }
         btnNueve?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            numSel = "9"
+            setCurrentFragment(numSel!!)
+        }
+        btnDiez?.setOnClickListener {
+            numSel = "10"
+            setCurrentFragment(numSel!!)
+        }
+        btnOnce?.setOnClickListener {
+            numSel = "11"
+            setCurrentFragment(numSel!!)
+        }
+        btnDoce?.setOnClickListener {
+            numSel = "12"
+            setCurrentFragment(numSel!!)
+        }
+        btnTrece?.setOnClickListener {
+            numSel = "13"
+            setCurrentFragment(numSel!!)
+        }
+        btnCatorce?.setOnClickListener {
+            numSel = "14"
+            setCurrentFragment(numSel!!)
+        }
+        btnQuince?.setOnClickListener {
+            numSel = "15"
+            setCurrentFragment(numSel!!)
+        }
+        btnDieciseis?.setOnClickListener {
+            numSel = "16"
+            setCurrentFragment(numSel!!)
+        }
+        btnDiecisiete?.setOnClickListener {
+            numSel = "17"
+            setCurrentFragment(numSel!!)
+        }
+        btnDieciocho?.setOnClickListener {
+            numSel = "18"
+            setCurrentFragment(numSel!!)
+        }
+        btnDiecinueve?.setOnClickListener {
+            numSel = "19"
+            setCurrentFragment(numSel!!)
+        }
+        btnVeinte?.setOnClickListener {
+            numSel = "20"
+            setCurrentFragment(numSel!!)
         }
 
     }

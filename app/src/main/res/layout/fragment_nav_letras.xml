@@ -11,8 +11,8 @@
 
     <ImageView
         android:id="@+id/imgLetra"
-        android:layout_width="181dp"
-        android:layout_height="194dp"
+        android:layout_width="218dp"
+        android:layout_height="219dp"
         android:contentDescription="@string/title_glosario"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
         app:layout_constraintEnd_toEndOf="parent"
@@ -56,13 +56,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="252dp" />
+        app:layout_constraintGuide_begin="285dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="319dp" />
+        app:layout_constraintGuide_begin="350dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -11,7 +11,7 @@ import androidx.cardview.widget.CardView
 
 class Colores : Fragment(R.layout.colores) {
 
-    private var letraSel : String? =  ""
+    private var colorSel : String? =  ""
 
     var miview: View? = null
     var btnAmarillo: CardView? = null
@@ -63,48 +63,62 @@ class Colores : Fragment(R.layout.colores) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        letraSel = "Coco"
+
         btnAmarillo?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            colorSel = "amarillo"
+            setCurrentFragment(colorSel!!)
         }
         btnNaranja?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            colorSel = "naranja"
+            setCurrentFragment(colorSel!!)
         }
         btnAzul?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            colorSel = "azul"
+            setCurrentFragment(colorSel!!)
         }
         btnCafe?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            colorSel = "cafe"
+            setCurrentFragment(colorSel!!)
         }
         btnGris?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            colorSel = "gris"
+            setCurrentFragment(colorSel!!)
         }
         btnMorado?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            colorSel = "morado"
+            setCurrentFragment(colorSel!!)
         }
         btnNegro?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            colorSel = "negro"
+            setCurrentFragment(colorSel!!)
         }
         btnVerde?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            colorSel = "verde"
+            setCurrentFragment(colorSel!!)
         }
         btnRosa?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            colorSel = "rosa"
+            setCurrentFragment(colorSel!!)
         }
         btnRojo?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            colorSel = "rojo"
+            setCurrentFragment(colorSel!!)
         }
         btnVioleta?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            colorSel = "violeta"
+            setCurrentFragment(colorSel!!)
         }
         btnPlateado?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            colorSel = "plateado"
+            setCurrentFragment(colorSel!!)
         }
         btnMorado?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            colorSel = "morado"
+            setCurrentFragment(colorSel!!)
         }
         btnBlanco?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            colorSel = "blanco"
+            setCurrentFragment(colorSel!!)
         }
 
 
@@ -114,9 +128,9 @@ class Colores : Fragment(R.layout.colores) {
         super.onAttach(context)
     }
 
-    private fun setCurrentFragment(ltrSelec : String  ){
+    private fun setCurrentFragment(colSelec : String  ){
         val bundle = Bundle()
-        bundle.putString("carLetra", ltrSelec )
+        bundle.putString("carLetra", colSelec )
         var frag = nav_letras()
         frag.arguments = bundle
         var fr = getFragmentManager()?.beginTransaction()
