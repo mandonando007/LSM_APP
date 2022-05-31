@@ -514,6 +514,77 @@ class nav_letras : Fragment(R.layout.fragment_nav_letras) {
                 miTexto2?.text = ""
                 imgLetra?.setImageResource(R.drawable.vinosen)
             }
+            //Colores---------------------------------------------------
+            "amarillo" -> {
+                miTexto1?.text = "Amarillo"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.amarillosen)
+            }
+            "naranja" -> {
+                miTexto1?.text = "Naranja"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.anaranjadosen)
+            }
+            "azul" -> {
+                miTexto1?.text = "Azul"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.azulsen)
+            }
+            "cafe" -> {
+                miTexto1?.text = "Cafe"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.cafesen)
+            }
+            "gris" -> {
+                miTexto1?.text = "Gris"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.grisen)
+            }
+            "morado" -> {
+                miTexto1?.text = "Morado"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.moradosen)
+            }
+            "negro" -> {
+                miTexto1?.text = "Negro"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.negrosen)
+            }
+            "verde" -> {
+                miTexto1?.text = "Verde"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.verdesen)
+            }
+            "rosa" -> {
+                miTexto1?.text = "Rosa"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.rosasen)
+            }
+            "rojo" -> {
+                miTexto1?.text = "Rojo"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.rojosen)
+            }
+            "violeta" -> {
+                miTexto1?.text = "Violeta"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.violetasen)
+            }
+            "plateado" -> {
+                miTexto1?.text = "Plateado"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.plateadosen)
+            }
+            "morado" -> {
+                miTexto1?.text = "Morado"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.moradosen)
+            }
+            "blanco" -> {
+                miTexto1?.text = "Blanco"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.blancosen)
+            }
             else -> {}
         }//Del when
         return view
