@@ -12,28 +12,29 @@ import com.example.lsm_app.nav_letras
 
 class Alimentos : Fragment(R.layout.alimentos) {
 
-    private var letraSel : String? =  ""
+    private var aliSel : String? =  ""
 
     var miview: View? = null
     var btnCarne: CardView? = null
     var btnArroz: CardView? = null
+    var btnComida: CardView? = null
     var btnHamburgesa: CardView? = null
-    var btnCereal: CardView? = null
+    var btnAgua: CardView? = null
     var btnEnsalada: CardView? = null
-    var btnHelado: CardView? = null
+    var btnPostre: CardView? = null
     var btnHuevo: CardView? = null
-    var btnJugo: CardView? = null
+    var btnChocolate: CardView? = null
     var btnleche: CardView? = null
     var btnPan: CardView? = null
-    var btnPapas: CardView? = null
+    var btnPastel: CardView? = null
     var btnPollo: CardView? = null
-    var btnPizza: CardView? = null
+    var btnPescado: CardView? = null
+    var btnVino: CardView? = null
     var btnSopa: CardView? = null
     var btnSpaguetti: CardView? = null
-    var btnTaco: CardView? = null
+    var btnQueso: CardView? = null
     var btnCafe: CardView? = null
-    var btnTocino: CardView? = null
-    var btnTortilla: CardView? = null
+    var btnVerdura: CardView? = null
     var btnRefresco: CardView? = null
 
 
@@ -49,86 +50,117 @@ class Alimentos : Fragment(R.layout.alimentos) {
         val vista = inflater.inflate(R.layout.alimentos, container, false)
         miview = vista
 
-        btnArroz = miview?.findViewById(R.id.arroz)
-        btnCereal = miview?.findViewById(R.id.cereal)
-        btnEnsalada = miview?.findViewById(R.id.ensalada)
-        btnHamburgesa = miview?.findViewById(R.id.hamburgesa)
-        btnHelado = miview?.findViewById(R.id.helado)
-        btnHuevo = miview?.findViewById(R.id.huevo)
-        btnJugo = miview?.findViewById(R.id.jugo)
-        btnleche = miview?.findViewById(R.id.leche)
-        btnPan = miview?.findViewById(R.id.pan)
-        btnPapas = miview?.findViewById(R.id.papasFritas)
-        btnSopa = miview?.findViewById(R.id.sopa)
-        btnCafe = miview?.findViewById(R.id.cafe)
+        btnArroz = miview?.findViewById(R.id.cardArroz)
+        btnAgua = miview?.findViewById(R.id.cardAgua)
+        btnPescado = miview?.findViewById(R.id.cardPescado)
+        btnComida = miview?.findViewById(R.id.cardComida)
+        btnEnsalada = miview?.findViewById(R.id.cardEnsalada)
+        btnHamburgesa = miview?.findViewById(R.id.cardHamburgesa)
+        btnPostre = miview?.findViewById(R.id.cardPostre)
+        btnHuevo = miview?.findViewById(R.id.cardHuevo)
+        btnChocolate = miview?.findViewById(R.id.cardChocolate)
+        btnleche = miview?.findViewById(R.id.cardLeche)
+        btnPan = miview?.findViewById(R.id.cardPan)
+        btnPastel = miview?.findViewById(R.id.cardPastel)
+        btnSopa = miview?.findViewById(R.id.cardSopa)
+        btnCafe = miview?.findViewById(R.id.cardCafe)
         btnPollo = miview?.findViewById(R.id.cardPollo)
-        btnSpaguetti = miview?.findViewById(R.id.spaguetti)
-        btnTocino = miview?.findViewById(R.id.taco)
-        btnTortilla = miview?.findViewById(R.id.tortilla)
-        btnCarne = miview?.findViewById(R.id.carne)
-        btnPizza = miview?.findViewById(R.id.pizza)
-        btnRefresco = miview?.findViewById(R.id.refresco)
-        btnTaco = miview?.findViewById(R.id.taco)
+        btnSpaguetti = miview?.findViewById(R.id.cardSpaguetti)
+        btnVerdura = miview?.findViewById(R.id.cardVerdura)
+        btnCarne = miview?.findViewById(R.id.cardCarne)
+        btnVino = miview?.findViewById(R.id.cardVino)
+        btnRefresco = miview?.findViewById(R.id.cardRefresco)
+        btnQueso = miview?.findViewById(R.id.cardQueso)
         return  vista
     }
 
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        letraSel = "Coco"
+
         btnCarne?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            aliSel = "Carne"
+            setCurrentFragment(aliSel!!)
         }
         btnArroz?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            aliSel = "Arroz"
+            setCurrentFragment(aliSel!!)
         }
-        btnCereal?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
-        }
-        btnEnsalada?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+        btnComida?.setOnClickListener {
+            aliSel = "Comida"
+            setCurrentFragment(aliSel!!)
         }
         btnHamburgesa?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            aliSel = "Hamburgesa"
+            setCurrentFragment(aliSel!!)
         }
-        btnHelado?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+        btnAgua?.setOnClickListener {
+            aliSel = "Agua"
+            setCurrentFragment(aliSel!!)
+        }
+        btnEnsalada?.setOnClickListener {
+            aliSel = "Ensalada"
+            setCurrentFragment(aliSel!!)
+        }
+        btnPostre?.setOnClickListener {
+            aliSel = "Postre"
+            setCurrentFragment(aliSel!!)
         }
         btnHuevo?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            aliSel = "Huevo"
+            setCurrentFragment(aliSel!!)
         }
-        btnJugo?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+        btnChocolate?.setOnClickListener {
+            aliSel = "Chocolate"
+            setCurrentFragment(aliSel!!)
         }
         btnleche?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            aliSel = "Leche"
+            setCurrentFragment(aliSel!!)
         }
         btnPan?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            aliSel = "Pan"
+            setCurrentFragment(aliSel!!)
+        }
+        btnPastel?.setOnClickListener {
+            aliSel = "Pastel"
+            setCurrentFragment(aliSel!!)
         }
         btnPollo?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            aliSel = "Pollo"
+            setCurrentFragment(aliSel!!)
         }
-        btnPizza?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+        btnPescado?.setOnClickListener {
+            aliSel = "Pescado"
+            setCurrentFragment(aliSel!!)
+        }
+        btnVino?.setOnClickListener {
+            aliSel = "Vino"
+            setCurrentFragment(aliSel!!)
         }
         btnSopa?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            aliSel = "Sopa"
+            setCurrentFragment(aliSel!!)
         }
         btnSpaguetti?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            aliSel = "Espaguetti"
+            setCurrentFragment(aliSel!!)
         }
-        btnTaco?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+        btnQueso?.setOnClickListener {
+            aliSel = "Queso"
+            setCurrentFragment(aliSel!!)
         }
         btnCafe?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            aliSel = "Cafe"
+            setCurrentFragment(aliSel!!)
         }
-        btnTortilla?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+        btnVerdura?.setOnClickListener {
+            aliSel = "Verdura"
+            setCurrentFragment(aliSel!!)
         }
         btnRefresco?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            aliSel = "Refresco"
+            setCurrentFragment(aliSel!!)
         }
     }
 

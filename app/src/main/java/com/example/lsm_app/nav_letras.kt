@@ -408,6 +408,112 @@ class nav_letras : Fragment(R.layout.fragment_nav_letras) {
                 miTexto2?.text = ""
                 imgLetra?.setImageResource(R.drawable.nopalsen)
             }
+            //Alimentos------------------------------------------------------
+            "Arroz" -> {
+                miTexto1?.text = "Arroz"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.arrozsen)
+            }
+            "Agua" -> {
+                miTexto1?.text = "Agua"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.aguasen)
+            }
+            "Cafe" -> {
+                miTexto1?.text = "Cafe"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.cafesen)
+            }
+            "Carne" -> {
+                miTexto1?.text = "Carne"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.carnesen)
+            }
+            "Chocolate" -> {
+                miTexto1?.text = "Chocolate"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.chocolatesen)
+            }
+            "Comida" -> {
+                miTexto1?.text = "Comida"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.comidasen)
+            }
+            "Ensalada" -> {
+                miTexto1?.text = "Ensalada"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.ensaladasen)
+            }
+            "Espaguetti" -> {
+                miTexto1?.text = "Espaguetti"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.espaguettisen)
+            }
+            "Hamburgesa" -> {
+                miTexto1?.text = "Hamburgesa"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.hamburguesasen)
+            }
+            "Huevo" -> {
+                miTexto1?.text = "Huevo"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.huevosen)
+            }
+            "Leche" -> {
+                miTexto1?.text = "Leche"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.lechesen)
+            }
+            "Pan" -> {
+                miTexto1?.text = "Pan"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.pansen)
+            }
+            "Pastel" -> {
+                miTexto1?.text = "Pastel"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.pastelsen)
+            }
+            "Pescado" -> {
+                miTexto1?.text = "Pescado"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.pescadosen)
+            }
+            "Pollo" -> {
+                miTexto1?.text = "Pollo"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.pollosen)
+            }
+            "Postre" -> {
+                miTexto1?.text = "Postre"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.postresen)
+            }
+            "Queso" -> {
+                miTexto1?.text = "Queso"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.quesosen)
+            }
+            "Refresco" -> {
+                miTexto1?.text = "Refresco"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.refrescosen)
+            }
+            "Sopa" -> {
+                miTexto1?.text = "Sopa"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.sopasen)
+            }
+            "Verdura" -> {
+                miTexto1?.text = "Verdura"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.verdurasen)
+            }
+            "Vino" -> {
+                miTexto1?.text = "Vino"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.vinosen)
+            }
             else -> {}
         }//Del when
         return view

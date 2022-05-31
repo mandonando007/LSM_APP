@@ -86,5 +86,6 @@ class SeñasFragment : Fragment(R.layout.fragment_senas) {
         Toast.makeText(context,nombre, Toast.LENGTH_SHORT).show()
         fr?.addToBackStack(null)
         fr?.commit()
+
     }
 }

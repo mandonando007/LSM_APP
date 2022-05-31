@@ -42,20 +42,20 @@ class Colores : Fragment(R.layout.colores) {
         val vista = inflater.inflate(R.layout.colores, container, false)
         miview = vista
 
-        btnAmarillo = miview?.findViewById(R.id.arroz)
-        btnNaranj = miview?.findViewById(R.id.cereal)
-        btnAzul = miview?.findViewById(R.id.ensalada)
-        btnCafe = miview?.findViewById(R.id.hamburgesa)
-        btnGris = miview?.findViewById(R.id.helado)
-        btnMorado = miview?.findViewById(R.id.huevo)
-        btnNegro = miview?.findViewById(R.id.jugo)
-        btnVerde = miview?.findViewById(R.id.leche)
-        btnRosa = miview?.findViewById(R.id.pan)
-        btnRojo = miview?.findViewById(R.id.papasFritas)
-        btnVioleta = miview?.findViewById(R.id.sopa)
-        btnAzulC = miview?.findViewById(R.id.cafe)
+        btnAmarillo = miview?.findViewById(R.id.cardArroz)
+        btnNaranj = miview?.findViewById(R.id.cardAgua)
+        btnAzul = miview?.findViewById(R.id.cardEnsalada)
+        btnCafe = miview?.findViewById(R.id.cardHamburgesa)
+        btnGris = miview?.findViewById(R.id.cardPostre)
+        btnMorado = miview?.findViewById(R.id.cardHuevo)
+        btnNegro = miview?.findViewById(R.id.cardChocolate)
+        btnVerde = miview?.findViewById(R.id.cardLeche)
+        btnRosa = miview?.findViewById(R.id.cardPan)
+        btnRojo = miview?.findViewById(R.id.cardPastel)
+        btnVioleta = miview?.findViewById(R.id.cardSopa)
+        btnAzulC = miview?.findViewById(R.id.cardCafe)
         btnDorado = miview?.findViewById(R.id.cardPollo)
-        btnBlanco= miview?.findViewById(R.id.spaguetti)
+        btnBlanco= miview?.findViewById(R.id.cardSpaguetti)
 
         return  vista
     }
