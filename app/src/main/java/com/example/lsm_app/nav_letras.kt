@@ -585,6 +585,107 @@ class nav_letras : Fragment(R.layout.fragment_nav_letras) {
                 miTexto2?.text = ""
                 imgLetra?.setImageResource(R.drawable.blancosen)
             }
+            //Numeros----------------------------------------------------
+            "1" -> {
+                miTexto1?.text = "Uno"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.uno_sen)
+            }
+            "2" -> {
+                miTexto1?.text = "Dos"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.dos_sen)
+            }
+            "3" -> {
+                miTexto1?.text = "Tres"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.tres_sen)
+            }
+            "4" -> {
+                miTexto1?.text = "Cuatro"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.cuatro_sen)
+            }
+            "5" -> {
+                miTexto1?.text = "Cinco"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.cinco_sen)
+            }
+            "6" -> {
+                miTexto1?.text = "Seis"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.seis_sen)
+            }
+            "7" -> {
+                miTexto1?.text = "Siete"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.siete_sen)
+            }
+            "8" -> {
+                miTexto1?.text = "Ocho"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.ocho_sen)
+            }
+            "9" -> {
+                miTexto1?.text = "Nueve"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.nueve_sen)
+            }
+            "10" -> {
+                miTexto1?.text = "Diez"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.diez_sen)
+            }
+            "11" -> {
+                miTexto1?.text = "Once"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.once_sen)
+            }
+            "12" -> {
+                miTexto1?.text = "Doce"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.doce_sen)
+            }
+            "13" -> {
+                miTexto1?.text = "Trece"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.trece_sen)
+            }
+            "14" -> {
+                miTexto1?.text = "Catorce"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.catorce_sen)
+            }
+            "15" -> {
+                miTexto1?.text = "Quince"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.quince_sen)
+            }
+            "16" -> {
+                miTexto1?.text = "Dieciseis"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.dieciseis_sen)
+            }
+            "17" -> {
+                miTexto1?.text = "Diecisiete"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.diecisiete_sen)
+            }
+            "18" -> {
+                miTexto1?.text = "Dieciocho"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.dieciocho_sen)
+            }
+            "19" -> {
+                miTexto1?.text = "Diecinueve"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.diecinueve_sen)
+            }
+            "20" -> {
+                miTexto1?.text = "Veinte"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.veinte_sen)
+            }
             else -> {}
         }//Del when
         return view
@@ -602,7 +703,7 @@ class nav_letras : Fragment(R.layout.fragment_nav_letras) {
             Letra = arguments?.getString("carLetra")
         }
         var fr = nav_letras().getFragmentManager()?.beginTransaction()
-        fr?.addToBackStack(null)
+        fr?.addToBackStack("TAG")
         fr?.commit()
     }
 } //Del fragment
