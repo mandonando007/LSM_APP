@@ -517,13 +517,9 @@ class nav_letras : Fragment(R.layout.fragment_nav_letras) {
             else -> {}
         }//Del when
         return view
-
     }
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
-
-
     }//-------------------------------------- Termina el OnViewCreated
     override fun onAttach(context: Context) {
         super.onAttach(context)

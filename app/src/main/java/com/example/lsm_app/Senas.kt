@@ -6,7 +6,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.cardview.widget.CardView
-
 class Senas : Fragment() {
 
     private var letraSel : String? =  ""
@@ -128,8 +127,6 @@ class Senas : Fragment() {
         btnCereza?.setOnClickListener {
             setCurrentFragment("CEREZA"!!)
         }
-
-
     }
 
 
