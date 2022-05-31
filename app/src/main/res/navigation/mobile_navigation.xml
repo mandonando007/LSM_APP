@@ -21,20 +21,36 @@
         android:id="@+id/navigation_videos"
         android:name="com.example.lsm_app.ui.videos.VideosFragment"
         android:label="@string/title_videos"
-        tools:layout="@layout/fragment_videos" />
+        tools:layout="@layout/fragment_videos" >
+        <action
+            android:id="@+id/action_navigation_videos_to_videosView"
+            app:destination="@id/videosView" />
+    </fragment>
     <fragment
         android:id="@+id/nav_glosario"
         android:name="com.example.lsm_app.nav_glosario"
         android:label="@string/title_glosario"
-        tools:layout="@layout/fragment_nav_glosario" />
+        tools:layout="@layout/fragment_nav_glosario" >
+        <action
+            android:id="@+id/action_nav_glosario_to_nav_letras"
+            app:destination="@id/nav_letras" />
+    </fragment>
     <fragment
         android:id="@+id/nav_letras"
         android:name="com.example.lsm_app.nav_letras"
         android:label="fragment_nav_letras"
-        tools:layout="@layout/fragment_nav_letras" />
+        tools:layout="@layout/fragment_nav_letras" >
+        <action
+            android:id="@+id/action_nav_letras_to_nav_glosario"
+            app:destination="@id/nav_glosario" />
+    </fragment>
     <fragment
         android:id="@+id/videosView"
         android:name="com.example.lsm_app.videosView"
         android:label="fragment_videos_view"
-        tools:layout="@layout/fragment_videos_view" />
+        tools:layout="@layout/fragment_videos_view" >
+        <action
+            android:id="@+id/action_videosView_to_navigation_videos"
+            app:destination="@id/navigation_videos" />
+    </fragment>
 </navigation>
