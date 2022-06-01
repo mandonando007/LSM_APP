@@ -686,6 +686,152 @@ class nav_letras : Fragment(R.layout.fragment_nav_letras) {
                 miTexto2?.text = ""
                 imgLetra?.setImageResource(R.drawable.veinte_sen)
             }
+ ////--------------------------Verbos------------------------------------------------
+
+            "CONOCER" -> {
+                miTexto1?.text = "CONOCER"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.se_conocer)
+            }
+            "ENTENDER" -> {
+                miTexto1?.text = "ENTENDER"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.se_entender)
+            }
+            "GUSTAR" -> {
+                miTexto1?.text = "GUSTAR"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.se_g)
+            }
+            "HABER" -> {
+                miTexto1?.text = "HABER"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.cuatro_sen)
+            }
+            "QUERER" -> {
+                miTexto1?.text = "QUERER"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.cinco_sen)
+            }
+            "PODER" -> {
+                miTexto1?.text = "PODER"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.seis_sen)
+            }
+            "ABRIR" -> {
+                miTexto1?.text = "ABRIR"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.siete_sen)
+            }
+            "ACEPTAR" -> {
+                miTexto1?.text = "ACEPTAR"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.ocho_sen)
+            }
+            "ABURRIR" -> {
+                miTexto1?.text = "ABURRIR"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.nueve_sen)
+            }
+            "AGRADECER" -> {
+                miTexto1?.text = "AGRADECER"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.diez_sen)
+            }
+            "AHOGAR" -> {
+                miTexto1?.text = "AHOGAR"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.once_sen)
+            }
+            "AGUANTAR" -> {
+                miTexto1?.text = "AGUANTAR"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.doce_sen)
+            }
+            "AMAR" -> {
+                miTexto1?.text = "AMAR"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.trece_sen)
+            }
+            "APLASTAR" -> {
+                miTexto1?.text = "APLASTAR"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.catorce_sen)
+            }
+            "ALEJAR" -> {
+                miTexto1?.text = "ALEJAR"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.quince_sen)
+            }
+            "APOYAR" -> {
+                miTexto1?.text = "APOYAR"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.dieciseis_sen)
+            }
+            "BAILAR" -> {
+                miTexto1?.text = "BAILAR"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.diecisiete_sen)
+            }
+            "AYUDAR" -> {
+                miTexto1?.text = "AYUDAR"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.diecisiete_sen)
+            }
+            "AVERGONZAR" -> {
+                miTexto1?.text = "AVERGONZAR"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.dieciocho_sen)
+            }
+            "BAÑAR" -> {
+                miTexto1?.text = "BAÑAR"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.diecinueve_sen)
+            }
+            "BURLAR" -> {
+                miTexto1?.text = "BURLAR"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.diecinueve_sen)
+            }
+            "BUSCAR" -> {
+                miTexto1?.text = "BUSCAR"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.veinte_sen)
+            }
+            "CALMAR" -> {
+                miTexto1?.text = "CALMAR"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.trece_sen)
+            }
+            "CAMINAR" -> {
+                miTexto1?.text = "CAMINAR"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.catorce_sen)
+            }
+            "CANTAR" -> {
+                miTexto1?.text = "CANTAR"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.quince_sen)
+            }
+            "COMER" -> {
+                miTexto1?.text = "COMER"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.dieciseis_sen)
+            }
+            "COMPRAR" -> {
+                miTexto1?.text = "COMPRAR"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.diecisiete_sen)
+            }
+            "CORRER" -> {
+                miTexto1?.text = "CORRER"
+                miTexto2?.text = ""
+                imgLetra?.setImageResource(R.drawable.dieciocho_sen)
+            }
+
+
+
+
             else -> {}
         }//Del when
         return view
