@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/artur/Documents/GitHub/LSM_APP/app/src/main/res/drawable-mdpi/button_rounded.xml" value="0.113" />
+        <entry key="..\:/Users/artur/Documents/GitHub/LSM_APP/app/src/main/res/drawable-mdpi/button_rounded_border.xml" value="0.113" />
+        <entry key="..\:/Users/artur/Documents/GitHub/LSM_APP/app/src/main/res/drawable/button_rounded.xml" value="0.113" />
+        <entry key="..\:/Users/artur/Documents/GitHub/LSM_APP/app/src/main/res/drawable/button_rounded_border.xml" value="0.162" />
         <entry key="..\:/Users/artur/Documents/GitHub/LSM_APP/app/src/main/res/font/alata.xml" value="0.234375" />
         <entry key="..\:/Users/artur/Documents/GitHub/LSM_APP/app/src/main/res/font/baloo_da.xml" value="0.234375" />
         <entry key="..\:/Users/artur/Documents/GitHub/LSM_APP/app/src/main/res/layout-land/fragment_videos_view.xml" value="0.1728395061728395" />
@@ -14,6 +18,7 @@
         <entry key="..\:/Users/artur/Documents/GitHub/LSM_APP/app/src/main/res/layout/fragment_perfil.xml" value="0.22" />
         <entry key="..\:/Users/artur/Documents/GitHub/LSM_APP/app/src/main/res/layout/fragment_senas.xml" value="0.25" />
         <entry key="..\:/Users/artur/Documents/GitHub/LSM_APP/app/src/main/res/layout/fragment_videos_view.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/artur/Documents/GitHub/LSM_APP/app/src/main/res/layout/login.xml" value="0.33" />
         <entry key="..\:/Users/artur/Documents/GitHub/LSM_APP/app/src/main/res/layout/meses.xml" value="0.125" />
         <entry key="..\:/Users/artur/Documents/GitHub/LSM_APP/app/src/main/res/layout/senas.xml" value="0.1766304347826087" />
         <entry key="..\:/Users/artur/Documents/GitHub/LSM_APP/app/src/main/res/layout/verbs.xml" value="0.25" />
