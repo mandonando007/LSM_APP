@@ -67,10 +67,11 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
+                            android:fontFamily="@font/alata"
                             android:text="Frutas"
                             android:textAlignment="center"
                             android:textColor="#ffcc00"
-                            android:textSize="16dp"
+                            android:textSize="20sp"
                             android:textStyle="bold"></TextView>
 
 
@@ -108,10 +109,11 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
+                            android:fontFamily="@font/alata"
                             android:text="Verduras"
                             android:textAlignment="center"
                             android:textColor="#ffcc00"
-                            android:textSize="16dp"
+                            android:textSize="20sp"
                             android:textStyle="bold"></TextView>
 
 
@@ -150,10 +152,11 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
+                            android:fontFamily="@font/alata"
                             android:text="Alimentos"
                             android:textAlignment="center"
                             android:textColor="#ffcc00"
-                            android:textSize="16dp"
+                            android:textSize="20sp"
                             android:textStyle="bold"></TextView>
 
 
@@ -191,10 +194,11 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
+                            android:fontFamily="@font/alata"
                             android:text="Colores"
                             android:textAlignment="center"
                             android:textColor="#f44236"
-                            android:textSize="16dp"
+                            android:textSize="20sp"
                             android:textStyle="bold"></TextView>
 
 
@@ -232,10 +236,11 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
+                            android:fontFamily="@font/alata"
                             android:text="Días"
                             android:textAlignment="center"
                             android:textColor="#f44236"
-                            android:textSize="16dp"
+                            android:textSize="20sp"
                             android:textStyle="bold"></TextView>
 
 
@@ -273,10 +278,11 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
+                            android:fontFamily="@font/alata"
                             android:text="Animales"
                             android:textAlignment="center"
                             android:textColor="#ff9700"
-                            android:textSize="16dp"
+                            android:textSize="20sp"
                             android:textStyle="bold"></TextView>
 
 
@@ -314,10 +320,11 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
+                            android:fontFamily="@font/alata"
                             android:text="Números"
                             android:textAlignment="center"
                             android:textColor="#00C853"
-                            android:textSize="16dp"
+                            android:textSize="20sp"
                             android:textStyle="bold"></TextView>
 
 
@@ -355,10 +362,11 @@
                             android:layout_width="180dp"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
+                            android:fontFamily="@font/alata"
                             android:text="Meses"
                             android:textAlignment="center"
                             android:textColor="#26ca69"
-                            android:textSize="16dp"
+                            android:textSize="20sp"
                             android:textStyle="bold"></TextView>
 
 
@@ -397,10 +405,11 @@
                             android:layout_width="180dp"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
+                            android:fontFamily="@font/alata"
                             android:text="Verbos"
                             android:textAlignment="center"
                             android:textColor="#26ca69"
-                            android:textSize="16dp"
+                            android:textSize="20sp"
                             android:textStyle="bold"></TextView>
 
 

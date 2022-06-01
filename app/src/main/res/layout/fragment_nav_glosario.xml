@@ -169,7 +169,8 @@
                 android:fontFamily="@font/alata"
                 android:text="@string/ltrLL"
                 android:textColor="@color/white"
-                android:textSize="24sp" />
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/btnM"
@@ -254,9 +255,11 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="#FF4081"
                 android:fontFamily="@font/alata"
+                android:stateListAnimator="@anim/nav_default_pop_enter_anim"
                 android:text="@string/ltrRR"
                 android:textColor="@color/white"
-                android:textSize="24sp" />
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/btnS"

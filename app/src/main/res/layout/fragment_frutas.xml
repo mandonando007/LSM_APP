@@ -25,6 +25,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:elegantTextHeight="false"
+        android:fontFamily="@font/alata"
         android:text="@string/ltrA"
         android:textColor="#545151"
         android:textSize="24sp"
