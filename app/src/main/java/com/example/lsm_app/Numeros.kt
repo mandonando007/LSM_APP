@@ -171,7 +171,7 @@ class Numeros : Fragment(R.layout.numeros) {
         var frag = nav_letras()
         frag.arguments = bundle
         var fr = getFragmentManager()?.beginTransaction()
-        fr?.replace(R.id.nav_host_fragment_activity_main, frag)
+        fr?.replace(R.id.fragmentContainerView, frag)
         fr?.addToBackStack(null)
         fr?.commit()
     }

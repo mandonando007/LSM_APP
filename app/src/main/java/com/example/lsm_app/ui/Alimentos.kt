@@ -174,7 +174,7 @@ class Alimentos : Fragment(R.layout.alimentos) {
         var frag = nav_letras()
         frag.arguments = bundle
         var fr = getFragmentManager()?.beginTransaction()
-        fr?.replace(R.id.nav_host_fragment_activity_main, frag, "TAG")
+        fr?.replace(R.id.fragmentContainerView, frag, "TAG")
         fr?.addToBackStack("TAG")
         fr?.commit()
     }

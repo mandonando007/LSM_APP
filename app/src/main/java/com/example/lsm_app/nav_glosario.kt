@@ -221,7 +221,7 @@ class nav_glosario : Fragment() {
         frag.arguments = bundle
 
         var fr = getFragmentManager()?.beginTransaction()
-        fr?.add(R.id.nav_host_fragment_activity_main, frag)
+        fr?.add(R.id.fragmentContainerView, frag)
         fr?.addToBackStack(null)
         fr?.commit()
     }

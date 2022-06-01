@@ -171,7 +171,7 @@ class VideosFragment : Fragment(R.layout.fragment_videos) {
         fragment.arguments = bundle
 
         var fr = getFragmentManager()?.beginTransaction()
-        fr?.replace(R.id.nav_host_fragment_activity_main, fragment)
+        fr?.replace(R.id.fragmentContainerView, fragment)
         fr?.addToBackStack(null)
         fr?.commit()
     }
