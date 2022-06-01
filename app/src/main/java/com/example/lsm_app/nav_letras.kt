@@ -701,137 +701,133 @@ class nav_letras : Fragment(R.layout.fragment_nav_letras) {
             "GUSTAR" -> {
                 miTexto1?.text = "GUSTAR"
                 miTexto2?.text = ""
-                imgLetra?.setImageResource(R.drawable.se_g)
+                imgLetra?.setImageResource(R.drawable.gustar)
             }
             "HABER" -> {
                 miTexto1?.text = "HABER"
                 miTexto2?.text = ""
-                imgLetra?.setImageResource(R.drawable.cuatro_sen)
+                imgLetra?.setImageResource(R.drawable.se_haber)
             }
             "QUERER" -> {
                 miTexto1?.text = "QUERER"
                 miTexto2?.text = ""
-                imgLetra?.setImageResource(R.drawable.cinco_sen)
+                imgLetra?.setImageResource(R.drawable.se_querer)
             }
             "PODER" -> {
                 miTexto1?.text = "PODER"
                 miTexto2?.text = ""
-                imgLetra?.setImageResource(R.drawable.seis_sen)
+                imgLetra?.setImageResource(R.drawable.se_poder)
             }
             "ABRIR" -> {
                 miTexto1?.text = "ABRIR"
                 miTexto2?.text = ""
-                imgLetra?.setImageResource(R.drawable.siete_sen)
+                imgLetra?.setImageResource(R.drawable.se_abrir)
             }
             "ACEPTAR" -> {
                 miTexto1?.text = "ACEPTAR"
                 miTexto2?.text = ""
-                imgLetra?.setImageResource(R.drawable.ocho_sen)
+                imgLetra?.setImageResource(R.drawable.se_aceptar)
             }
             "ABURRIR" -> {
                 miTexto1?.text = "ABURRIR"
                 miTexto2?.text = ""
-                imgLetra?.setImageResource(R.drawable.nueve_sen)
+                imgLetra?.setImageResource(R.drawable.se_aburrir)
             }
             "AGRADECER" -> {
                 miTexto1?.text = "AGRADECER"
                 miTexto2?.text = ""
-                imgLetra?.setImageResource(R.drawable.diez_sen)
+                imgLetra?.setImageResource(R.drawable.se_agradecer)
             }
             "AHOGAR" -> {
                 miTexto1?.text = "AHOGAR"
                 miTexto2?.text = ""
-                imgLetra?.setImageResource(R.drawable.once_sen)
+                imgLetra?.setImageResource(R.drawable.se_ahogar)
             }
             "AGUANTAR" -> {
                 miTexto1?.text = "AGUANTAR"
                 miTexto2?.text = ""
-                imgLetra?.setImageResource(R.drawable.doce_sen)
+                imgLetra?.setImageResource(R.drawable.se_aguantar)
             }
             "AMAR" -> {
                 miTexto1?.text = "AMAR"
                 miTexto2?.text = ""
-                imgLetra?.setImageResource(R.drawable.trece_sen)
+                imgLetra?.setImageResource(R.drawable.se_amar)
             }
             "APLASTAR" -> {
                 miTexto1?.text = "APLASTAR"
                 miTexto2?.text = ""
-                imgLetra?.setImageResource(R.drawable.catorce_sen)
+                imgLetra?.setImageResource(R.drawable.se_aplastar)
             }
             "ALEJAR" -> {
                 miTexto1?.text = "ALEJAR"
                 miTexto2?.text = ""
-                imgLetra?.setImageResource(R.drawable.quince_sen)
+                imgLetra?.setImageResource(R.drawable.se_alejar)
             }
             "APOYAR" -> {
                 miTexto1?.text = "APOYAR"
                 miTexto2?.text = ""
-                imgLetra?.setImageResource(R.drawable.dieciseis_sen)
+                imgLetra?.setImageResource(R.drawable.se_apoyar)
             }
             "BAILAR" -> {
                 miTexto1?.text = "BAILAR"
                 miTexto2?.text = ""
-                imgLetra?.setImageResource(R.drawable.diecisiete_sen)
+                imgLetra?.setImageResource(R.drawable.se_bailar)
             }
             "AYUDAR" -> {
                 miTexto1?.text = "AYUDAR"
                 miTexto2?.text = ""
-                imgLetra?.setImageResource(R.drawable.diecisiete_sen)
+                imgLetra?.setImageResource(R.drawable.se_ayudar)
             }
             "AVERGONZAR" -> {
                 miTexto1?.text = "AVERGONZAR"
                 miTexto2?.text = ""
-                imgLetra?.setImageResource(R.drawable.dieciocho_sen)
+                imgLetra?.setImageResource(R.drawable.se_avergonzar)
             }
             "BAÑAR" -> {
                 miTexto1?.text = "BAÑAR"
                 miTexto2?.text = ""
-                imgLetra?.setImageResource(R.drawable.diecinueve_sen)
+                imgLetra?.setImageResource(R.drawable.se_banar)
             }
             "BURLAR" -> {
                 miTexto1?.text = "BURLAR"
                 miTexto2?.text = ""
-                imgLetra?.setImageResource(R.drawable.diecinueve_sen)
+                imgLetra?.setImageResource(R.drawable.se_buscar)
             }
             "BUSCAR" -> {
                 miTexto1?.text = "BUSCAR"
                 miTexto2?.text = ""
-                imgLetra?.setImageResource(R.drawable.veinte_sen)
+                imgLetra?.setImageResource(R.drawable.se_burlar)
             }
             "CALMAR" -> {
                 miTexto1?.text = "CALMAR"
                 miTexto2?.text = ""
-                imgLetra?.setImageResource(R.drawable.trece_sen)
+                imgLetra?.setImageResource(R.drawable.se_calmar)
             }
             "CAMINAR" -> {
                 miTexto1?.text = "CAMINAR"
                 miTexto2?.text = ""
-                imgLetra?.setImageResource(R.drawable.catorce_sen)
+                imgLetra?.setImageResource(R.drawable.se_caminar)
             }
             "CANTAR" -> {
                 miTexto1?.text = "CANTAR"
                 miTexto2?.text = ""
-                imgLetra?.setImageResource(R.drawable.quince_sen)
+                imgLetra?.setImageResource(R.drawable.se_cantar)
             }
             "COMER" -> {
                 miTexto1?.text = "COMER"
                 miTexto2?.text = ""
-                imgLetra?.setImageResource(R.drawable.dieciseis_sen)
+                imgLetra?.setImageResource(R.drawable.se_comer)
             }
             "COMPRAR" -> {
                 miTexto1?.text = "COMPRAR"
                 miTexto2?.text = ""
-                imgLetra?.setImageResource(R.drawable.diecisiete_sen)
+                imgLetra?.setImageResource(R.drawable.se_comprar)
             }
             "CORRER" -> {
                 miTexto1?.text = "CORRER"
                 miTexto2?.text = ""
-                imgLetra?.setImageResource(R.drawable.dieciocho_sen)
+                imgLetra?.setImageResource(R.drawable.se_correr)
             }
-
-
-
-
             else -> {}
         }//Del when
         return view
@@ -845,7 +841,7 @@ class nav_letras : Fragment(R.layout.fragment_nav_letras) {
             Letra = arguments?.getString("carLetra")
         }
         var fr = nav_letras().getFragmentManager()?.beginTransaction()
-        fr?.addToBackStack("TAG")
+        fr?.addToBackStack(null)
         fr?.commit()
     }
 } //Del fragment
