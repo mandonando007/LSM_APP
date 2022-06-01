@@ -7,6 +7,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.cardview.widget.CardView
 
 class Verbos : Fragment(R.layout.verbs) {
@@ -27,7 +28,6 @@ class Verbos : Fragment(R.layout.verbs) {
     var btnAguantar : CardView? = null
     var btnAhogar : CardView? = null
     var btnAplastar: CardView? = null
-
     var btnAmar: CardView? = null
     var btnAlejar: CardView? = null
     var btnApoyar: CardView? = null
@@ -39,7 +39,6 @@ class Verbos : Fragment(R.layout.verbs) {
     var btnBuscar: CardView? = null
     var btnCalmar : CardView? = null
     var btnCaminar: CardView? = null
-
     var btnCantar: CardView? = null
     var btnComer: CardView? = null
     var btnComprar: CardView? = null
@@ -59,130 +58,137 @@ class Verbos : Fragment(R.layout.verbs) {
         val vista = inflater.inflate(R.layout.verbs, container, false)
         miview = vista
 
-        btnConocer = miview?.findViewById(R.id.cardEnero)
-        btnEntender = miview?.findViewById(R.id.cardFebrero)
-        btnGustar = miview?.findViewById(R.id.cardMarzo)
-        btnHaber= miview?.findViewById(R.id.cardAbril)
-        btnQuerer = miview?.findViewById(R.id.cardMayo)
-        btnPoder = miview?.findViewById(R.id.cardJunio)
-        btnAbrir = miview?.findViewById(R.id.cardJulio)
-        btnAceptar= miview?.findViewById(R.id.cardAgosto)
-        btnAburrir = miview?.findViewById(R.id.cardSeptiembre)
-        btnAgradecer = miview?.findViewById(R.id.cardOctubre)
-        btnAguantar = miview?.findViewById(R.id.cardDiciembre)
-        btnAhogar = miview?.findViewById(R.id.cardNoviembre)
-        btnAmar = miview?.findViewById(R.id.amar)
-        btnAplastar = miview?.findViewById(R.id.aplastar)
-        btnAlejar = miview?.findViewById(R.id.alejar)
-        btnApoyar= miview?.findViewById(R.id.apoyar)
-        btnBailar = miview?.findViewById(R.id.bailar)
-        btnAyudar = miview?.findViewById(R.id.ayudar)
-        btnAvergonzar = miview?.findViewById(R.id.avergonzar)
-        btnBañar= miview?.findViewById(R.id.bañar)
-        btnBurlar = miview?.findViewById(R.id.burlar)
-        btnBuscar = miview?.findViewById(R.id.buscar)
-        btnCalmar = miview?.findViewById(R.id.calmar)
-        btnCaminar = miview?.findViewById(R.id.caminar)
-        btnCantar = miview?.findViewById(R.id.cantar)
-        btnComer = miview?.findViewById(R.id.comer)
-        btnComprar = miview?.findViewById(R.id.comprar)
-        btnCorrer = miview?.findViewById(R.id.correr)
-
-
-
-
+        btnConocer = miview?.findViewById(R.id.cardConocer)
+        btnEntender = miview?.findViewById(R.id.cardEntender)
+        btnGustar = miview?.findViewById(R.id.cardGustar)
+        btnHaber= miview?.findViewById(R.id.cardHaber)
+        btnQuerer = miview?.findViewById(R.id.cardQuerer)
+        btnPoder = miview?.findViewById(R.id.cardPoder)
+        btnAbrir = miview?.findViewById(R.id.cardAbrir)
+        btnAceptar= miview?.findViewById(R.id.cardAceptar)
+        btnAburrir = miview?.findViewById(R.id.cardAburir)
+        btnAgradecer = miview?.findViewById(R.id.cardAgradecer)
+        btnAguantar = miview?.findViewById(R.id.cardAguantar)
+        btnAhogar = miview?.findViewById(R.id.cardNAhogar)
+        btnAmar = miview?.findViewById(R.id.Cardamar)
+        btnAplastar = miview?.findViewById(R.id.cardAplastar)
+        btnAlejar = miview?.findViewById(R.id.CardAlejar)
+        btnApoyar= miview?.findViewById(R.id.Cardapoyar)
+        btnBailar = miview?.findViewById(R.id.Cardbailar)
+        btnAyudar = miview?.findViewById(R.id.CardAyudar)
+        btnAvergonzar = miview?.findViewById(R.id.Cardavergonzar)
+        btnBañar= miview?.findViewById(R.id.Cardbañar)
+        btnBurlar = miview?.findViewById(R.id.Cardburlar)
+        btnBuscar = miview?.findViewById(R.id.Cardbuscar)
+        btnCalmar = miview?.findViewById(R.id.Cardcalmar)
+        btnCaminar = miview?.findViewById(R.id.Cardcaminar)
+        btnCantar = miview?.findViewById(R.id.Cardcantar)
+        btnComer = miview?.findViewById(R.id.Cardcomer)
+        btnComprar = miview?.findViewById(R.id.Cardcomprar)
+        btnCorrer = miview?.findViewById(R.id.Cardcorrer)
         return  vista
     }
 
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        letraSel = "Coco"
+
         btnConocer?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            setCurrentFragment("CONOCER"!!)
         }
         btnEntender?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            setCurrentFragment("ENTENDER"!!)
         }
+
         btnGustar?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            setCurrentFragment("GUSTAR"!!)
         }
         btnHaber?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            setCurrentFragment("HABER"!!)
         }
+
         btnPoder?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            setCurrentFragment("PODER")
         }
+
         btnQuerer?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            setCurrentFragment("QUERER"!!)
         }
+
         btnAbrir?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            setCurrentFragment("ABRIR"!!)
         }
+
         btnAceptar?.setOnClickListener {
-        setCurrentFragment(letraSel!!)
+        setCurrentFragment("ACEPTAR"!!)
         }
+
         btnAburrir?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            setCurrentFragment("ABURRIR"!!)
         }
 
         btnAgradecer?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
-        }
-        btnAguantar?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
-        }
-        btnAhogar?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            setCurrentFragment("AGRADECER"!!)
         }
 
+        btnAguantar?.setOnClickListener {
+            setCurrentFragment( "AGUANTAR"!!)
+        }
+
+        btnAhogar?.setOnClickListener {
+            setCurrentFragment("AHOGAR"!!)
+        }
         btnAmar?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            setCurrentFragment("AMAR"!!)
         }
         btnAplastar?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            setCurrentFragment("APLASTAR"!!)
         }
         btnAlejar?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            setCurrentFragment("ALEJAR"!!)
         }
         btnApoyar?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            setCurrentFragment("APOYAR"!!)
         }
         btnBailar?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            setCurrentFragment("BAILAR"!!)
         }
         btnAyudar?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            setCurrentFragment("AYUDAR"!!)
         }
+
         btnAvergonzar?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            setCurrentFragment("AVERGONZAR"!!)
         }
         btnBañar?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            setCurrentFragment("BAÑAR"!!)
         }
+
         btnBurlar?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            setCurrentFragment("BURLAR"!!)
         }
-        btnBurlar?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+
+        btnBuscar?.setOnClickListener {
+            setCurrentFragment("BUSCAR"!!)
         }
         btnCalmar?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            setCurrentFragment("CALMAR"!!)
         }
         btnCaminar?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            setCurrentFragment("CAMINAR"!!)
         }
         btnCantar?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            setCurrentFragment("CANTAR"!!)
         }
         btnComer?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            setCurrentFragment("COMER"!!)
         }
         btnComprar?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            Toast.makeText(context, letraSel, Toast.LENGTH_SHORT).show()
+            setCurrentFragment("COMPRAR"!!)
         }
         btnCorrer?.setOnClickListener {
-            setCurrentFragment(letraSel!!)
+            setCurrentFragment("CORRER"!!)
         }
 
     }
@@ -196,6 +202,7 @@ class Verbos : Fragment(R.layout.verbs) {
         bundle.putString("carLetra", ltrSelec )
         var frag = nav_letras()
         frag.arguments = bundle
+        Toast.makeText(context, letraSel, Toast.LENGTH_SHORT).show()
         var fr = getFragmentManager()?.beginTransaction()
         fr?.replace(R.id.nav_host_fragment_activity_main, frag)
         fr?.addToBackStack(null)

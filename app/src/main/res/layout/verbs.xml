@@ -40,7 +40,7 @@
                 app:rowCount="6">
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cardEnero"
+                    android:id="@+id/cardConocer"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -79,7 +79,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cardFebrero"
+                    android:id="@+id/cardEntender"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -117,7 +117,7 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cardMarzo"
+                    android:id="@+id/cardGustar"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -156,7 +156,7 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cardAbril"
+                    android:id="@+id/cardHaber"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -192,7 +192,7 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cardMayo"
+                    android:id="@+id/cardQuerer"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -227,7 +227,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cardJunio"
+                    android:id="@+id/cardPoder"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -264,7 +264,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cardJulio"
+                    android:id="@+id/cardAbrir"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -301,7 +301,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cardAgosto"
+                    android:id="@+id/cardAceptar"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -339,7 +339,7 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cardSeptiembre"
+                    android:id="@+id/cardAburir"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -376,7 +376,7 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cardOctubre"
+                    android:id="@+id/cardAgradecer"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -415,7 +415,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cardNoviembre"
+                    android:id="@+id/cardNAhogar"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -452,7 +452,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cardDiciembre"
+                    android:id="@+id/cardAguantar"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -489,7 +489,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/amar"
+                    android:id="@+id/Cardamar"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -527,7 +527,7 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/aplastar"
+                    android:id="@+id/cardAplastar"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -565,7 +565,7 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/alejar"
+                    android:id="@+id/CardAlejar"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -603,7 +603,7 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/apoyar"
+                    android:id="@+id/Cardapoyar"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -640,7 +640,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/bailar"
+                    android:id="@+id/Cardbailar"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -678,7 +678,7 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/ayudar"
+                    android:id="@+id/CardAyudar"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -715,7 +715,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/avergonzar"
+                    android:id="@+id/Cardavergonzar"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -752,7 +752,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/bañar"
+                    android:id="@+id/Cardbañar"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -789,7 +789,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/burlar"
+                    android:id="@+id/Cardburlar"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -826,7 +826,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/buscar"
+                    android:id="@+id/Cardbuscar"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -864,7 +864,7 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/calmar"
+                    android:id="@+id/Cardcalmar"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -901,7 +901,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/caminar"
+                    android:id="@+id/Cardcaminar"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -938,7 +938,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cantar"
+                    android:id="@+id/Cardcantar"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -975,7 +975,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/comer"
+                    android:id="@+id/Cardcomer"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -1012,7 +1012,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/comprar"
+                    android:id="@+id/Cardcomprar"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
@@ -1049,7 +1049,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/correr"
+                    android:id="@+id/Cardcorrer"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="16dp"
