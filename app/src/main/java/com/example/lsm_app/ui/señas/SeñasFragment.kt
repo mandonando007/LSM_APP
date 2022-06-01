@@ -82,9 +82,9 @@ class SeñasFragment : Fragment(R.layout.fragment_senas) {
 
     private fun setCurrentFragment(fragment: Fragment, nombre: String){
         var fr = getFragmentManager()?.beginTransaction()
-        fr?.add(R.id.nav_host_fragment_activity_main, fragment, "TAG")
+        fr?.replace(R.id.nav_host_fragment_activity_main, fragment)
         Toast.makeText(context,nombre, Toast.LENGTH_SHORT).show()
-        fr?.addToBackStack("TAG")
+        fr?.addToBackStack(null)
         fr?.commit()
 
     }

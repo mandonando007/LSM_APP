@@ -63,7 +63,6 @@ class Senas : Fragment() {
         return  vista
     }
 
-
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         letraSel = "Coco"
@@ -125,7 +124,7 @@ class Senas : Fragment() {
             setCurrentFragment("TORONJA"!!)
         }
         btnCereza?.setOnClickListener {
-            setCurrentFragment("CEREZA"!!)
+          setCurrentFragment("CEREZA")
         }
     }
 
@@ -137,7 +136,6 @@ class Senas : Fragment() {
         frag.arguments = bundle
         var fr = getFragmentManager()?.beginTransaction()
         fr?.replace(R.id.nav_host_fragment_activity_main, frag)
-        fr?.addToBackStack(null)
-        fr?.commit()
+        fr?.addToBackStack(null)?.commit()
     }
 }

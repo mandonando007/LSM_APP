@@ -840,8 +840,8 @@ class nav_letras : Fragment(R.layout.fragment_nav_letras) {
         if(arguments != null){
             Letra = arguments?.getString("carLetra")
         }
-        var fr = nav_letras().getFragmentManager()?.beginTransaction()
-        fr?.addToBackStack(null)
-        fr?.commit()
+      //  var fr = nav_letras().getFragmentManager()?.beginTransaction()
+       // fr?.addToBackStack(null)
+        //fr?.commit()
     }
 } //Del fragment
