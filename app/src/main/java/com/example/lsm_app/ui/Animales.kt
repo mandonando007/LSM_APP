@@ -134,7 +134,7 @@ class Animales : Fragment(R.layout.animales) {
         var frag = nav_letras()
         frag.arguments = bundle
         var fr = getFragmentManager()?.beginTransaction()
-        fr?.add(R.id.nav_host_fragment_activity_main, frag, "TAG")
+        fr?.add(R.id.fragmentContainerView, frag, "TAG")
         fr?.addToBackStack("TAG")
         fr?.commit()
     }

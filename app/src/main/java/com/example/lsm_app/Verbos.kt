@@ -204,7 +204,7 @@ class Verbos : Fragment(R.layout.verbs) {
         frag.arguments = bundle
         Toast.makeText(context, letraSel, Toast.LENGTH_SHORT).show()
         var fr = getFragmentManager()?.beginTransaction()
-        fr?.replace(R.id.nav_host_fragment_activity_main, frag)
+        fr?.replace(R.id.fragmentContainerView, frag)
         fr?.addToBackStack(null)
         fr?.commit()
     }

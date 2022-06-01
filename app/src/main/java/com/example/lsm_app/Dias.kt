@@ -86,7 +86,7 @@ class Dias : Fragment(R.layout.dias) {
         var frag = FrutasFragment()
         frag.arguments = bundle
         var fr = getFragmentManager()?.beginTransaction()
-        fr?.replace(R.id.nav_host_fragment_activity_main, frag)
+        fr?.replace(R.id.fragmentContainerView, frag)
         fr?.addToBackStack(null)
 
         fr?.commit()
