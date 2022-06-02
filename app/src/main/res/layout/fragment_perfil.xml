@@ -196,10 +196,10 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="236dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginBottom="47dp"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="36dp"
         android:src="@drawable/load" />
 
     <TextView
@@ -209,29 +209,15 @@
         android:layout_above="@+id/idGrid"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="52dp"
-        android:layout_marginEnd="52dp"
-        android:layout_marginBottom="21dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="3dp"
         android:fontFamily="@font/alata"
-        android:text="arturobahena17@hotmail.com"
         android:textAlignment="center" />
 
     <Space
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
-
-    <VideoView
-        android:id="@+id/videoView2"
-        android:layout_width="192dp"
-        android:layout_height="166dp"
-        android:layout_above="@+id/txtUser"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="37dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="182dp"
-        android:layout_marginBottom="17dp" />
 
 
 </RelativeLayout>

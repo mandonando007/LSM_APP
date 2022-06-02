@@ -1,6 +1,7 @@
 package com.example.lsm_app
 
 import android.os.Bundle
+import android.widget.Toast
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
@@ -16,14 +17,15 @@ import kotlinx.android.synthetic.main.activity_main.*
 //import com.example.lsm_app.ui.perfil.PerfilFragment
 //import com.example.lsm_app.ui.señas.SeñasFragment
 //import com.example.lsm_app.ui.videos.VideosFragment
+enum class ProviderType{
+    BASIC
+}
+
+
 
 class MainActivity : AppCompatActivity() {
-
-//private lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-       // binding = ActivityMainBinding.inflate(layoutInflater)
-        //setContentView(binding.root)
 
         setContentView(R.layout.activity_main)
 
@@ -32,12 +34,16 @@ class MainActivity : AppCompatActivity() {
         val glosario= nav_glosario()
         val perfil = PerfilFragment()
 
+        val bundle: Bundle? = intent.extras
+        val emaill =  bundle?.getString("email")
+        val  provedor = bundle?.getString("provider")
 
 nav_view.setOnNavigationItemSelectedListener {
     when(it.itemId){
         R.id.navigation_perfil ->{
 
-            setCurrentFragment(perfil)
+            setup(emaill ?: "",provedor ?:"")
+
             true
         }
         R.id.navigation_señas ->{
@@ -54,21 +60,21 @@ nav_view.setOnNavigationItemSelectedListener {
         }
         else->false
     }
+
 }
-    //    val navView: BottomNavigationView = binding.navView
+        setup(emaill ?: "",provedor ?:"")
+    }
 
+    private fun setup(email: String, provider: String){
+        val  emaill = email
+        val   provedor = provider
 
-
-       // val navController = findNavController(R.id.nav_host_fragment_activity_main)
-        // Passing each menu ID as a set of Ids because each
-        // menu should be considered as top level destinations.
-       ////   setOf(
-           //     R.id.navigation_perfil, R.id.navigation_señas, R.id.navigation_videos, R.id.nav_glosario
-            //)
-        //)
-        //setupActionBarWithNavController(navController, appBarConfiguration)
-
-    //navView.setupWithNavController(navController)
+        val bundle = Bundle()
+        bundle.putString("correo", email)
+        bundle.putString("provedor", provider)
+        var frag = PerfilFragment()
+        frag.arguments = bundle
+      setCurrentFragment(frag)
     }
 
     private fun setCurrentFragment(fragment: Fragment){
