@@ -9,6 +9,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.cardview.widget.CardView
 
+
+
 class Meses : Fragment(R.layout.meses) {
 
     private var letraSel : String? =  ""
