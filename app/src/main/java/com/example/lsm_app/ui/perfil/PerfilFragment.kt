@@ -1,23 +1,29 @@
 package com.example.lsm_app.ui.perfil
 
+import android.content.ContentValues.TAG
 import android.content.Context
 import android.content.Intent
 import android.content.SharedPreferences
 import android.graphics.BitmapFactory
 import android.net.Uri
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.*
+import android.widget.ImageView
+import android.widget.Toast
+import android.widget.VideoView
 import androidx.cardview.widget.CardView
 import androidx.fragment.app.Fragment
 import com.example.lsm_app.AcercaFragment
+import com.example.lsm_app.MisDatosFragment
 import com.example.lsm_app.R
 import com.example.lsm_app.login
 import com.google.android.gms.tasks.OnFailureListener
 import com.google.android.gms.tasks.OnSuccessListener
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.storage.FileDownloadTask
 import com.google.firebase.storage.FirebaseStorage
 import kotlinx.android.synthetic.main.fragment_perfil.*
@@ -26,6 +32,7 @@ import java.io.IOException
 
 
 class PerfilFragment : Fragment() {
+    private val db = FirebaseFirestore.getInstance()
     var direccion : String? = "corre"
     var prov : String? = "provedor"
     var miVista : View? = null
@@ -50,14 +57,8 @@ class PerfilFragment : Fragment() {
         btnMisDatos= miVista?.findViewById(R.id.cardColores)
         btnEliminar= miVista?.findViewById(R.id.eliminar)
 
-
-
          obtenerImagen("manos", "manos.png")
          obtenerVideo("durazno","durazno.mp4")
-
-
-
-
         return vista
     }
 
@@ -67,11 +68,16 @@ class PerfilFragment : Fragment() {
         txtUser.text= direccion
 
         btnMisDatos?.setOnClickListener {
+            val bundle = Bundle()
+            bundle.putString("email", direccion)
+            bundle.putString("proved", prov)
+            var frag = MisDatosFragment()
+            frag.arguments = bundle
+            setCurrentFragment(frag, "")
 
         }
         btnAcerca?.setOnClickListener {
             setCurrentFragment(AcercaFragment(),"Información")
-
         }
         btnCerrarSesion?.setOnClickListener {
             FirebaseAuth.getInstance().signOut()
@@ -82,9 +88,37 @@ class PerfilFragment : Fragment() {
             startActivity(intent)
         }
         btnEliminar?.setOnClickListener {
-
+          // eliminar()
+            deleteAccount()
+            val intent: Intent = Intent(getActivity(), login::class.java)
+            startActivity(intent)
         }
+    }
+    private fun deleteAccount() {
+       Log.d(TAG, "ingreso a deleteAccount")
+        val firebaseAuth = FirebaseAuth.getInstance()
+        val currentUser = firebaseAuth.currentUser
+        currentUser!!.delete().addOnCompleteListener { task ->
+            if (task.isSuccessful) {
+                Log.d(TAG, "OK! Works fine!")
+            } else {
+                Log.w(TAG, "Algo salio mal !")
+            }
+        }
+    }
 
+    private fun eliminar(){
+        val intent: Intent = Intent(getActivity(),login::class.java)
+        val user = FirebaseAuth.getInstance().currentUser
+        user!!.delete()
+            .addOnCompleteListener { task ->
+                if (task.isSuccessful) {
+                    Log.d(TAG, "Usuario Eliminado.")
+                    startActivity(intent)
+                }else{
+                    Toast.makeText(context, "Algo salio mal ", Toast.LENGTH_SHORT).show()
+                }
+            }
     }
 
     override fun onAttach(context: Context) {
@@ -127,6 +161,15 @@ private fun cerrarSesion(){
     FirebaseAuth.getInstance().signOut()
 
 }
+    private fun setCurrentFragment2(fragment: Fragment){
+        //
+
+        //frag.arguments = bundle
+        var fr = getFragmentManager()?.beginTransaction()
+        fr?.add(R.id.fragmentContainerView, fragment)
+        fr?.addToBackStack(null)
+        fr?.commit()
+    }
 
     private fun setCurrentFragment(fragment: Fragment, nombre: String){
         var fr = getFragmentManager()?.beginTransaction()
