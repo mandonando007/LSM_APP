@@ -1,5 +1,6 @@
 package com.example.lsm_app
 
+import android.content.Context
 import android.os.Bundle
 import android.widget.Toast
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -38,7 +39,15 @@ class MainActivity : AppCompatActivity() {
         val emaill =  bundle?.getString("email")
         val  provedor = bundle?.getString("provider")
 
-nav_view.setOnNavigationItemSelectedListener {
+
+        //guardado de datos
+        val prefs = getSharedPreferences(getString(R.string.prefs_file), Context.MODE_PRIVATE).edit()
+        prefs.putString("email", emaill)
+        prefs.putString("provider", provedor)
+        prefs.apply()
+
+
+        nav_view.setOnNavigationItemSelectedListener {
     when(it.itemId){
         R.id.navigation_perfil ->{
 

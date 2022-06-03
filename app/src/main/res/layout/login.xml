@@ -2,10 +2,11 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/loginLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".login"
-    android:background = "#FFFFFF">
+    android:background="#FFFFFF"
+    tools:context=".login">
 
     <ImageView
         android:id="@+id/Logo"
@@ -80,37 +81,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.679" />
-
-    <ImageButton
-        android:id="@+id/imageButton3"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="140dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="44dp"
-        android:background="@drawable/google"
-        android:scaleType="fitCenter"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton4"
-        app:layout_constraintHorizontal_bias="0.25"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnRegist"
-        app:layout_constraintVertical_bias="0.102"
-        app:srcCompat="@drawable/google" />
-
-    <ImageButton
-        android:id="@+id/imageButton4"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="32dp"
-        android:background="@drawable/facebook"
-        android:scaleType="fitCenter"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.598"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnRegist"
-        app:layout_constraintVertical_bias="0.102"
-        app:srcCompat="@drawable/facebook" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

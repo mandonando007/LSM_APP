@@ -2,6 +2,7 @@ package com.example.lsm_app.ui.perfil
 
 import android.content.Context
 import android.content.Intent
+import android.content.SharedPreferences
 import android.graphics.BitmapFactory
 import android.net.Uri
 import android.os.Bundle
@@ -11,12 +12,9 @@ import android.view.ViewGroup
 import android.widget.*
 import androidx.cardview.widget.CardView
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModelProvider
 import com.example.lsm_app.AcercaFragment
 import com.example.lsm_app.R
 import com.example.lsm_app.login
-
-import com.example.lsm_app.videosView
 import com.google.android.gms.tasks.OnFailureListener
 import com.google.android.gms.tasks.OnSuccessListener
 import com.google.firebase.auth.FirebaseAuth
@@ -25,6 +23,7 @@ import com.google.firebase.storage.FirebaseStorage
 import kotlinx.android.synthetic.main.fragment_perfil.*
 import java.io.File
 import java.io.IOException
+
 
 class PerfilFragment : Fragment() {
     var direccion : String? = "corre"
@@ -75,6 +74,9 @@ class PerfilFragment : Fragment() {
         }
         btnCerrarSesion?.setOnClickListener {
             FirebaseAuth.getInstance().signOut()
+            val pref: SharedPreferences
+            val prefs = this.context?.getSharedPreferences(getString(R.string.prefs_file), Context.MODE_PRIVATE)
+
             val intent: Intent = Intent(getActivity(), login::class.java)
             startActivity(intent)
         }

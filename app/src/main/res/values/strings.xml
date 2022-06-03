@@ -4,6 +4,7 @@
     <string name="title_señas">Señas</string>
     <string name="title_videos">Videos</string>
     <string name="title_glosario">Glosario</string>
+    <string name="prefs_file"> com.example.lsm_app.PREFERENCE_FILE_KEY</string>
 
     //Letras
     <string name="ltrA">A</string>
