@@ -57,6 +57,7 @@ class PerfilFragment : Fragment() {
 
 
 
+
         return vista
     }
 
@@ -75,8 +76,8 @@ class PerfilFragment : Fragment() {
         btnCerrarSesion?.setOnClickListener {
             FirebaseAuth.getInstance().signOut()
             val pref: SharedPreferences
-            val prefs = this.context?.getSharedPreferences(getString(R.string.prefs_file), Context.MODE_PRIVATE)
-
+            pref = context?.getSharedPreferences(getString(R.string.prefs_file), Context.MODE_PRIVATE)!!
+            pref.edit().clear().commit()
             val intent: Intent = Intent(getActivity(), login::class.java)
             startActivity(intent)
         }

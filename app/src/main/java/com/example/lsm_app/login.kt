@@ -27,7 +27,7 @@ private fun sesion(){
     val email = prefs.getString("email",null)
     val provedor = prefs.getString("provider",null)
     if(email != null && provedor!=null){
-       // loginLayout.visibility = View.INVISIBLE
+       loginLayout.visibility = View.INVISIBLE
         ingresar(email, ProviderType.valueOf(provedor))
     }
 
